@@ -19,6 +19,9 @@ digging is happening: every active surface-mine permit in the state, by the rock
    within 25 km of a recorded Ice Age find get a nudge. The rules were written before ranking, but
    knowing Coyote Canyon sits on loess, so its rank is a check of the rules, not a blind test.
 
+Run weekly, it also says which permits are new since the last check: a new pit in Ice Age ground is
+the moment to call the operator and ask them to watch for bone.
+
 Writes data/v5/quarries.csv, quarries.geojson, finds.geojson, eval.json.
 """
 import json
@@ -65,6 +68,9 @@ js = get(DNR + "Active_Surface_Mine_Permit_Sites/MapServer/0/query?" + urllib.pa
 mines = pd.DataFrame([f["attributes"] for f in js["features"]])
 mines = mines.dropna(subset=["LATITUDE", "LONGITUDE"])
 log(f"active surface-mine permits: {len(mines)}")
+prev_file = OUT / "quarries.csv"
+prev = set(pd.read_csv(prev_file).MINE_PERMIT_NUMBER.astype(int)) if prev_file.exists() else set()
+now = set(mines.MINE_PERMIT_NUMBER.astype(int))
 
 # ── 2. geology at each pit ───────────────────────────────────────────────
 KINDS = [  # (kind, tier, words in the map unit's description)
@@ -156,7 +162,11 @@ mines["score"] = (3 - mines.tier) + 0.6 * size + 0.4 * (mines.km_to_find <= 25)
 mines = mines.sort_values("score", ascending=False).reset_index(drop=True)
 mines["rank"] = range(1, len(mines) + 1)
 cc = mines[mines.MINE_NAME.str.contains("MAHAFFEY", case=False, na=False)]
-ev = {"mines": len(mines), "by_ground": mines.ground.value_counts().to_dict(),
+from datetime import datetime, timezone   # noqa: E402
+ev = {"checked": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ"), "mines": len(mines), "by_ground": mines.ground.value_counts().to_dict(),
+      "new_permits": [] if not prev else [{"permit": int(r.MINE_PERMIT_NUMBER), "name": str(r.MINE_NAME).title(), "county": r.COUNTY_NAME,
+                                           "ground": r.ground, "tier": int(r.tier)} for _, r in mines[mines.MINE_PERMIT_NUMBER.astype(int).isin(now - prev)].iterrows()],
+      "closed_permits": sorted(prev - now),
       "tier1": int((mines.tier == 1).sum()), "finds": len(F), "find_places": len(places)}
 if len(cc):
     r = cc.iloc[0]

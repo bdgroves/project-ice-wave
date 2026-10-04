@@ -11,7 +11,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ['tools/**', 'data/model/**', 'data/pbdb/**', 'data/lidar/**', 'outputs/lidar_*.png', '.github/workflows/icewave.yml']
+    paths: ['tools/*.py', 'data/model/**', 'data/pbdb/**', 'data/lidar/**', 'outputs/lidar_*.png', '.github/workflows/icewave.yml']
 
 permissions:
   contents: write
@@ -32,6 +32,8 @@ jobs:
         run: python tools/osm.py ${{ inputs.refresh_osm && '--refresh' || '' }} || echo "::warning::Overpass didn't answer; the page goes without it"
       - name: Check PBDB for Pleistocene vertebrates (keeps last week's file if PBDB doesn't answer)
         run: python tools/pbdb.py || echo "::warning::PBDB didn't answer; keeping the last check"
+      - name: Washington's active pits, by the Ice Age ground they cut (and any new permits)
+        run: python tools/v5/quarries.py || echo "::warning::WA DNR didn't answer; keeping last week's pit list"
       - name: Build the page's data
         run: python tools/build.py
       - name: Re-check the model's numbers
@@ -40,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add site data/checks
+          git add site data/checks data/v5
           git diff --staged --quiet && exit 0
           git commit -q -m "page data: PBDB check $(date -u +%F)"
           for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
