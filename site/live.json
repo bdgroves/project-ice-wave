@@ -1,7 +1,7 @@
 {
 "near_km": 10,
 "new_km": 1,
-"checked": "2026-10-04T17:09Z",
+"checked": "2026-10-04T17:33Z",
 "records": 539,
 "localities": 69,
 "by_state": {
@@ -140,7 +140,8 @@
 "taxa": [
 "Bison antiquus"
 ],
-"n": 1
+"n": 1,
+"in_training": true
 },
 {
 "target": "W01",
@@ -151,7 +152,8 @@
 "Equus",
 "Teratornis woodburnensis"
 ],
-"n": 3
+"n": 3,
+"in_training": true
 },
 {
 "target": "E03",
@@ -160,7 +162,8 @@
 "taxa": [
 "Mammuthus columbi"
 ],
-"n": 1
+"n": 1,
+"in_training": true
 },
 {
 "target": "W13",
@@ -169,7 +172,8 @@
 "taxa": [
 "Bison antiquus"
 ],
-"n": 1
+"n": 1,
+"in_training": true
 },
 {
 "target": "E18",
@@ -181,7 +185,8 @@
 "Oncorhynchus",
 "Siphateles bicolor"
 ],
-"n": 4
+"n": 4,
+"in_training": true
 },
 {
 "target": "W17",
@@ -190,7 +195,8 @@
 "taxa": [
 "Mammuthus"
 ],
-"n": 1
+"n": 1,
+"in_training": true
 },
 {
 "target": "W13",
@@ -199,7 +205,8 @@
 "taxa": [
 "Bison antiquus"
 ],
-"n": 1
+"n": 1,
+"in_training": true
 }
 ],
 "new_since_last_check": [],

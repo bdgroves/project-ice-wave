@@ -31,7 +31,20 @@
   },
   "background": 273,
   "west_records": 31,
-  "west_places": 19
+  "west_places": 19,
+  "east_by_osm_state": {
+   "Montana": 18,
+   "Nevada": 7,
+   "Idaho": 5,
+   "Washington": 5,
+   "Oregon": 4,
+   "Utah": 1
+  },
+  "west_by_osm_state": {
+   "Oregon": 13,
+   "Washington": 12,
+   "British Columbia": 6
+  }
  },
  "lithology": {
   "east_v4": {
@@ -243,12 +256,12 @@
   "lat": 46.30028,
   "lon": -120.13361,
   "coyote_canyon": {
-   "lat": 46.1661,
-   "lon": -119.2728,
-   "source": "OpenStreetMap way 1102212408",
-   "name": "Mammoth Drive"
+   "lat": 46.159,
+   "lon": -119.2657,
+   "source": "OpenStreetMap way 1363154300",
+   "name": "Coyote Canyon Mammoth Site"
   },
-  "km_to_coyote_canyon": 67.9,
+  "km_to_coyote_canyon": 68.6,
   "v3_rank_east": 1,
   "v4_rank_east": 23,
   "east_targets": 25,
@@ -257,7 +270,8 @@
   "osm": {
    "water": null,
    "water_kind": null,
-   "protected": null
+   "protected": null,
+   "waterway": null
   },
   "nearest_training_km": 80.2,
   "nearest_training": "bison (Bison)",

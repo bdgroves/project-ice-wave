@@ -2,212 +2,254 @@
  "1": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "2": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "3": {
   "water": "Lake Bryan",
   "water_kind": "reservoir",
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "4": {
   "water": "Lower Granite Lake",
   "water_kind": "reservoir",
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "5": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "6": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "7": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "8": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "9": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "10": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "11": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "12": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "13": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "14": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "15": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "16": {
   "water": "Bear Lake",
   "water_kind": "water",
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "17": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "18": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "19": {
   "water": null,
   "water_kind": null,
-  "protected": "Alvord Desert Wilderness Study Area"
+  "protected": "Alvord Desert Wilderness Study Area",
+  "waterway": null
  },
  "20": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "21": {
   "water": "Waptus Lake",
   "water_kind": "lake",
-  "protected": "Okanogan-Wenatchee National Forest"
+  "protected": "Okanogan-Wenatchee National Forest",
+  "waterway": null
  },
  "22": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "23": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "24": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "25": {
   "water": "water",
   "water_kind": "basin",
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "26": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "27": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "28": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": "South Umpqua River"
  },
  "29": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "30": {
   "water": "Lake Wallula",
   "water_kind": "reservoir",
-  "protected": "McNary National Wildlife Refuge"
+  "protected": "McNary National Wildlife Refuge",
+  "waterway": null
  },
  "31": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "32": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "33": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "34": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "35": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "36": {
   "water": null,
   "water_kind": null,
-  "protected": "Willamette National Forest"
+  "protected": "Willamette National Forest",
+  "waterway": null
  },
  "37": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "38": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "39": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "40": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "41": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": "South Fork Coquille River"
  },
  "42": {
   "water": null,
   "water_kind": null,
-  "protected": null
+  "protected": null,
+  "waterway": null
  },
  "records_admin": {
   "43.333332,-120.500000": "Oregon",
@@ -297,10 +339,10 @@
   "47.380600,-121.645300": "Washington"
  },
  "coyote_canyon": {
-  "lat": 46.1661,
-  "lon": -119.2728,
-  "source": "OpenStreetMap way 1102212408",
-  "name": "Mammoth Drive"
+  "lat": 46.159,
+  "lon": -119.2657,
+  "source": "OpenStreetMap way 1363154300",
+  "name": "Coyote Canyon Mammoth Site"
  },
  "coyote_canyon_candidates": [
   {
