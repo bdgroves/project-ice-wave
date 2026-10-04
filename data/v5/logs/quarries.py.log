@@ -1,0 +1,8 @@
+[    1s] active surface-mine permits: 859
+[  131s]   retry 0 <urlopen error timed out> https://gis.dnr.wa.gov/site1/rest/services/Public_Geology/100K_Surface_Geology_WA_GeMS/Map
+[  254s]   retry 1 <urlopen error timed out> https://gis.dnr.wa.gov/site1/rest/services/Public_Geology/100K_Surface_Geology_WA_GeMS/Map
+[  445s]   retry 0 <urlopen error timed out> https://gis.dnr.wa.gov/site1/rest/services/Public_Geology/100K_Surface_Geology_WA_GeMS/Map
+[  569s]   retry 0 <urlopen error timed out> https://gis.dnr.wa.gov/site1/rest/services/Public_Geology/100K_Surface_Geology_WA_GeMS/Map
+[  877s]   retry 0 <urlopen error timed out> https://gis.dnr.wa.gov/site1/rest/services/Public_Geology/100K_Surface_Geology_WA_GeMS/Map
+[ 1154s]   retry 0 <urlopen error timed out> https://gis.dnr.wa.gov/site1/rest/services/Public_Geology/100K_Surface_Geology_WA_GeMS/Map
+[ 1418s]   retry 0 <urlopen error timed out> https://gis.dnr.wa.gov/site1/rest/services/Public_Geology/100K_Surface_Geology_WA_GeMS/Map
