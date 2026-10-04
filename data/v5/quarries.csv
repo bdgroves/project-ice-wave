@@ -1,0 +1,860 @@
+rank,MINE_NAME,APPLICANT_NAME,COUNTY_NAME,LATITUDE,LONGITUDE,PERMIT_ACREAGE,PERMIT_DEPTH,COMMODITY_DESC,unit,unit_desc,ground,tier,km_to_find,score,MINE_PERMIT_NUMBER
+1,BEAR CREEK,PENINSULA TOPSOIL LLC,Mason,47.49742127,-122.81581116,380.0,170.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,19.8,2.9329452852153666,11657
+2,INTERSTATE,INTERSTATE CONCRETE & ASPHALT,Spokane,47.5680476,-117.49617017,181.0,175.0,Rock and Stone ,Qglf,Pleistocene outburst flood deposits,Ice Age flood deposits,1,10.8,2.918451688009313,13074
+3,VAN DYKE,WHITMAN COUNTY PUBLIC WORKS,Whitman,47.22731018,-117.45021057,115.98,190.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,6.2,2.90011641443539,12208
+4,BASALT QUARRY A B & C,KITSAP QUARRY LLC,Kitsap,47.55540292,-122.73254388,89.4,200.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,11.1,2.8857974388824212,13184
+5,EUCLID RD PIT,MURPHY BROS INC,Spokane,47.68406296,-117.56510925,108.5,150.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,22.3,2.872176949941793,12869
+6,KITSAP QUARRY,KITSAP QUARRY LLC,Kitsap,47.55427933,-122.70739746,71.3,200.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,9.5,2.866938300349243,10783
+7,SHOLD EXCAVATING INC,SHOLD EXCAVATING INC,Jefferson,48.01598719,-122.75347195,120.88,130.0,Rock and Stone ,Qga,Pleistocene continental glacial drift,glacial deposits,1,11.2,2.8655413271245633,13112
+8,GROVE RD PIT,POE ASPHALT PAVING INC,Spokane,47.57999802,-117.49520111,68.0,200.0,Sand and Gravel,Qglf,Pleistocene outburst flood deposits,Ice Age flood deposits,1,12.0,2.8627473806752035,12896
+9,CAYS RD PIT,BLAKE SAND & GRAVEL INC,Clallam,48.13209152,-123.16911316,57.0,200.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,8.8,2.846682188591385,10004
+10,DICKEY,PORT ORCHARD SAND & GRAVEL,Kitsap,47.64909744,-122.72865295,150.0,100.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,11.1,2.8407450523864957,11156
+11,GROVE PIT,SHAMROCK PAVING INC,Spokane,47.57502158,-117.50367536,125.0,100.0,Sand and Gravel,Qglf,Pleistocene outburst flood deposits,Ice Age flood deposits,1,11.2,2.829569266589057,12147
+12,BLEWETT PASS,R&P ROCK LLC,Chelan,47.46817207,-120.65467455,37.4,340.0,Rock and Stone ,Qat(lb),Pleistocene alpine glacial drift,glacial deposits,1,14.6,2.826600698486612,12975
+13,DICKEY,PYRAMID MATERIALS INC,Kitsap,47.64156723,-122.72724915,60.0,150.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,10.6,2.8231082654249127,12047
+14,WENATCHEE ROCK PIT,"CENTRAL WASHINGTON ASPHALT, INC",Chelan,47.55878729,-120.27425727,55.5,160.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,18.8,2.821885913853318,13034
+15,SKIA SURFACE MINE,MCCORMICK LAND COMPANY,Kitsap,47.50715054,-122.73901308,85.5,110.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,14.7,2.8169965075669383,13159
+16,MORDHORST PIT #87,GRANT COUNTY PUBLIC WORKS,Grant,47.42957683,-119.10497055,49.57,170.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,23.0,2.8138533178114087,13061
+17,HAYFORD PIT,CPM DEVELOPMENT CORP,Spokane,47.65876389,-117.57893372,166.0,80.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,19.5,2.8131548311990686,12085
+18,MIRACLE MINE,MIRACLE MINE LLC,Island,48.20004744,-122.61892072,65.0,121.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,14.0,2.8115832363213036,12952
+19,HAYFORD NORTH PIT,MURPHY BROTHERS INC,Spokane,47.68325043,-117.55893707,118.0,90.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,22.2,2.808963911525029,12098
+20,GROVE RD PIT,ACTION MATERIALS INC,Spokane,47.56753259,-117.50553231,38.83,210.0,Sand and Gravel,Qglf,Pleistocene outburst flood deposits,Ice Age flood deposits,1,10.4,2.8051222351571594,13066
+21,UNION RIVER,MERIDIAN TERRACE LLC,Kitsap,47.52152478,-122.7832449,105.0,80.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,16.3,2.7845168800931313,10298
+22,MILLER QUARRY,SEUBERT EXCAVATORS INC,Whitman,46.81320566,-117.43733714,33.0,200.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,22.7,2.7834691501746214,13083
+23,SAND & GRAVEL A/B,KITSAP QUARRY LLC,Kitsap,47.57741368,-122.72326818,78.9,90.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,9.6,2.7761350407450522,13183
+24,WERNER RD,MILES SAND & GRAVEL CO,Kitsap,47.56127327,-122.69833608,46.0,115.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,8.5,2.7646100116414436,10352
+25,CITY OF WENATCHEE,CITY OF WENATCHEE,Douglas,47.44004059,-120.27886963,37.2,150.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,23.1,2.7639115250291035,12747
+26,HAYFORD,MURPHY BROS INC,Spokane,47.65821075,-117.55844879,182.0,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,19.5,2.758323632130384,12330
+27,FARRINGTON,PIPKIN CONSTRUCTION,Douglas,47.54133988,-120.27346802,43.0,110.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,19.0,2.7520372526193246,11753
+28,PT GAMBLE,POPE RESOURCES,Kitsap,47.80970001,-122.58428955,36.33,130.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,23.3,2.7464493597206054,11464
+29,MILLER BAY,PENINSULA TOPSOIL LLC,Kitsap,47.77420425,-122.5548172,62.25,75.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,19.7,2.7342258440046563,12054
+30,SPENCER PIT,MORRISON GRAVEL INC,Kitsap,47.46284103,-122.63932037,72.37,65.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,15.5,2.728463329452852,10300
+31,LIBBEY,PENN COVE INC,Island,48.21200943,-122.72343445,53.0,80.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,10.9,2.726193247962747,10233
+32,KIRNER PIT,CLALLAM COUNTY PUBLIC WORKS,Clallam,48.12512207,-123.12214661,40.0,100.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,6.2,2.7244470314318976,10772
+33,DISCOVERY BAY,DISCOVERY MATERIALS LLC,Jefferson,48.00245128,-122.87595582,22.03,165.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,15.4,2.720779976717113,13289
+34,RITCHEY ROAD,CHENEY SAND & GRAVEL,Spokane,47.61127832,-117.71024752,44.0,80.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,17.8,2.7062863795110594,13155
+35,HAYFORD 52-18,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.66077136,-117.55457257,52.0,70.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,19.8,2.7047147846332944,10935
+36,DAVIS,DAVIS SAND & GRAVEL,Clallam,48.10762024,-123.10993957,48.0,75.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,4.1,2.7043655413271246,10470
+37,HUSON,PENINSULA TOPSOIL LLC,Mason,47.46631622,-122.83683777,60.0,60.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,23.2,2.7001746216530846,12367
+38,BOXEUR ONE,BOXEUR CORP,San Juan,48.66498947,-122.93466187,53.0,60.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,6.4,2.688125727590221,10202
+39,PS-DO-106,DOUGLAS COUNTY TLS,Douglas,47.53864221,-120.27548097,32.9,80.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,18.9,2.6689173457508732,10213
+40,GILBERTSON PIT,RICHARD H CLISE,Island,48.16836929,-122.50177002,25.0,90.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,20.0,2.6542491268917345,12612
+41,MORSE CREEK,CLALLAM COUNTY PUBLIC WORKS,Clallam,48.09236145,-123.3638916,38.4,62.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,19.0,2.6525029103608846,10554
+42,BETHEL PIT,B & C TRUCKING,Kitsap,47.45975876,-122.63505554,17.2,115.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,15.8,2.652153667054715,12471
+43,WEST OAK GRAVEL,KITSAP COUNTY PUBLIC WORKS,Kitsap,47.43525314,-122.65786743,88.0,25.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,18.8,2.64918509895227,10251
+44,BLYN,CLALLAM COUNTY PUBLIC WORKS,Clallam,48.02070236,-122.99899292,18.0,110.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,8.9,2.64848661233993,12031
+45,MARSHALL,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.57138825,-117.50471497,42.2,50.0,Sand and Gravel,Qglf,Pleistocene outburst flood deposits,Ice Age flood deposits,1,10.8,2.6432479627473806,12126
+46,LOFALL PIT,KITSAP COUNTY PUBLIC WORKS,Kitsap,47.80268778,-122.65796915,25.0,80.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,23.0,2.639580908032596,10248
+47,HIGH RIDGE,MILES SAND & GRAVEL,Kitsap,47.45834775,-122.63458012,14.57,115.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,16.0,2.637834691501746,13178
+48,FOLEY 33-08,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.49525452,-117.39828491,39.0,55.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,12.7,2.6367869615832364,12104
+49,LOPEZ SAND & GRAVEL,LOPEZ SAND & GRAVEL,San Juan,48.49501253,-122.93616008,15.0,100.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,11.5,2.619150174621653,13209
+50,BLUE MOUNTAIN,SCARSELLA BROS INC,Clallam,48.09608841,-123.28190613,41.5,40.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,13.3,2.6170547147846333,11584
+51,BOMAC FACILITY,MILES SAND & GRAVEL,Kitsap,47.41633711,-122.67273449,35.6,50.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,21.1,2.6149592549476135,10330
+52,JC SANDBOX,JC SANDBOX,Spokane,47.60013976,-117.69623352,46.394000000000005,35.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,16.2,2.6144353899883583,13172
+53,AULT FIELD,ISLAND CONST SITE & UTILITIES,Island,48.32395554,-122.64459229,30.0,54.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,24.6,2.6116414435389985,12957
+54,OAK HARBOR,MILES SAND & GRAVEL COMPANY,Island,48.32305908,-122.65781403,25.0,60.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,24.2,2.6015133876600696,10206
+55,PIONEER PIT,BANKROCK CORP,Kitsap,47.79639816,-122.66140747,20.0,70.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,22.3,2.5966239813736904,10333
+56,EDWARDS PIT,POWER TOMORROW LLC,Chelan,47.50523758,-120.31034851,10.0,100.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,17.4,2.592607683352736,12459
+57,KING CREEK,WASHINGTON ROCK QUARRIES INC,Pierce,47.01719513,-122.18755716,842.0,350.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,71.9,2.589871944121071,12997
+58,CRAIG RD 41-11A,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.59183884,-117.60103607,46.0,25.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,12.3,2.588067520372526,11675
+59,ZIMMER PIT,DUKES INDUSTRIES LLC,Kitsap,47.80753708,-122.64246368,25.0,50.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,23.3,2.580034924330617,10332
+60,SULFUR,CONNELL SAND & GRAVEL INC,Franklin,46.64214325,-118.73007965,243.0,380.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,43.5,2.578870779976717,12486
+61,CSR GRANITE FALLS,CADMAN MATERIALS,Snohomish,48.10888672,-121.9287262,425.0,300.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,61.8,2.578172293364377,12922
+62,CAPE GEORGE,LAKESIDE INDUSTRIES INC,Jefferson,48.10488892,-122.86226654,29.0,40.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,7.7,2.5720023282887077,12064
+63,ATLAS HASTINGS QUARRY,EUCON CORP,Garfield,46.53125618,-117.78653225,17.0,65.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,20.8,2.570430733410943,13166
+64,GILLINGHAM GRAVEL,ACTION MATERIALS INC,Spokane,47.55581337,-117.50778626,19.6,60.0,Sand and Gravel,Qglf,Pleistocene outburst flood deposits,Ice Age flood deposits,1,9.2,2.569208381839348,12941
+65,CORLISS SUMNER,CORLISS RESOURCES INC,Pierce,47.20407104,-122.20684052,240.0,300.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,53.0,2.5678696158323633,10501
+66,CHENEY PLAZA 12-08,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.329215999999995,-117.53974152,20.0,55.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,14.2,2.567287543655413,11591
+67,CADMAN LONGVIEW,"CADMAN MATERIALS, INC.",Snohomish,47.83032289,-121.62726856,230.0,300.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,77.1,2.5669965075669383,13054
+68,LOGAN 40-5,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.59584786,-117.78925004,19.0,60.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,20.9,2.5667636786961583,11188
+69,AUBURN PIT,ICON MATERIALS,King,47.27047348,-122.19528961,664.0,225.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,47.6,2.5662980209545982,10269
+70,MILLER QUARRY,GLACIER NORTHWEST INC. DBA CALPORTLAND,Snohomish,47.83106995,-121.6472702,147.0,445.0,Dolomite,Qgo,Pleistocene continental glacial drift,glacial deposits,1,75.8,2.5635040745052384,12101
+71,PS-IS-74 KETTLES,DOT - DEPT OF TRANSPORTATION,Island,48.21502304,-122.73208618,33.7,30.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,11.1,2.560477299185099,11241
+72,SPANISH PRAIRIE,INTERSTATE CONCRETE & ASPHALT,Stevens,48.59595871,-117.9484787,126.0,880.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,126.9,2.558265424912689,12268
+73,SNOQUALMIE S & G,NORTHWEST AGGREGATE,King,47.55092239,-121.81846619,212.0,255.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,58.9,2.5563445867287546,12558
+74,HAMA HAMA,HAMA HAMA CO,Mason,47.5438652,-123.04270172,183.0,280.0,Sand and Gravel,Qao,Pleistocene alpine glacial drift,glacial deposits,1,33.8,2.556344586728754,12163
+75,SULLIVAN ROAD,CPM DEVELOPMENT CORP,Spokane,47.67600632,-117.191185,261.5,220.0,Sand and Gravel,Qglf,Pleistocene outburst flood deposits,Ice Age flood deposits,1,35.4,2.5532013969732246,11179
+76,EVANS ROAD PIT,EUCON CORP,Asotin,46.40550613,-117.11636353,270.0,215.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,55.2,2.55197904540163,12708
+77,POLELINE,PIERCE COUNTY PUBLIC WORKS,Pierce,47.39039993,-122.68865967,38.0,20.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,24.2,2.5493015133876598,11537
+78,FENNEL RESOURCES,MILES SAND & GRAVEL,Pierce,47.14788818,-122.21645355,116.5,400.0,Sand and Gravel,Qgod,Pleistocene continental glacial drift,glacial deposits,1,58.0,2.5462165308498252,12881
+79,VALLEY VIEW,SUMNER SAND & GRAVEL LLC,Pierce,47.22486878,-122.22254181,132.0,308.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,50.5,2.5460419091967403,11840
+80,ISSAQUAH GRAVEL,LAKESIDE INDUSTRIES INC,King,47.54219437,-122.02526093,167.0,250.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,43.6,2.5453434225844003,10113
+81,BLYN,W E SETON/BRUCE B SETON,Clallam,48.02185059,-122.99813843,5.0,80.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,8.9,2.5449359720605353,11548
+82,DUPONT PIONEER AGG,GLACIER NW/DBA CALPORTLAND,Pierce,47.1169281,-122.65435028,565.0,185.0,Sand and Gravel,Qgo(sg),Pleistocene continental glacial drift,glacial deposits,1,53.9,2.5444703143189757,12668
+83,KINROSS GOLD USA INC/PROCESSING PLANT,ECHO BAY MINERALS CO-KINROSS GOLD,Ferry,48.67491032,-118.60430381,224.9,205.0,Geology Other,Qgd,Pleistocene continental glacial drift,glacial deposits,1,128.4,2.5444703143189757,13087
+84,JOHNS PRAIRIE,MANKE FAMILY RESOURCES,Mason,47.23393018,-123.06823346,400.5,181.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,53.8,2.540628637951106,12931
+85,SMITHVILLE,INTERSTATE CONCRETE & ASPHALT COMPANY DBA HOOD RIVER,Klickitat,45.63983446,-121.16486162,240.0,200.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,140.3,2.539406286379511,11367
+86,PALMER,SCHROD MAR INC,King,47.319767,-121.88217926,124.0,300.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,62.3,2.539406286379511,11956
+87,WALLA WALLA GRAVEL & ROCK,WALLA WALLA GRAVEL & ROCK LLC,Walla Walla,46.13634135,-118.24354032,221.0,200.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,76.2,2.5367869615832364,13092
+88,RALSTON #3,ADAMS COUNTY PUBLIC WORKS,Adams,46.98007584,-118.35835266,32.0,20.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,11.0,2.5353317811408616,11596
+89,KENNEDY CREEK QUARRY,GILLIARDI LOGGING & CONSTRUCTION,Mason,47.10785675,-123.09411621,136.74,250.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,66.2,2.5352153667054713,12460
+90,BROWN/RIVERSIDE,PACIFIC CALCIUM INC,Okanogan,48.49953842,-119.5209198,106.2,301.0,Dolomite,Qgd,Pleistocene continental glacial drift,glacial deposits,1,101.1,2.529802095459837,12589
+91,SKAGLUND QUARRY,A & E LLC,Snohomish,48.29464993,-121.70320116,106.17,290.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,80.8,2.5245634458672876,13211
+92,RIVERSCENE RESOURCES,GRANITE CONST CO/WESTERN WA,Snohomish,48.10399246,-121.97366333,185.0,180.0,Sand and Gravel,Qgos(s),Pleistocene continental glacial drift,glacial deposits,1,58.4,2.5229918509895226,11947
+93,TUCKER,CENTRAL WASHINGTON ASPHALT INC,Grant,47.62823868,-119.26236725,27.080000000000002,21.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,2.3,2.522235157159488,12300
+94,SIPER RD,MILES SAND & GRAVEL COMPANY,Whatcom,48.88008266,-122.29891615,184.0,170.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,55.1,2.5168800931315483,11742
+95,HAMILTON MINE,MILES SAND & GRAVEL COMPANY,Skagit,48.53477446,-121.96779854,240.0,160.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,71.1,2.5167054714784634,13216
+96,PERRY QUARRY,CPM DEVELOPMENT CORP,Spokane,47.78270074,-117.38379656,167.0,170.0,Rock and Stone ,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,36.0,2.511641443538999,10228
+97,COCHRAN II,SHAWNEE ROCK INC,Whitman,46.76158524,-117.16604614,96.5,260.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,40.5,2.510768335273574,12703
+98,ENUMCLAW PIT,CORLISS RESOURCES INC,King,47.19948196,-121.94477081,346.90000000000003,139.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,66.4,2.510768335273574,10597
+99,NISQUALLY,NIELSEN PACIFIC LTD,Thurston,47.04726791,-122.70882416,205.0,155.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,62.0,2.508672875436554,10002
+100,KIONA PIT,CENTRAL WASHINGTON ASPHALT INC,Benton,46.24451828,-119.46188355,138.3,175.0,Sand and Gravel,Qfs(3),Pleistocene outburst flood deposits,Ice Age flood deposits,1,111.6,2.5055296856810245,10215
+101,SAMISH RIVER,MILES SAND & GRAVEL COMPANY,Skagit,48.54350662,-122.33456421,100.0,220.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,44.2,2.5046565774155995,10205
+102,PRAIRIE PIT,CURT YOUDERIAN,Island,48.19926071,-122.64389801,15.0,40.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,12.6,2.5035506402793946,12622
+103,SPRAGUE QUARRY,EUCON CORP,Lincoln,47.34231567,-117.88105774,314.0,130.0,Rock and Stone ,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,28.4,2.5029103608847496,12871
+104,PARK ROAD,CLASS 8 TRUCKS INC,Spokane,47.66046143,-117.30922699,98.0,220.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,27.6,2.50151338766007,10226
+105,JOHNS CREEK,BAYSHORE SAND & GRAVEL,Mason,47.25034332,-123.04904175,289.1,130.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,51.5,2.50081490104773,12381
+106,SUNSET QUARRY,SUNSET QUARRY LLC,Pierce,47.10718862,-122.00195451,455.0,120.0,Rock and Stone ,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,70.9,2.497147846332945,12956
+107,MENZEL LAKE GRAVEL,LAKE INDUSTRIES LLC,Snohomish,48.06694794,-121.93840027,142.0,158.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,61.3,2.4945285215366706,12910
+108,CANYON CREEK PIT,SETON CONSTRUCTION INC,Jefferson,47.82112371,-124.06634379,80.0,240.0,Rock and Stone ,Qad,Pleistocene alpine glacial drift,glacial deposits,1,75.2,2.4940046565774154,13225
+109,BOULDER HILL,MILES SAND & GRAVEL COMPANY,Island,48.36460114,-122.60301972,100.0,200.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,29.9,2.4934807916181607,11396
+110,HAWKINS SRC,INTERSTATE CONCRETE & ASPHALT,Stevens,48.55093384,-117.85458374,95.32000000000001,200.0,Rock and Stone ,Qgd,Pleistocene continental glacial drift,glacial deposits,1,120.6,2.488940628637951,12382
+111,LENZ,LENZ ENTERPRISES,Snohomish,48.23416901,-122.30355835,108.0,175.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,36.3,2.488067520372526,11984
+112,CANYON RESOURCES,MILES SAND & GRAVEL CO,Pierce,47.20013809,-122.3573761,101.95,180.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,48.1,2.4864959254947614,12257
+113,IDAHO ROAD PIT,CPM DEVELOPMENT CORP,Spokane,47.72665787,-117.05545807,300.0,115.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,46.9,2.4859720605355062,12720
+114,BELLEVILLE,MILES SAND & GRAVEL COMPANY,Skagit,48.52442551,-122.35887146,100.0,185.0,Sand and Gravel,Qgom(s),Pleistocene continental glacial drift,glacial deposits,1,42.8,2.4857974388824213,11512
+115,MT PLEASANT GRAVEL PIT,JAMES W PFAFF,Clallam,48.08975877,-123.36317918,4.8,50.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,18.8,2.4839930151338767,13213
+116,PACIFIC QUARRY,MARTIN MARIETTA MATERIALS INC,Skagit,48.38319779,-122.30075836,67.81,260.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,45.1,2.4838766006984865,10572
+117,COUPEVILLE #2,ISLAND COUNTY PUBLIC WORKS,Island,48.21228409,-122.64820099,20.0,20.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,13.5,2.4832945285215366,12095
+118,PROCTOR CREEK,CADMAN MATERIALS INC,Snohomish,47.83039475,-121.63562012,54.94,400.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,76.6,2.4830034924330615,12438
+119,BUCKLIN HILL LYNNWOOD CENTER TRIANGLE,LIDEN LAND DEV & EXCAV,Kitsap,47.620718,-122.54834623,4.2,50.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,4.5,2.482945285215367,13120
+120,FRANKLIN RIDGE SAND & GRAVEL,GREEN SECTION 30 LLC,King,47.27751541,-121.96723175,110.0,163.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,59.6,2.481431897555297,12688
+121,MAYTOWN AGGREGATES,PORT OF TACOMA,Thurston,46.89601819,-122.89689401,497.3,106.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,81.4,2.481257275902212,13010
+122,BLACK DIAMOND,"CADMAN MATERIALS, INC.",King,47.28372955,-121.99407959,264.0,111.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,57.6,2.480384167636787,11543
+123,PALISADES,CPM DEVELOPMENT CORP,Douglas,47.29597092,-120.05351257,150.0,130.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,46.4,2.479685681024447,12750
+124,FENNEL RESOURCES/WEYERHAEUSER EXPANSION,MILES SAND & GRAVEL,Pierce,47.13743894,-122.21753225,61.9,255.0,Sand and Gravel,Qgod,Pleistocene continental glacial drift,glacial deposits,1,58.9,2.4765424912689173,13185
+125,TOWNE ROAD GRAVEL PIT,J & D TRUCKING INC,Clallam,48.12866386,-123.13209404,12.8,35.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,6.9,2.4764842840512222,13197
+126,LITTLEROCK PIT,BLACK LAKE QUARRY LLC,Thurston,46.95777512,-122.98699951,244.0,110.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,77.1,2.4749708963911523,11988
+127,BOWEN PIT,CENTRAL WASHINGTON ASPHALT INC,Grant,47.22988361,-119.37077068,128.0,135.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,42.7,2.4747962747380674,13252
+128,RAILROAD PIT,EUCON CORP,Franklin,46.29558563,-119.10661316,167.0,120.0,Sand and Gravel,Qfg(3),Pleistocene outburst flood deposits,Ice Age flood deposits,1,91.0,2.4744470314318976,11147
+129,BUTLER PIT,SKAGIT COUNTY PUBLIC WORKS,Skagit,48.52750397,-122.33532715,135.0,130.0,Sand and Gravel,Qgom(s),Pleistocene continental glacial drift,glacial deposits,1,44.5,2.4725261932479627,10303
+130,KANGLEY PIT,STONEWAY ROCK & RECYCLING,King,47.36349869,-121.9061203,610.0,100.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,58.4,2.470256111757858,12675
+131,NISQUALLY II,NIELSEN PACIFIC LTD,Thurston,47.04091263,-122.71411896,113.0,140.0,Sand and Gravel,Qgos,Pleistocene continental glacial drift,glacial deposits,1,62.8,2.469557625145518,12724
+132,AVERY FLAT,DREAM LAND DEVELOPMENT LLC,Klickitat,45.66291679,-121.00712843,63.0,220.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,135.6,2.469208381839348,12043
+133,WEST CLE ELUM,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,47.18284709,-120.98696206,121.36,130.0,Sand and Gravel,Qao(lr),Pleistocene alpine glacial drift,glacial deposits,1,38.2,2.4658905704307332,12673
+134,BUTLER PIT,MILES SAND & GRAVEL COMPANY,Skagit,48.52774756,-122.31045541,69.0,200.0,Sand and Gravel,Qgom(s),Pleistocene continental glacial drift,glacial deposits,1,46.2,2.4636204889406286,10319
+135,ANACORTES,LAKESIDE INDUSTRIES INC,Skagit,48.47397232,-122.64048,95.2,158.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,25.8,2.4632712456344588,10411
+136,ENGH ROAD,GRANITE NORTHWEST INC (EAST),Okanogan,48.43963918,-119.47757269,60.07,205.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,93.9,2.460651920838184,13051
+137,SMITH QUARRY,NEWPORT EQUIPMENT ENTERPRISES INC,Pend Oreille,48.14297852,-117.1409417,112.7,130.0,Rock and Stone ,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,79.9,2.460302677532014,13016
+138,LANCE HILL 20-21,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.38187408,-117.76513672,11.5,30.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,18.7,2.457799767171129,12552
+139,ELK SAND,INTERSTATE CONCRETE & ASPHALT,Spokane,48.00249747,-117.33724603,150.0,110.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,60.2,2.456984866123399,12949
+140,SEC 11,IMERYS MINERALS CALIFORNIA INC,Grant,46.98030472,-119.90549469,480.16,85.0,Diatomite,Ql,"Quaternary eolian deposits, loess",loess,1,67.0,2.4470314318975555,12660
+141,TENINO,MILES SAND & GRAVEL,Thurston,46.84154511,-122.87702942,172.66,100.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,86.9,2.4461583236321305,11902
+142,ROYAL CITY,RPC GRAVEL,Grant,46.86243057,-119.59738922,160.0,100.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,84.7,2.442316647264261,12706
+143,SRP ELK GRAVEL,INTERSTATE CONCRETE & ASPHALT,Spokane,48.01073456,-117.33062744,147.0,100.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,61.2,2.439697322467986,12626
+144,BLACK RIVER S&G,BROOKCAL TB WA 1 LLC,King,47.37296295,-122.08361053,209.0,90.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,46.3,2.436728754365541,11068
+145,HILPERT PIT,STERLING BREEN CRUSHING INC,Lewis,46.75923538,-122.93561554,100.7,115.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,96.9,2.4362048894062864,11712
+146,BAYMAN PIT,MOTLEY & MOTLEY INC,Asotin,46.39638519,-117.09703064,60.0,170.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,57.0,2.4360302677532015,12091
+147,WAHL EXTRACTION AREA,MILES SAND & GRAVEL,Jefferson,47.86229941,-122.74807165,183.0,90.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,28.3,2.4332363213038417,13024
+148,GRANDVIEW QUARRY LLC,GRANDVIEW QUARRY LLC,Pend Oreille,48.87252369,-117.3582632,53.43,183.0,Rock and Stone ,Qgl,"Pleistocene bog, marsh, swamp, or lake deposits",lake or bog deposits,1,155.2,2.4327124563445865,13217
+149,CHERRY COVE GRAVEL,WHITMAN COUNTY PUBLIC WORKS,Whitman,47.00230379,-117.79031685,78.947,130.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,30.0,2.432013969732247,13158
+150,ROCHESTER,BLACK LAKE QUARRY LLC,Thurston,46.8062167,-123.02796453,78.0,130.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,94.0,2.430442374854482,10282
+151,LEWISVILLE PIT (CEMEX),CADMAN MATERIALS INC,Clark,45.80903681,-122.56290439,122.4,100.0,Rock and Stone ,Qap(a),Pleistocene alpine glacial drift,glacial deposits,1,181.2,2.4272991850989523,12044
+152,LAKE FRANCIS I,QUALITY AGGREGATES LLC,King,47.43824387,-122.04511261,89.60000000000001,115.0,Sand and Gravel,Qp,"Quaternary bog, marsh, swamp, or lake deposits",lake or bog deposits,1,45.4,2.426775320139697,12979
+153,DRY GULCH,POE ASPHALT PAVING INC,Asotin,46.41023383,-117.10857174,47.58,200.0,Sand and Gravel,Qf(m),Pleistocene outburst flood deposits,Ice Age flood deposits,1,55.4,2.4264260768335273,10852
+154,SEC 3 & 10,IMERYS MINERALS CALIFORNIA INC,Grant,46.99424744,-119.92819977,175.43,85.0,Diatomite,Ql,"Quaternary eolian deposits, loess",loess,1,65.6,2.4250291036088476,12617
+155,BERRYMAN QUARRY,INTERSTATE CONCRETE  & ASPHALT COMPANY,Walla Walla,46.20360947,-118.38191986,53.0,170.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,77.0,2.4239813736903377,12702
+156,FRIBERG PIT,ROTSCHY INC,Clark,45.63130188,-122.48774719,216.0,80.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,190.8,2.422933643771828,10403
+157,CSR MALTBY,DTG ENTERPRISES INC,Snohomish,47.82450104,-122.08805084,58.300000000000004,150.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,45.7,2.420139697322468,10325
+158,PORT OF KLICKITAT,KLICKITAT COUNTY PORT DIS 1,Klickitat,45.63126373,-121.14759064,140.0,90.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,140.9,2.419790454016298,11850
+159,3 BAR G,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,47.11005122,-120.78636349,80.0,115.0,Rock and Stone ,Qapt(ks),Pleistocene alpine glacial drift,glacial deposits,1,26.5,2.419615832363213,13090
+160,ORTING QUARRY,PIERCE CO RIVER IMPROVEMENT,Pierce,47.06978226,-122.21039581,479.0,70.0,Rock and Stone ,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,65.9,2.419266589057043,10566
+161,ROCK ISLAND POND,CPM DEVELOPMENT CORP,Douglas,47.37335352,-120.13342975,85.0,110.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,36.3,2.4164726426076832,12672
+162,PUYALLUP S & G,CORLISS RESOURCES INC,Pierce,47.09211825,-122.28316754,103.16,100.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,61.3,2.4154249126891734,11326
+163,FIRWOOD,SCARSELLA BROTHERS INC,Pierce,47.22419387,-122.31300221,39.0,242.0,Sand and Gravel,Qgp,Pleistocene continental glacial drift,glacial deposits,1,47.0,2.4140279394644937,10498
+164,DEAD MAN PIT,DEADMAN CREEK SAND & GRAVEL LLC,Ferry,48.70216885,-118.14518265,71.24,120.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,142.2,2.413678696158324,13180
+165,MORGAN KAME TERRACE,PALMER COKING COAL CO,King,47.31655502,-122.03089905,203.0,75.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,53.1,2.4114086146682188,12494
+166,MESA PIT,KONCRETE INDUSTRIES INC,Franklin,46.59855652,-118.97708893,100.0,100.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,57.5,2.411233993015134,10715
+167,ASH HOLLOW,VFO WALLA WALLA LLC,Walla Walla,46.07354069,-118.68723903,50.5,160.0,Rock and Stone ,Qfs(t),Pleistocene outburst flood deposits,Ice Age flood deposits,1,103.8,2.411059371362049,13106
+168,DALLESPORT,GRANITE CONSTRUCTION CO (EAST),Klickitat,45.63454819,-121.15759277,122.5,90.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,140.7,2.411059371362049,10159
+169,SHINE,MILES SAND & GRAVEL,Jefferson,47.86933899,-122.71562958,256.2,70.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,27.7,2.409837019790454,11936
+170,LEESON #1,INTERSTATE CONCRETE & ASPHALT,Spokane,48.01148987,-117.34540558,79.0,110.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,61.0,2.409662398137369,12312
+171,CHIPMAN QUARRY/THONNEY,EUCON CORP,Whitman,46.72908783,-117.10349274,48.25,165.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,44.9,2.409138533178114,12404
+172,JL PIT #1,JMAC RESOURCES INC,Pend Oreille,48.22158814,-117.09941101,98.7,100.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,89.2,2.408440046565774,12624
+173,OKANOGAN VALLEY,OKANOGAN VALLEY CONCRETE INC,Okanogan,48.38236237,-119.56591034,40.0,200.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,89.1,2.406693830034924,12654
+174,TEBO,TOWER ROCK PRODUCTS INC,Clark,45.80200549,-122.58594592,79.93,107.0,Sand and Gravel,Qap(a),Pleistocene alpine glacial drift,glacial deposits,1,183.1,2.406519208381839,10407
+175,TAYLOR RD,MILES SAND & GRAVEL COMPANY,Island,48.34504805,-122.6002692,70.0,115.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,28.0,2.4052968568102444,13182
+176,SEC 17 PIT,IMERYS MINERALS CALIFORNIA INC,Grant,47.05469451,-119.97386365,319.40000000000003,63.0,Diatomite,Qfs,Pleistocene outburst flood deposits,Ice Age flood deposits,1,64.0,2.403550640279395,10280
+177,MOUNTAIN LOOP MINE,OMA CONSTRUCTION INC,Snohomish,48.11349845,-121.87257256,49.730000000000004,150.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,65.9,2.40128055878929,12942
+178,KRIEG,KRIEG CONSTRUCTION INC,Island,48.34205627,-122.62143707,84.8,100.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,27.1,2.399708963911525,10200
+179,ROY,MILES SAND & GRAVEL,Pierce,46.97339249,-122.55511475,460.0,60.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,69.8,2.3988358556461002,12647
+180,ATLAS COMMERCIAL DEVELOPMENT SITE,ATLAS SAND & ROCK INC,Whitman,46.72750389,-117.1246207,98.958,96.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,43.2,2.3988358556461002,13274
+181,GETCHELL PIT,MILES SAND & GRAVEL COMPANY,Snohomish,48.07591248,-122.02017975,174.0,70.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,55.2,2.397264260768335,11995
+182,Hermann Pit/Blue Mountain Leasing,INTERMOUNTAIN EVERGREEN LLC,Pend Oreille,48.37117998,-117.22949768,40.0,180.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,101.9,2.396565774155995,13067
+183,SECTION 12,IMERYS DIATOMITE USA INC,Grant,46.97894621,-119.88190319,320.0,60.0,Diatomite,Ql,"Quaternary eolian deposits, loess",loess,1,68.7,2.3960419091967404,13186
+184,INLAND NW SPRINGDALE,INLAND NORTHWEST ENTERPRISES LLC,Stevens,48.05086899,-117.81328583,38.0,200.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,65.7,2.3944703143189754,12886
+185,MAHAFFEY ROCK PIT #1,MAHAFFEY ENTERPRISES INC,Benton,46.15942383,-119.27310944,55.0,120.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,110.6,2.391152502910361,11422
+186,EPHRATA EAST PIT,REDLAND LLC,Grant,47.2937271,-119.49334514,81.4,95.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,38.9,2.388183934807916,13187
+187,CROWN RESOURCES CORPORATION/BORROW SITE,CROWN RESOURCES CORPORATION,Ferry,48.91685581,-118.75257153,81.2,95.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,150.4,2.3878346915017463,13069
+188,NAYLOR,TOMMER CONSTRUCTION CO INC,Grant,47.25549623,-119.61066301,317.0,58.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,47.0,2.3871362048894063,12965
+189,OAKVILLE,NORTHWEST ROCK INC,Grays Harbor,46.84980392,-123.24330902,46.0,139.0,Rock and Stone ,Qgp,Pleistocene continental glacial drift,glacial deposits,1,96.5,2.386437718277066,12671
+190,MEAD & LOGAN,CPM DEVELOPMENT CORP,Spokane,47.7802124,-117.33174133,138.0,70.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,37.4,2.3857392316647266,12873
+191,SINGER,GRANITE CONSTRUCTION COMPANY,Whatcom,48.89530563,-122.36891937,222.0,60.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,51.9,2.3855646100116417,10648
+192,EAST HIAWATHA,CENTRAL WASHINGTON ASPHALT INC,Grant,47.12207048,-119.43426582,190.16,60.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,55.5,2.3820721769499418,13286
+193,SHELTON PIT,MILES SAND & GRAVEL,Mason,47.21120453,-123.13452148,100.0,80.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,59.1,2.379976717112922,10563
+194,MCEWAN PRAIRIE,PORT ORCHARD SAND & GRAVEL,Mason,47.25833019,-123.07815751,107.0,76.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,52.3,2.379627473806752,13039
+195,L&R RANCH,MOTLEY & MOTLEY INC,Whitman,46.76482391,-118.03193665,178.0,60.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,26.8,2.3787543655413272,12816
+196,EPHRATA,INTERSTATE CONCRETE & ASPHALT CO.,Grant,47.30201721,-119.54613495,63.0,100.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,40.1,2.3757857974388825,10255
+197,BIG LAKE SAND & GRAVEL LLC,SKAGIT AGGREGATES LLC,Skagit,48.34404388,-122.20360369,40.0,140.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,48.4,2.371769499417928,13071
+198,BOE,ALPINE SAND & GRAVEL INC,Thurston,46.98374939,-122.85876465,145.0,60.0,Sand and Gravel,Qgos,Pleistocene continental glacial drift,glacial deposits,1,71.2,2.369674039580908,11016
+199,BRECKS PIT,US12 SAND AND GRAVEL LLC,Grays Harbor,46.99866867,-123.38544464,40.0,135.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,89.3,2.3675785797438884,10844
+200,CRYSTAL SPRINGS,STAMPEDE SAND & GRAVEL LLC,Kittitas,47.31037306,-121.32237012,75.5,85.0,Sand and Gravel,Qad(e),Pleistocene alpine glacial drift,glacial deposits,1,64.1,2.3670547147846333,13012
+201,PS-D-245 ARMSTRONG,DOT - DEPT OF TRANSPORTATION,Snohomish,48.21608734,-122.1255188,59.0,100.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,48.4,2.3670547147846333,10012
+202,SHEARER LAKE,PEND OREILLE COUNTY PUBLIC WORKS,Pend Oreille,48.22238541,-117.05405426,80.0,80.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,90.6,2.3654831199068687,11651
+203,TENNYSON PIT,SKAGIT AGGREGATES LLC,Skagit,48.439991,-122.26046753,32.0,167.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,51.6,2.362689173457509,10626
+204,CUT-OFF QUARRY,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.33818017,-117.19270219,48.0,110.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,29.2,2.3612922002328287,12897
+205,BIRDSVIEW,SKAGIT AGGREGATES LLC,Skagit,48.53541798,-121.889262,39.300000000000004,138.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,76.8,2.361117578579744,13004
+206,EVERETT PIT,CADMAN MATERIALS INC,Snohomish,47.93422799,-122.24605387,109.0,65.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,43.3,2.360942956926659,10161
+207,A&A ROCK INC,A&A ROCK INC,Clallam,48.06251539,-123.61007623,20.0,310.0,Sand and Gravel,Qgl,"Pleistocene bog, marsh, swamp, or lake deposits",lake or bog deposits,1,36.7,2.360244470314319,13076
+208,TILLEY RD,LAKESIDE INDUSTRIES INC,Thurston,46.84347534,-122.9479065,300.0,45.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,88.1,2.359022118742724,12014
+209,HANFORD PIT,INTERSTATE CONCRETE & ASPHALT,Benton,46.32592872,-119.28945533,182.0,50.0,Sand and Gravel,Qfg(4),Pleistocene outburst flood deposits,Ice Age flood deposits,1,96.2,2.358323632130384,12968
+210,RYATT PIT,"RYATT PIT, LLC",Snohomish,47.79042418,-121.9724651,27.400000000000002,190.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,51.5,2.357974388824214,12986
+211,BUTLER,CADMAN MATERIALS INC,Skagit,48.53391266,-122.31097412,75.0,80.0,Sand and Gravel,Qgom(s),Pleistocene continental glacial drift,glacial deposits,1,46.1,2.357101280558789,10234
+212,REARDON PIT,ACTION MATERIALS INC,Lincoln,47.66188192,-117.82456152,136.0,56.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,27.7,2.3569266589057043,13267
+213,KENDALL PIT,MILES SAND AND GRAVEL COMPANY,Whatcom,48.91480479,-122.11911836,63.0,88.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,68.4,2.3557043073341095,13151
+214,KENDALL,AGGREGATE INDUSTRIES MANAGEMENT INC,Whatcom,48.91158676,-122.11554718,58.0,98.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,68.4,2.3557043073341095,12984
+215,SOUTH PIT,MILES SAND & GRAVEL,Thurston,47.05615616,-122.79400635,72.5,80.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,62.2,2.3555296856810246,12168
+216,CANYON,MILES SAND & GRAVEL,Pierce,47.19502258,-122.35820007,25.0,200.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,48.6,2.3530849825378346,10344
+217,BRUCH AND BRUCH CONSTRUCTION INC,BRUCH & BRUCH,Clallam,48.0688947,-124.08907193,19.6,310.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,72.3,2.35256111757858,13215
+218,ROY PIT,C & V JOINT VENTURE,Pierce,46.98319762,-122.54269992,160.0,50.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,68.7,2.35151338766007,12616
+219,113TH AVE PIT,GRANITE CONSTRUCTION CO,Thurston,46.92746735,-122.94791412,65.0,80.0,Sand and Gravel,Qgos,Pleistocene continental glacial drift,glacial deposits,1,79.3,2.3467986030267753,12577
+220,SR 300/BELFAIR,NARROWS VIEW PROPERTIES LLC,Mason,47.44884491,-122.85056305,35.0,131.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,25.2,2.3464493597206055,11833
+221,VAN BUREN,LEONARD & BEVERLY HONCOOP DBA HONCOOP GRAVEL,Whatcom,48.97631683,-122.33996231,130.0,50.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,59.4,2.341385331781141,11866
+222,WALLER ROAD,WM DICKSON COMPANY,Pierce,47.21572495,-122.39035034,40.0,109.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,45.5,2.3368451688009313,10396
+223,HWY 20 PIT,MILES SAND & GRAVEL COMPANY,Island,48.33525245,-122.63294449,95.0,60.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,26.1,2.3366705471478464,11671
+224,BROWN RD QUARRY,LAURA MOERKE JONES,Lewis,46.58919525,-123.02321625,36.0,120.0,Rock and Stone ,Qapo(lh),Pleistocene alpine glacial drift,glacial deposits,1,116.9,2.3357974388824214,12665
+225,SHOTWELL PIT,MILES SAND & GRAVEL,Mason,47.21474075,-123.12810517,31.400000000000002,130.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,58.4,2.3356228172293365,10287
+226,ENGLISH PIT,CTC SECTION 30 LLC,Clark,45.62395961,-122.48311758,52.88,85.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,191.2,2.3342258440046564,10009
+227,SHAWNEE ROCK INC,SHAWNEE ROCK INC,Whitman,46.91396206,-117.34053368,26.2,150.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,34.9,2.331781140861467,13119
+228,SAND HILL PIT,LENZ ENTERPRISES,Snohomish,48.11795609,-121.89083152,38.67,110.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,64.6,2.330733410942957,13283
+229,SOUTH CANYON,LOOKER PROPERTIES LLC,Pierce,47.09830475,-122.35496521,33.0,120.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,58.8,2.330558789289872,12491
+230,MAURY ISL OPERATION (IDEAL PIT),GLACIER NW/DBA CALPORTLAND,King,47.37952042,-122.41681671,26.0,150.0,Sand and Gravel,Qp,"Quaternary bog, marsh, swamp, or lake deposits",lake or bog deposits,1,28.1,2.3303841676367867,10271
+231,DAWSON PIT,DAWSON CONSTRUCTION INC,Pend Oreille,48.73374085,-117.38825189,26.35,145.0,Sand and Gravel,Qgl,"Pleistocene bog, marsh, swamp, or lake deposits",lake or bog deposits,1,139.7,2.329685681024447,13026
+232,NOOKSACK,MILES SAND & GRAVEL COMPANY,Whatcom,48.93348694,-122.30890656,76.0,63.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,58.0,2.328987194412107,11872
+233,TONER,TONER SAND & GRAVEL,Spokane,48.00529098,-117.33778381,60.0,75.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,60.5,2.328812572759022,11701
+234,CHANDLER PIT,NORTHWEST ROCK INC,Mason,47.10176234,-123.47317261,60.72,71.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,86.0,2.327939464493597,13152
+235,MARTIN PIT,LAKESIDE INDUSTRIES INC,Thurston,46.80814431,-123.02041129,72.0,65.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,93.6,2.3272409778812575,10452
+236,JIM FORAN,PORT OF TACOMA,Pierce,47.26335144,-122.35359192,40.0,100.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,41.8,2.3244470314318977,10701
+237,VAN DE GRIFT,B A VAN DE GRIFT,Skagit,48.42325974,-122.2019577,40.0,100.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,53.6,2.3244470314318977,11942
+238,LOON LAKE,INTERMOUNTAIN EVERGREEN LLC,Stevens,48.07082367,-117.64512634,48.4,85.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,65.6,2.3240977881257274,11778
+239,REPUBLIC AGGREGATE PIT,HERBERT COLT & KATHLEEN A SMITH,Ferry,48.6296041,-118.73176298,29.240000000000002,124.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,120.3,2.3230500582072175,13222
+240,ERICKSEN & SVENDSEN INC PIT,ERICKSEN & SVENDSEN INC,Skagit,48.42633438,-122.51895905,35.5,110.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,36.2,2.321653084982538,12161
+241,HENDERSON BURNHAM,HENDERSON BURNHAM LLC,Pierce,47.36115788,-122.61978389,22.900000000000002,160.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,26.6,2.320605355064028,10117
+242,BEAVER FALLS QUARRY,BRUCH & BRUCH,Clallam,48.09477615,-124.26837158,12.9,310.0,Rock and Stone ,Qgt,Pleistocene continental glacial till,glacial deposits,1,85.7,2.319557625145518,11280
+243,SHOREROCK QUARRY,JJC RESOURCES LLC,Clallam,48.0603527,-123.49894497,19.0,200.0,Rock and Stone ,Qgt,Pleistocene continental glacial till,glacial deposits,1,28.4,2.3183352735739233,13094
+244,GRAND MOUND,GRANITE CONSTRUCTION CO,Thurston,46.81422425,-123.02542877,45.34,85.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,93.1,2.3174621653084984,10734
+245,GEORGE WALKER PIT,WALUKE INC,Adams,46.78071912,-119.18600031,97.3,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,57.5,2.316938300349243,13113
+246,PLACE ROAD PIT,DELHUR INDUSTRIES INC,Clallam,48.12030265,-123.57369135,58.26,70.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,34.8,2.3165890570430734,12990
+247,RICHLAND,3D DEVELOPMENT,Benton,46.34093304,-119.28860831,128.0,40.0,Rock and Stone ,Qfg(4),Pleistocene outburst flood deposits,Ice Age flood deposits,1,94.8,2.3160651920838182,13265
+248,PS-T-214 SPRAGUE,DOT - DEPT OF TRANSPORTATION,Lincoln,47.31635037,-117.96714597,92.0,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,35.4,2.3148428405122234,11505
+249,RAINIER GRAVEL & CRUSHING,STEVE PAUSHECK,Pierce,47.14609909,-122.06597137,53.300000000000004,72.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,64.5,2.3141443538998834,10981
+250,NORTHPORT PIT,STEVENS COUNTY PUBLIC WORKS,Stevens,48.91618586,-117.75435743,32.6,105.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,159.9,2.310477299185099,13288
+251,KILLAM,BARGEN RANCH LLC,Whatcom,48.97358322,-122.24848938,37.0,100.0,Sand and Gravel,Qgt(s),Pleistocene continental glacial drift,glacial deposits,1,64.2,2.3090803259604193,12530
+252,ALLISON PIT,CONTINENTAL CONTRACTORS INC,Stevens,47.86510086,-117.71180725,37.0,100.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,43.8,2.3090803259604193,12807
+253,NORTH MINE,MILES SAND & GRAVEL COMPANY,Thurston,47.06210709,-122.79445648,65.0,60.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,61.6,2.308731082654249,10385
+254,SPRINGHILL 61-30,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.72168732,-117.67623901,40.0,90.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,27.7,2.307857974388824,10123
+255,BLAINE PIT,AGGREGATE INDUSTRIES PACIFIC NW INC,Whatcom,48.98366165,-122.67472839,40.0,90.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,45.7,2.307857974388824,10365
+256,BROUGHTON LAND COMPANY,BROUGHTON LAND COMPANY,Columbia,46.38356658,-117.77247552,26.0,120.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,36.4,2.306111757857974,13086
+257,NISQUALLY,JESS THOMSEN,Thurston,47.01905823,-122.69968414,80.0,50.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,65.0,2.3059371362048893,12500
+258,FORAN ROAD S,DULIN CONSTRUCTION INC,Lewis,46.75085068,-122.98799896,52.0,70.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,98.9,2.3047147846332945,10177
+259,HOY SAND & GRAVEL,GRANITE CONSTRUCTION CO,Whatcom,48.936305999999995,-122.29794312,51.53,70.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,58.8,2.3036670547147846,12712
+260,CHERRY POINT,LEN HONCOOP GRAVEL INC,Whatcom,48.84928131,-122.67783356,18.0,175.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,32.5,2.3020954598370196,12021
+261,MARY CLARK,DNR OLYMPIC PRG 532,Clallam,48.06144333,-124.27751923,163.0,30.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,86.3,2.3017462165308498,10555
+262,ALADDIN PIT,INTERSTATE CONCRETE & ASPHALT,Stevens,48.59208679,-117.82578278,25.0,120.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,124.8,2.3001746216530847,12786
+263,MCREAVY RD,COSTELLO ROCK AND LANDSCAPE SUPPLY LLC,Mason,47.27642059,-123.1246109,60.0,60.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,53.4,2.3001746216530847,12550
+264,ROSS PIT,SCARSELLA BROS. INC.,Snohomish,48.21057726,-122.11266897,76.4,50.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,49.2,2.3001746216530847,13233
+265,REEBS/PARR,PACIFIC REALTY ASSOCIATES,Clark,45.61950754,-122.48369662,52.0,68.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,191.6,2.299825378346915,13027
+266,A&B ROCK,A & B ROCK INC,Whatcom,48.88679487,-122.39597502,53.0,65.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,49.8,2.299476135040745,12685
+267,CENTRALIA,LAKESIDE INDUSTRIES INC,Lewis,46.74802963,-122.98540431,39.0,90.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,99.1,2.299126891734575,10327
+268,WINFIELD,DNR OLYMPIC PRG 532,Jefferson,47.79940796,-124.22201538,144.0,30.0,Sand and Gravel,Qao,Pleistocene alpine glacial drift,glacial deposits,1,86.9,2.2963329452852155,12627
+269,BARNES DRIVE,FARWEST PORTABLE CRUSHING INC,Cowlitz,46.35415268,-122.93040466,30.6,100.0,Rock and Stone ,Qapo(h),Pleistocene alpine glacial drift,glacial deposits,1,140.8,2.2949359720605353,12933
+270,MILLER PIT P4-27,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.13047896,-120.01582222,56.71,60.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,73.4,2.2944121071012806,13280
+271,PETERS RD ROCK PIT,BIG LODGE RIDGE LLC,Lewis,46.50865763,-121.99107898,24.0,120.0,Rock and Stone ,Qad(e),Pleistocene alpine glacial drift,glacial deposits,1,101.3,2.2944121071012806,13191
+272,QS-CO-16,DOT - DEPT OF TRANSPORTATION,Columbia,46.50038095,-117.9700297,20.0,140.0,Rock and Stone ,Qfs(t),Pleistocene outburst flood deposits,Ice Age flood deposits,1,31.3,2.2935389988358557,10816
+273,MIKE WOOD,MIKE WOOD,Thurston,46.86313115,-122.50453321,27.5,105.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,82.3,2.2935389988358557,13097
+274,STOREY,PORT OF TACOMA,Pierce,47.27687454,-122.37806702,10.0,250.0,Sand and Gravel,Qgpc,Pleistocene glacial and nonglacial deposits,glacial deposits,1,39.6,2.2928405122235156,12132
+275,LAKE ERIE PIT,WILLIAM W WOODING,Skagit,48.45092392,-122.6522522,19.900000000000002,150.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,26.7,2.2926658905704307,12635
+276,THORNDYKE ROAD PIT,SETON CONSTRUCTION INC,Jefferson,47.88433838,-122.73891449,55.0,60.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,25.9,2.292491268917346,12769
+277,LIND HATTON,ADAMS COUNTY PUBLIC WORKS,Adams,46.8035468,-118.81838183,29.77,100.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,32.6,2.289348079161816,13018
+278,OLD SMOKEY PIT,RAYONIER FOREST RESOURCES LP,Clallam,47.96690817,-124.42402081,125.9,30.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,97.7,2.287951105937136,13044
+279,DROLLINGER,MIKE DROLLINGER & TERRY DROLLINGER,Yakima,46.22484207,-119.92854309,65.0,50.0,Sand and Gravel,Qfs(3),Pleistocene outburst flood deposits,Ice Age flood deposits,1,96.7,2.2872526193247964,12313
+280,GODBEY (U271),GODBEY RED E MIX,Okanogan,47.99763107,-119.88697815,120.0,30.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,63.7,2.2839348079161814,10518
+281,HUSON PIT,MANKE LUMBER CO INC,Mason,47.42218018,-123.01534271,80.0,40.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,36.9,2.281140861466822,12639
+282,5-MILE MAINLINE,HOS BROTHERS CONSTRUCTION INC,King,47.56983566,-121.75346375,80.0,40.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,63.6,2.281140861466822,12894
+283,DAY CREEK S & G,SKAGIT AGGREGATES LLC,Skagit,48.4936142,-122.07666016,40.0,74.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,63.9,2.281140861466822,12841
+284,HIAWATHA,CENTRAL WASHINGTON ASPHALT INC,Grant,47.11923981,-119.44628906,80.0,40.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,56.0,2.281140861466822,12856
+285,DENNISON CHATTAROY,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.90195847,-117.37374878,80.0,40.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,48.7,2.281140861466822,11589
+286,SHEPHERD,F-1 ENTERPRISES INC,Island,48.33469009,-122.6244278,38.0,80.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,26.2,2.280966239813737,12629
+287,HAMPTON RD,INTERSTATE CONCRETE & ASPHALT CO.,Adams,46.7782981,-119.23746836,135.0,25.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,61.2,2.279918509895227,13056
+288,CALLAHAN PIT,ROYAL TURF FARMS,Grant,46.85923386,-119.47039795,50.0,60.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,75.3,2.279918509895227,12973
+289,TRAPLINE RD,MILES SAND & GRAVEL COMPANY,Whatcom,48.97603226,-122.34451294,69.5,45.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,59.1,2.277823050058207,12478
+290,ROCKPORT,SKAGIT AGGREGATES LLC,Skagit,48.49260712,-121.64682007,40.0,70.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,92.4,2.2748544819557623,11785
+291,SIPER RD,AGGREGATE INDUSTRIES PACIFIC NORTHWEST INC,Whatcom,48.87342453,-122.29476166,40.0,70.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,55.0,2.2748544819557623,12020
+292,MILLER SHINGLE,STILLAGUAMISH RESOURCES LLC,Snohomish,48.2213707,-122.13801575,32.0,84.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,47.6,2.2739813736903374,12697
+293,SAXON,MILES SAND & GRAVEL COMPANY,Whatcom,48.67995834,-122.17870331,41.0,65.0,Sand and Gravel,Qgo(es),Pleistocene continental glacial drift,glacial deposits,1,55.6,2.2736321303841676,11841
+294,E POLE ROAD PIT,EVEROCK ENTERPRISES LLC,Whatcom,48.88606672,-122.39033908,74.84,40.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,50.1,2.272235157159488,11556
+295,MATHESON-COUNTY,BENTON COUNTY PUBLIC WORKS,Benton,46.19315338,-119.08911133,56.0,50.0,Sand and Gravel,Qfg(3),Pleistocene outburst flood deposits,Ice Age flood deposits,1,100.4,2.272235157159488,10238
+296,CADMAN SITE,KING COUNTY DEPT OF TRANS,King,47.67362976,-122.08434296,25.0,100.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,39.5,2.2708381839348077,12843
+297,ORCHARDS PIT,CADMAN MATERIALS INC,Clark,45.68703461,-122.54380036,54.0,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,189.4,2.269615832363213,10709
+298,PETERSON PIT,GRANITE CONSTRUCTION CO (EAST),Grant,47.19190661,-119.28547997,53.6,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,46.2,2.268393480791618,13047
+299,PS-FN-74,DOT - DEPT OF TRANSPORTATION,Franklin,46.64805985,-118.83879852,48.0,55.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,46.9,2.2661233993015135,10084
+300,HAMPTON RD,CENTRAL WASHINGTON ASPHALT INC,Adams,46.78640251,-119.24241732,124.60000000000001,20.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,61.2,2.2661233993015135,13064
+301,CONWAY PIT,GRANITE CONSTRUCTION CO,Skagit,48.32946442,-122.2840626,30.0,80.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,42.5,2.260535506402794,11038
+302,DAYTON AIRPORT PIT,GREEN DIAMOND RESOURCE COMPANY,Mason,47.24353098,-123.20018026,113.0,20.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,60.1,2.259313154831199,13261
+303,PS-GT-18 & EXT,DOT - DEPT OF TRANSPORTATION,Grant,47.10110092,-119.39154816,100.0,25.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,57.1,2.257566938300349,10100
+304,H STREET GRAVEL,TARGET PRODUCTS LTD,Whatcom,49.00152967,-122.64230598,113.0,16.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,48.5,2.2547729918509893,12998
+305,OBRIEN SAND & GRAVEL,JAXICO REAL ESTATE,Snohomish,48.06463491,-121.90048664,9.84,165.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,64.1,2.25302677532014,13131
+306,CLARK PIT,WHATCOM COUNTY PUBLIC WORKS,Whatcom,48.98788471,-122.65776943,110.0,18.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,46.6,2.2525029103608847,10357
+307,CURLEW GRAVEL,JOHN L STOTTS,Ferry,48.88728443,-118.61084074,78.5,30.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,150.3,2.2498835855646098,13173
+308,SIPER,AGGREGATE INDUSTRIES PACIFIC NW INC,Whatcom,48.8719368,-122.2963562,22.1,95.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,54.8,2.2470896391152504,10664
+309,CANYON RIM SAND & GRAVEL,NW CASCADE INC,Pierce,47.18940735,-122.34867859,39.0,60.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,49.4,2.2463911525029103,10345
+310,JUNIPER CANYON QUARRY,WHITMORE FAMILY LLC,Klickitat,45.82125569,-120.19496838,20.0,100.0,Rock and Stone ,Ql,"Quaternary eolian deposits, loess",loess,1,125.0,2.2462165308498254,13129
+311,TAYLOR WEST,KRIEG CONSTRUCTION INC,Island,48.34330603,-122.5944692,14.8,120.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,28.0,2.2456926658905703,13135
+312,VALLEY VIEW RD,CONNELLY CO,Whatcom,48.98438586,-122.65562353,40.0,55.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,46.4,2.2455180442374854,12853
+313,ABEL PIT,WHATCOM CO PUBLIC WORKS DEPT,Whatcom,48.85176468,-122.45593262,30.5,70.0,Sand and Gravel,Qgdm(e),Pleistocene continental glacial drift,glacial deposits,1,43.9,2.2449941792782306,10356
+314,HAKKINEN PIT,POLY REC DEVELOPMENT INC,Cowlitz,45.94801683,-122.70196845,10.81,140.0,Rock and Stone ,Qfs,Pleistocene outburst flood deposits,Ice Age flood deposits,1,180.1,2.2448195576251457,11670
+315,DISTRICT 1 SAND PIT,PEND OREILLE COUNTY,Pend Oreille,48.15307202,-117.1276513,42.4,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,81.4,2.2435972060535505,13130
+316,GREENACRES P1-16,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.47982407,-119.49888611,27.68,75.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,98.6,2.2434225844004656,10690
+317,VANBOVEN,JOHN VAN BOVEN,Whatcom,48.89798355,-122.37891388,46.0,48.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,51.5,2.241327124563446,11966
+318,CW O'NEILL PIT,DANIEL C O'NEILL,Thurston,46.94187546,-122.82248688,25.0,80.0,Sand and Gravel,Qgos,Pleistocene continental glacial drift,glacial deposits,1,75.1,2.239580908032596,12659
+319,PS-C-105 OWENS LAKE,DOT - DEPT OF TRANSPORTATION,Spokane,47.90529251,-117.37212372,47.0,45.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,49.1,2.239580908032596,11500
+320,WEBSTER,RAND LAND II PARTNERSHIP,Pierce,47.01505977,-122.33355407,12.200000000000001,122.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,68.1,2.237834691501746,12604
+321,"PS-F-95 ""H"" STREET",DOT - DEPT OF TRANSPORTATION,Whatcom,48.99441528,-122.64155579,51.5,40.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,47.8,2.2373108265424912,10019
+322,IONE 3704,PEND OREILLE COUNTY PUBLIC WORKS,Pend Oreille,48.73020597,-117.38607224,24.86,80.0,Sand and Gravel,Qgl,"Pleistocene bog, marsh, swamp, or lake deposits",lake or bog deposits,1,139.3,2.2360884749708965,11477
+323,WALDRICK PIT,WAUNCH PROPERTIES LLC,Thurston,46.92959595,-122.85131073,50.0,40.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,76.9,2.2336437718277065,12614
+324,MISSION RD,AGGREGATE INDUSTRIES PACIFIC NORTHWEST INC,Whatcom,48.88508606,-122.35497284,40.0,50.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,52.1,2.2336437718277065,12681
+325,COWLITZ RIVER,ANDREW NOEL CONSTRUCTION,Lewis,46.49150085,-122.06975555,40.0,50.0,Sand and Gravel,Qat(e),Pleistocene alpine glacial drift,glacial deposits,1,107.6,2.2336437718277065,12763
+326,QUINCY ROCK,QUINCY ROCK,Grant,47.22590902,-119.66866878,40.0,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,52.2,2.2336437718277065,13234
+327,TORBOY PIT,JOHN L STOTTS & LESLIE A STOTTS,Ferry,48.67426682,-118.6734314,15.84,101.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,126.5,2.2336437718277065,12655
+328,Cegnar Company,ROBERT A CEGNAR,Grant,47.22542413,-119.28857468,40.0,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,42.5,2.2336437718277065,13078
+329,LAKEVIEW,MILES SAND & GRAVEL CO,Pierce,47.16510391,-122.47403717,52.7,36.0,Sand and Gravel,Qgo(sg),Pleistocene continental glacial drift,glacial deposits,1,49.3,2.232770663562282,10420
+330,LAUREL RD PIT,LAKESIDE INDUSTRIES INC,Whatcom,48.8526268,-122.45140839,18.0,100.0,Sand and Gravel,Qgdm(e),Pleistocene continental glacial drift,glacial deposits,1,44.3,2.2322467986030268,10363
+331,ENTIAT,PIPKIN CONSTRUCTION,Chelan,47.68445206,-120.20240784,44.1,43.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,27.5,2.231024447031432,12932
+332,EDEN PIT 55-60,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.69156563,-117.16600102,43.7,42.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,37.9,2.228405122235157,13232
+333,VAN DYKE,MILES SAND AND GRAVEL COMPANY,Whatcom,48.89695358,-122.41730499,69.0,22.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,49.3,2.222991850989523,12664
+334,HENNI PIT,ISLAND COUNTY PUBLIC WORKS,Island,48.36283874,-122.60669708,30.0,60.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,29.6,2.2224679860302676,10547
+335,WILBUR,COPENHAVER CONSTRUCTION INC,Lincoln,47.76297054,-118.74211157,57.0,30.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,42.7,2.2222933643771827,12288
+336,COLACURCIO PIT #1,DAN COLACURCIO JR,Whatcom,48.99063314,-122.65160852,72.0,20.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,47.1,2.2222933643771827,11853
+337,NELSON 93-14,SPOKANE COUNTY PUBLIC WORKS,Spokane,48.01329804,-117.34479523,44.0,40.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,61.2,2.221944121071013,10127
+338,PS-C-313 MILLERS ONE STOP,DOT - DEPT OF TRANSPORTATION,Spokane,48.00535202,-117.34010315,43.03,40.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,60.5,2.220896391152503,12467
+339,STRATFORD,NORTH CENTRAL CONSTRUCTION INC,Grant,47.19208145,-119.28126526,43.0,40.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,46.2,2.220197904540163,12903
+340,COYOTE,DOUGLAS COUNTY TLS,Douglas,47.50335662,-119.7222327,23.8,73.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,36.3,2.220023282887078,10427
+341,BELFAST GRAVEL - EARL CURRY,MILES SAND AND GRAVEL COMPANY,Skagit,48.53923035,-122.33637238,15.0,100.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,44.1,2.219150174621653,11688
+342,ASC SAND & GRAVEL,ANACORTES SKAGIT CO S & G,Skagit,48.44445419,-122.58795166,26.0,65.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,30.9,2.2188009313154833,12701
+343,RANGER PIT,CLALLAM COUNTY PUBLIC WORKS,Clallam,48.1230278,-123.56946564,60.0,25.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,34.6,2.2158323632130386,12525
+344,"ROAD ""P"" GRAVEL",ROBERT A CEGNAR,Grant,47.2278595,-119.1450119,53.0,30.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,43.1,2.2153084982537834,12866
+345,SKAGIT,MILES SAND & GRAVEL COMPANY,Skagit,48.54053497,-122.31432342,20.0,80.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,45.7,2.2149592549476136,12153
+346,TAYLOR EAST,KRIEG CONSTRUCTION INC,Island,48.34556838,-122.58932143,20.0,80.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,28.4,2.2149592549476136,13140
+347,WEYERHAEUSER PIT,LYNCH CREEK QUARRY LLC,Pierce,46.87306595,-122.25145722,23.3,70.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,85.0,2.212863795110594,10609
+348,LAKE STEVENS,THOMCO AGGREGATE,Snohomish,48.03479447,-122.04766227,25.0,65.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,53.7,2.212863795110594,10792
+349,HOLLY PIT,KITSAP COUNTY PUBLIC WORKS,Kitsap,47.56897736,-122.94913483,52.0,30.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,26.4,2.2121653084982538,10252
+350,NORTH STAR,CADMAN MATERIALS INC,Whatcom,48.88216782,-122.67310333,16.0,90.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,35.7,2.208498253783469,10647
+351,USK,MUTUAL MATERIALS CO,Pend Oreille,48.29290058,-117.29657931,63.0,7.0,Clay,Qla,"Quaternary bog, marsh, swamp, or lake deposits",lake or bog deposits,1,92.2,2.2051804423748544,13266
+352,COSKI PIT,TERRA5 COMPANY LLC,Pierce,47.27812195,-122.38243866,17.3,83.0,Sand and Gravel,Qgpc,Pleistocene glacial and nonglacial deposits,glacial deposits,1,39.4,2.2050058207217695,12657
+353,PLACE ROAD/STRAITS DISTRICT,DNR OLYMPIC PRG 532,Clallam,48.13380814,-123.57775116,37.0,45.0,Rock and Stone ,Qgt,Pleistocene continental glacial till,glacial deposits,1,35.5,2.2050058207217695,12087
+354,BUTLER NORTH,CONCRETE NOR'WEST,Skagit,48.53655243,-122.31188202,19.0,80.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,46.0,2.2048311990686846,12909
+355,POLARIS SURFACE MINE,CADMAN MATERIALS INC,Whatcom,48.88304678,-122.67554586,14.74,95.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,35.7,2.2048311990686846,13095
+356,FJARLIE MINE,LENZ ENTERPRISES,Snohomish,48.23134735,-122.29174427,10.0,105.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,37.0,2.2032596041909196,13239
+357,ELI HILL,MANKE LUMBER CO INC,Pierce,47.18340683,-122.19499207,12.0,100.0,Sand and Gravel,Qgo(i),Pleistocene continental glacial drift,glacial deposits,1,55.5,2.202037252619325,11439
+358,FREDERICKSON,RAND LAND II PARTNERSHIP,Pierce,47.07991942,-122.35160391,43.0,33.0,Sand and Gravel,Qgo(sg),Pleistocene continental glacial drift,glacial deposits,1,60.8,2.20186263096624,12207
+359,GILLIES ROAD,MILES SAND & GRAVEL,Whatcom,48.93579865,-122.30603027,25.0,60.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,58.3,2.2015133876600697,12073
+360,MOSSYROCK,GOOD INC,Lewis,46.53522873,-122.53777313,25.0,60.0,Sand and Gravel,Qapo(h),Pleistocene alpine glacial drift,glacial deposits,1,118.5,2.2015133876600697,10382
+361,COPALIS PIT,COASTLINE DEVELOPMENT LLC,Grays Harbor,47.1167717,-124.15057373,25.0,60.0,Sand and Gravel,Qapwo(2),Pleistocene alpine glacial drift,glacial deposits,1,128.6,2.2015133876600697,12764
+362,ECLIPSE TIMBER PIT,LAKESIDE INDUSTRIES INC,Clallam,48.09733752,-123.4843017,25.0,60.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,27.8,2.2015133876600697,12560
+363,CEDARVILLE GRAVEL,BERT & RITA SUTTON,Grays Harbor,46.86460114,-123.29402161,40.0,36.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,97.1,2.2011641443539,11755
+364,STUDER PIT,NORTHWEST ROCK INC,Grays Harbor,47.06140456,-123.50469822,29.0,50.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,90.7,2.1967986030267754,12935
+365,MISSION,"LAKESIDE INDUSTRIES, INC.",Whatcom,48.89006043,-122.35675049,38.0,40.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,52.3,2.1966239813736905,10959
+366,PORT QUENDALL PIT,PORT QUENDALL DEVELOPMENT CO,Kittitas,47.23587036,-121.04649353,19.0,75.0,Sand and Gravel,Qad(e),Pleistocene alpine glacial drift,glacial deposits,1,45.5,2.1954016298020953,11830
+367,KIRKPATRICK,BRUMFIELD CONSTRUCTION INC,Grays Harbor,47.17086029,-124.02664948,28.0,50.0,Sand and Gravel,Qapo,Pleistocene alpine glacial drift,glacial deposits,1,117.5,2.193655413271246,12862
+368,PLACE ROAD,LAKESIDE INDUSTRIES INC,Clallam,48.11912918,-123.56817627,37.0,40.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,34.4,2.1934807916181605,11000
+369,SOUTH LAUREL PIT,COWDEN INC,Whatcom,48.85067378,-122.45105144,10.0,100.0,Sand and Gravel,Qgdm(e),Pleistocene continental glacial drift,glacial deposits,1,44.1,2.192607683352736,13254
+370,NELSON,SEGALE PROPERTIES LLC,Thurston,46.91911316,-122.85404968,50.0,23.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,78.1,2.191909196740396,11294
+371,WEST HERRON CREEK PIT,CARMEN PETERSON,Ferry,48.69108295,-118.66865105,14.5,85.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,128.3,2.1913853317811407,13214
+372,PROJECT 1,ROSS ISLAND SAND & GRAVEL,Klickitat,45.63080937,-121.12277602,40.0,34.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,140.6,2.191036088474971,13013
+373,MATTAWA,ELLENSBURG CEMENT PRODUCTS INC,Grant,46.6338768,-119.85218811,36.0,40.0,Sand and Gravel,Qfg(4),Pleistocene outburst flood deposits,Ice Age flood deposits,1,75.0,2.190861466821886,12390
+374,FRUHLING SAND & TOP,FRUHLING SAND & TOPSOIL INC,Snohomish,47.79037857,-122.24549866,19.0,70.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,33.9,2.186495925494761,10402
+375,MAE VALLEY #63,GRANT COUNTY PUBLIC WORKS,Grant,47.14355087,-119.41557312,26.0,50.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,52.8,2.1859720605355064,12146
+376,FIELDS,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.93062973,-119.10806274,20.39,60.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,147.6,2.1840512223515716,12912
+377,HIGHWAY 12 PIT,LAKESIDE INDUSTRIES INC,Clallam,48.11336899,-123.56338501,32.0,40.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,33.9,2.182654249126892,12424
+378,NANCY CREEK PIT,FERRY COUNTY PUBLIC WORKS,Ferry,48.66210937,-118.13977853,10.01,94.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,137.8,2.182654249126892,13220
+379,ROXBORO #14,ADAMS COUNTY PUBLIC WORKS,Adams,46.95280457,-118.84958649,32.0,40.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,27.0,2.182654249126892,11595
+380,EPHRATA,TOMMER CONSTRUCTION CO INC,Grant,47.29888153,-119.54787445,40.0,30.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,40.4,2.1823050058207216,12248
+381,POLE ROAD,MILES SAND & GRAVEL COMPANY,Whatcom,48.88809308,-122.38290473,40.0,30.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,50.6,2.1823050058207216,11012
+382,S/W 40,STARKENBURG & WIERSMA,Whatcom,48.89745712,-122.45080566,40.0,30.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,47.5,2.1823050058207216,11555
+383,BUCKLEY 142A-D,STEVENS COUNTY PUBLIC WORKS,Stevens,48.57062531,-117.87680817,40.0,30.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,123.1,2.1823050058207216,10477
+384,SOUTH,VFO WALLA WALLA LLC,Walla Walla,46.05593109,-118.75020599,25.0,50.0,Rock and Stone ,Qfs(t),Pleistocene outburst flood deposits,Ice Age flood deposits,1,106.7,2.180034924330617,12745
+385,COLUMBIA RIVER ROCK,MIKE L MATNEY,Stevens,48.97188926,-117.66208747,30.8,40.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,165.7,2.180034924330617,13247
+386,LCO-GP-199/WILBUR,LINCOLN COUNTY PUBLIC WORKS,Lincoln,47.75949262,-118.73788531,27.0,47.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,42.8,2.1795110593713622,11720
+387,PUBLIC WORKS DEPT,SKAGIT AGGREGATES LLC,Skagit,48.44151289,-122.25701219,6.0,100.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,51.9,2.178987194412107,11806
+388,GAVIN PIT P6-29,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.89263535,-119.42282867,36.0,35.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,143.4,2.178114086146682,11615
+389,OWL HILL PIT,THURSTON CO ROADS & TRANSPORTATION,Thurston,46.86057281,-122.50321198,24.0,50.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,82.5,2.1742724097788124,11703
+390,OMAK AIRPORT PIT,FREELS SAND & GRAVEL LLC,Okanogan,48.46218122,-119.50367578,27.0,43.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,96.7,2.1732246798603025,13157
+391,ANACORTES PIT,WILLIAM W WOODING,Skagit,48.48929596,-122.633461,9.700000000000001,90.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,25.3,2.1728754365541327,10293
+392,ELWHA,"OLYMPIC PENINSULA TIMBERLANDS, LLC",Clallam,48.1171585,-123.56325621,23.0,50.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,34.0,2.170779976717113,12901
+393,HANSEN,DELHUR INDUSTRIES INC,Clallam,48.06614314,-123.59540912,22.8,50.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,35.6,2.169906868451688,13269
+394,BOGUE PIT,ISLAND COUNTY PUBLIC WORKS,Island,48.34467815,-122.59203553,13.3,75.0,Sand and Gravel,Qgic,Pleistocene continental glacial drift,glacial deposits,1,28.2,2.1676367869615834,13141
+395,SHAFER QUARRY,COPENHAVER CONSTRUCTION INC,Lincoln,47.31291142,-118.69127669,20.0,55.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,37.7,2.167287543655413,12902
+396,JOHNSON CREEK QUARRY,WEYERHAEUSER TIMBER HOLDINGS INC,Thurston,46.8591156,-122.74446869,10.4,80.0,Rock and Stone ,Qgp,Pleistocene continental glacial drift,glacial deposits,1,83.1,2.1648428405122235,12716
+397,DALTON 82-11,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.934150700000004,-117.46362305,26.3,40.0,Rock and Stone ,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,50.7,2.1632712456344585,12286
+398,LAKE FRANCIS II,KANGLEY ROCK & RECYCLING,King,47.43647894,-122.05007528,14.0,70.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,45.1,2.1622235157159486,10292
+399,MATTAWA PIT #75,GRANT COUNTY PUBLIC WORKS,Grant,46.73919678,-119.94008637,40.0,20.0,Sand and Gravel,Qfg(4),Pleistocene outburst flood deposits,Ice Age flood deposits,1,65.1,2.161525029103609,12374
+400,ELK HEIGHTS,ELK HEIGHTS PIT,King,47.44197341,-122.04394296,23.69,45.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,45.3,2.1594295692665892,13268
+401,VAUGHN RANGE,VAUGHN RANGE,Okanogan,48.67584231,-119.50272103,16.0,60.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,120.1,2.1557625145518045,13230
+402,BAILEY PIT P2-51,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.17712894,-118.88727029,20.0,50.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,69.3,2.1554132712456346,13238
+403,DUKES HILL,SKAGIT COUNTY PUBLIC WORKS,Skagit,48.5274086,-122.23529816,20.0,50.0,Rock and Stone ,Qgom(e),Pleistocene continental glacial drift,glacial deposits,1,51.7,2.1554132712456346,10307
+404,WHEELER EXTENSION,PALMER COKING COAL CO,King,47.27534023,-121.96802058,22.0,45.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,59.7,2.1529685681024446,12951
+405,PS-R-76 & EXT,DOT - DEPT OF TRANSPORTATION,Benton,45.94298553,-119.39561463,21.0,45.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,136.1,2.15069848661234,10961
+406,NEPPEL PITT #77,GRANT COUNTY PUBLIC WORKS,Grant,47.20755005,-119.3870163,30.0,30.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,45.4,2.14965075669383,12542
+407,GANSLOR PIT,MOUNTAIN LAND VENTURES LLC,Whatcom,48.90100172,-122.40755717,34.0,25.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,50.1,2.14965075669383,11874
+408,SE 1ST ST FACILITY,HP INC,Clark,45.62237381,-122.48746592,10.540000000000001,70.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,191.5,2.1475552968568103,12822
+409,OAT COLE MINE,HARD ROCK INVESTMENTS LLC,Whatcom,48.89823396,-122.30041563,35.34,22.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,56.2,2.1466821885913854,13287
+410,KEN MAUPIN LOGGING/CONSTRUCTION,KEN MAUPIN LOGGING/CONSTRUCTION,Pend Oreille,48.73430397,-117.38498864,12.57,65.0,Sand and Gravel,Qgl,"Pleistocene bog, marsh, swamp, or lake deposits",lake or bog deposits,1,139.8,2.1465075669383005,13128
+411,HAASE #23 (WASHTUCNA),ADAMS COUNTY PUBLIC WORKS,Adams,46.79586792,-118.2937088,22.46,40.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,27.6,2.1440628637951105,11745
+412,PS-FY-63 CURLEW,DOT - DEPT OF TRANSPORTATION,Ferry,48.90425491,-118.57590485,28.25,30.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,152.9,2.1426658905704308,11575
+413,CHELAN,CHELAN CONCRETE INC,Chelan,47.84256575,-119.98267579,7.0,75.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,50.9,2.142491268917346,11774
+414,LEWIS PS-U-164,CASCADE CONCRETE PRODUCTS CO INC,Okanogan,48.50440598,-120.24976349,20.0,45.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,106.4,2.1421420256111756,10068
+415,Brandt Quarry,DOUGLAS COUNTY TLS,Douglas,47.6135788,-119.89486694,27.6,30.0,Sand and Gravel,Ql,"Quaternary eolian deposits, loess",loess,1,47.4,2.1412689173457506,11030
+416,PS-FY-66 26 MILE,DOT - DEPT OF TRANSPORTATION,Ferry,48.31681824,-118.74110413,17.34,50.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,88.0,2.139173457508731,11267
+417,JOHNSON GRAVEL,SLG VENTURES LLC,Whatcom,48.88843536,-122.3786087,19.5,45.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,50.9,2.1337601862630966,12696
+418,SAJASA PIT,SAJASA CONSTRUCTION INC,King,47.6700325,-122.0827713,12.0,60.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,39.5,2.1327124563445867,11312
+419,LACEY PIT,LAKESIDE INDUSTRIES INC,Thurston,47.06308978,-122.80129265,12.0,60.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,61.6,2.1327124563445867,10938
+420,KARB,WHATCOM ROCK LLC,Whatcom,48.81077194,-122.17973328,9.9,65.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,59.3,2.132188591385332,12325
+421,MOSES LAKE PIT #82,GRANT COUNTY PUBLIC WORKS,Grant,47.15577316,-119.27662659,18.94,45.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,50.2,2.130791618160652,12800
+422,HALL PS FY 3336-36,FERRY COUNTY PUBLIC WORKS,Ferry,48.30939102,-118.20533753,9.0,65.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,103.5,2.129569266589057,12417
+423,CEDARVILLE,GRAYS HARBOR PUBLIC WORKS,Grays Harbor,46.85705566,-123.28321838,30.0,20.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,97.4,2.128870779976717,10799
+424,FERNDALE,STARKENBURG & WIERSMA,Whatcom,48.85346985,-122.55474854,30.0,20.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,38.6,2.128870779976717,10746
+425,POTTRATZ,MUTUAL MATERIALS CO,Spokane,47.33140946,-117.1540451,30.0,20.0,Clay,Ql,"Quaternary eolian deposits, loess",loess,1,31.3,2.128870779976717,10455
+426,MCVAY PIT,STEVENS COUNTY PUBLIC WORKS,Stevens,48.06351993,-117.65153139,10.48,60.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,64.8,2.127124563445867,13072
+427,ROCK & REDI,ROBERT E TOLLEFSON,Okanogan,48.43436036,-119.4964962,7.0,65.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,93.6,2.1252037252619322,12756
+428,FLINT PIT,COLACURCIO BROS CONSTRUCTION,Whatcom,48.9514389,-122.66422272,17.0,44.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,42.8,2.121711292200233,12721
+429,TYREE PIT,TRENT TYREE,Skagit,48.5561676,-122.29266357,16.0,45.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,47.0,2.1210128055878927,12072
+430,DEER PARK SAND & GRAVEL,JLS INVESTMENTS LLC DBA PRO RECYCLE LLC,Spokane,47.94081425,-117.4578482,20.0,35.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,51.5,2.117869615832363,13253
+431,K2 WASTE DUMP,ECHO BAY MINERALS CO-KINROSS GOLD,Ferry,48.87795076,-118.6670045,29.5,,Metals,Qgd,Pleistocene continental glacial drift,glacial deposits,1,148.0,2.1175203725261933,12991
+432,ZELL ROAD SAND MINE,WESTERN REFINERY SERVICES INC,Whatcom,48.91054571,-122.61786308,25.0,22.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,40.6,2.112456344586729,13276
+433,SANDMAN PIT,COPPER CREEK POOLS INC,Spokane,47.7975981,-117.41638044,10.0,52.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,36.7,2.111583236321304,13250
+434,PROCTOR,MILES SAND & GRAVEL,Skagit,48.56597519,-122.23703003,19.5,35.0,Sand and Gravel,Qgom(e),Pleistocene continental glacial drift,glacial deposits,1,51.0,2.109487776484284,11948
+435,JOHNS PRAIRIE,SCARSELLA BROTHERS INC,Mason,47.24526978,-123.05899811,11.0,50.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,52.4,2.1075669383003492,12493
+436,PILCHUCK,CEB LIMITED PARTNERS 1 LLC,Snohomish,47.93416656,-122.06785723,5.0,60.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,54.4,2.106868451688009,10143
+437,MILLER'S QUARRY,DAVID K & NANCY R MILLER,Spokane,47.90440656,-117.40773299,18.51,35.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,48.3,2.1061699650756696,13223
+438,PANGBORN PIT,STREMLER GRAVEL INC,Whatcom,48.97944628,-122.34449844,18.13,35.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,59.4,2.1054714784633295,13207
+439,QUILLAYUTE,CLALLAM COUNTY PUBLIC WORKS,Clallam,47.94625855,-124.50070953,22.1,25.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,103.6,2.1045983701979045,12401
+440,UPPER SAMISH,SKAGIT COUNTY PUBLIC WORKS,Skagit,48.58449936,-122.24485779,20.0,30.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,50.2,2.10407450523865,11351
+441,SAPPHO,DELHUR INDUSTRIES INC,Clallam,48.07209778,-124.25705719,20.0,30.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,84.8,2.10407450523865,12828
+442,ELWHA ROCK,HENRY MYREN REVOCABLE TRUST,Clallam,48.12115488,-123.56798616,20.0,30.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,34.4,2.10407450523865,12372
+443,CLARK 2,WHATCOM COUNTY PUBLIC WORKS,Whatcom,48.97926712,-122.65766144,24.0,20.0,Sand and Gravel,Qgom(ee),Pleistocene continental glacial drift,glacial deposits,1,45.8,2.102153667054715,10674
+444,KYLES PIT,F-1 ENTERPRISES INC,Island,48.33484268,-122.61941528,25.0,15.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,26.4,2.1019790454016296,11656
+445,HEIDENREICH,DENNIS CRAPO,Spokane,47.64861679,-117.33418274,17.0,35.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,25.3,2.100058207217695,12929
+446,PENNY CREEK,JEFFERSON COUNTY PUBLIC WORKS,Jefferson,47.8194046,-122.90097046,20.0,25.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,30.3,2.0925494761350407,10898
+447,QUILCENE,JEFFERSON COUNTY PUBLIC WORKS,Jefferson,47.82262039,-122.8877182,20.0,25.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,30.5,2.0925494761350407,10180
+448,CM'S 300TH ST PIT,JEFFERY S LERVICK,Snohomish,48.26389313,-122.27815247,13.0,40.0,Sand and Gravel,Qgom,Pleistocene continental glacial drift,glacial deposits,1,39.3,2.0909778812572757,12677
+449,GARDEN CITY PIT,JOSEPH M HOUSE,Grays Harbor,47.04658508,-123.3182373,15.0,35.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,82.0,2.090803259604191,12890
+450,ZUBER CONSTRUCTION,JOHN ZUBER,Spokane,47.67403159,-117.05102128,15.0,35.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,44.1,2.090803259604191,13099
+451,CEDARVILLE,AGGREGATE INDUSTRIES PACIFIC NORTHWEST INC,Whatcom,48.84367371,-122.30441284,22.2,15.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,52.7,2.090104772991851,11998
+452,PRAIRIE PIT,PIERCE COUNTY PUBLIC WORKS,Pierce,47.10203934,-122.39163971,21.5,18.0,Sand and Gravel,Qgo(sg),Pleistocene continental glacial drift,glacial deposits,1,57.6,2.089580908032596,10451
+453,MAYER #83,GRANT COUNTY PUBLIC WORKS,Grant,47.43862534,-119.73976898,17.97,30.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,40.4,2.088882421420256,12819
+454,PS-H-128,DOT - DEPT OF TRANSPORTATION,Grays Harbor,47.46799013,-123.92694785,17.0,30.0,Sand and Gravel,Qad,Pleistocene alpine glacial drift,glacial deposits,1,88.6,2.0862630966239815,10578
+455,PS-H-167 CLOQUALLAM,DOT - DEPT OF TRANSPORTATION,Grays Harbor,47.02707576,-123.36125869,21.0,15.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,85.7,2.085913853317811,10819
+456,LOOP TAVERN,DNR OLYMPIC PRG 532,Clallam,48.04995346,-124.36012268,14.5,35.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,92.4,2.0852153667054716,11558
+457,TERRA CO NISQUALLY,TERRA CO,Thurston,47.01512102,-122.6990492,13.120000000000001,38.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,65.5,2.0850407450523867,13000
+458,VELLEMA,HARD ROCK INVESTMENTS LLC,Whatcom,48.88911438,-122.38944244,11.55,40.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,50.3,2.0846915017462164,11870
+459,MIMA,DNR PI 532 SPS REGION,Thurston,46.88960648,-123.05448151,20.0,20.0,Sand and Gravel,Qgog,Pleistocene continental glacial drift,glacial deposits,1,86.1,2.0832945285215367,12094
+460,ELK PLAIN,PIERCE COUNTY PUBLIC WORKS,Pierce,47.04753876,-122.38846588,13.8,35.0,Sand and Gravel,Qgo(sg),Pleistocene continental glacial drift,glacial deposits,1,63.5,2.081373690337602,10512
+461,DISTRICT 3 SAND PIT,PEND OREILLE COUNTY,Pend Oreille,48.73065055,-117.42859191,15.5,30.0,Sand and Gravel,Qgl,"Pleistocene bog, marsh, swamp, or lake deposits",lake or bog deposits,1,139.1,2.081199068684517,13235
+462,SANDY BOTTOM,SANDY BOTTOM LLC,Skagit,48.5711937,-122.22276306,11.0,35.0,Sand and Gravel,Qgom(e),Pleistocene continental glacial drift,glacial deposits,1,52.0,2.070023282887078,12068
+463,HERRICK GRAVEL,CLALLAM COUNTY PUBLIC WORKS,Clallam,48.06309904,-123.59614782,14.0,30.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,35.7,2.069674039580908,12982
+464,HOWEM/SIPER PIT/7 ACRES OR LESS,WHATCOM COUNTY PUBLIC WORKS,Whatcom,48.8703537,-122.29640961,16.1,23.0,Sand and Gravel,Qgo(s),Pleistocene continental glacial drift,glacial deposits,1,54.7,2.068800931315483,11328
+465,PURDY PRISON,SEHMEL BUSINESS PARK LLC,Pierce,47.35382462,-122.61682892,7.0,40.0,Rock and Stone ,Qgt,Pleistocene continental glacial till,glacial deposits,1,27.4,2.067578579743888,12358
+466,LONG LAKE 5-20,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.61616135,-119.12783051,10.0,35.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,112.6,2.0642607683352736,11619
+467,GORDON QUARRY,WHITMAN COUNTY PUBLIC WORKS,Whitman,46.76614761,-118.01397705,5.0,40.0,Rock and Stone ,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,25.5,2.060593713620489,12212
+468,WHITCOMB DIMMEL PIT,CLALLAM COUNTY PUBLIC WORKS,Clallam,47.97723007,-124.39176941,11.93,30.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,95.2,2.058498253783469,11356
+469,SUNDBERG S & G,WESTBROOK INVESTMENTS LLC,Thurston,47.06736009,-122.93991749,11.3,30.0,Sand and Gravel,Qgt,Pleistocene continental glacial till,glacial deposits,1,64.5,2.0571012805587894,10835
+470,PS-T-115 MINKY,DOT - DEPT OF TRANSPORTATION,Lincoln,47.71635056,-118.73377991,15.0,20.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,41.5,2.0562281722933644,10510
+471,STEILACOOM,LMC NISQUALLY BLUFF LLC,Thurston,47.0531807,-122.73574066,13.0,25.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,61.7,2.05291036088475,10958
+472,MAURY,GLACIER NW/DBA CALPORTLAND,King,47.37954331,-122.41853332,10.0,30.0,Sand and Gravel,Qp,"Quaternary bog, marsh, swamp, or lake deposits",lake or bog deposits,1,28.1,2.05046565774156,10272
+473,GRANT ORCHARD #14,GRANT COUNTY PUBLIC WORKS,Grant,47.35996246,-119.47763062,14.0,20.0,Sand and Gravel,Qfg,Pleistocene outburst flood deposits,Ice Age flood deposits,1,31.9,2.0488940628637953,10941
+474,FOX PIT,BELL/ALGER SAND & GRAVEL LLC,Skagit,48.59667587,-122.34202575,8.0,30.0,Sand and Gravel,Qgdm(e),Pleistocene continental glacial drift,glacial deposits,1,43.0,2.042782305005821,12370
+475,MILETA SITE,KING COUNTY DEPT OF TRANS,King,47.38086319,-122.42980957,10.0,28.0,Sand and Gravel,Qga,Pleistocene continental glacial drift,glacial deposits,1,27.5,2.0422584400465658,12845
+476,CEDARVILLE QUARRY,DNR SW PRO 532,Grays Harbor,46.84828706,-123.27672684,12.0,20.0,Rock and Stone ,Qgo,Pleistocene continental glacial drift,glacial deposits,1,98.0,2.039115250291036,13132
+477,PS-W-99 LONG LAKE,DOT - DEPT OF TRANSPORTATION,Stevens,47.85749054,-117.84742737,4.59,15.0,Sand and Gravel,Qgd,Pleistocene continental glacial drift,glacial deposits,1,46.6,2.0052386495925494,11820
+478,PS-X-41,DOT - DEPT OF TRANSPORTATION,Mason,47.24514389,-123.05710602,4.0,15.0,Sand and Gravel,Qgo,Pleistocene continental glacial drift,glacial deposits,1,52.3,2.0045401629802098,10963
+479,IVAN HUTCHINSON PIT,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,47.02419281,-120.60650635,283.75,90.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,21.1,1.8449359720605356,10239
+480,GIBSON,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,47.05605044,-120.66115315,99.0,45.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,22.2,1.7050640279394647,12970
+481,PIPKIN S&G,PIPKIN CONSTRUCTION,Douglas,47.49296951,-120.29559326,24.0,110.0,Sand and Gravel,Qaf,Quaternary alluvium,alluvium,2,19.0,1.6813154831199069,12887
+482,CDS AGGREGATE,CDS AGGREGATES LLC,Douglas,47.53924878,-120.27281843,20.0,115.0,Rock and Stone ,Qls,Quaternary mass-wasting deposits,other Quaternary,2,19.1,1.6690919674039582,13275
+483,PS-S-226,DOT - DEPT OF TRANSPORTATION,Kittitas,46.953681950000004,-120.52149963,56.0,20.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,21.2,1.6001164144353899,10051
+484,MITCHELL PIT,CENTRAL WASHINGTON ASPHALT INC DBA MITCHELL PAVING,Douglas,47.62838745,-120.21707916,23.6,60.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,24.1,1.5938300349243306,12806
+485,CENTRAL FERRY,PORT OF WHITMAN COUNTY,Whitman,46.64004898,-117.78417206,18.0,50.0,Sand and Gravel,QMcg,Quaternary-Tertiary sedimentary rocks and deposits,other Quaternary,2,10.2,1.541443538998836,11324
+486,PASCO PIT,INTERSTATE CONCRETE & ASPHALT,Franklin,46.27273771,-119.2461184,635.0,170.0,Sand and Gravel,Qda,Quaternary dune sand,other Quaternary,2,98.9,1.5371362048894062,10311
+487,STAPLES PIT,S 2000 INVESTMENT LLC,Chelan,47.50127792,-120.31204224,16.0,50.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,17.5,1.5342840512223517,12695
+488,LORENA BUTTE,BISHOP REDROCK INC,Klickitat,45.79721932,-120.78858524,111.0,300.0,Rock and Stone ,QPLvb(s),Quaternary-Tertiary volcanic rocks,other Quaternary,2,119.5,1.5311990686845167,12453
+489,PS-S-212,DOT - DEPT OF TRANSPORTATION,Kittitas,47.02423096,-120.61172485,29.14,20.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,20.9,1.5253783469150175,10831
+490,NORTH BEND GRAVEL,"HM PACIFIC NORTHWEST, INC.",King,47.46612348,-121.70548173,707.5,140.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,68.8,1.518975552968568,13001
+491,DAWSON SAND & GRAVEL,DAWSON TRUCKING INC,Stevens,48.15934501,-117.71918236,100.0,265.0,Sand and Gravel,Qs,Quaternary sedimentary rocks and deposits,other Quaternary,2,76.0,1.5165308498253784,12749
+492,FIELD QUARRY 1 & 2,JOHN N & SHERRI L HANSEN,Stevens,48.13124401,-117.73267962,60.44,320.0,Rock and Stone ,Qs,Quaternary sedimentary rocks and deposits,other Quaternary,2,73.1,1.4870197904540163,13029
+493,REITER PIT,SCARSELLA BROTHERS INC,Snohomish,47.84167481,-121.62979126,127.0,135.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,77.4,1.4742724097788125,12717
+494,HAWTHORNE,CPM DEVELOPMENT CORP,Spokane,47.74560293,-117.38586069,76.0,160.0,Sand and Gravel,Qd,Quaternary dune sand,other Quaternary,2,32.2,1.44965075669383,13246
+495,EASTON RIDGE LAND COMPANY INC,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,47.25581599,-121.17119773,45.800000000000004,255.0,Rock and Stone ,Qa,Quaternary alluvium,alluvium,2,52.3,1.4431897555296858,13176
+496,RIVERSIDE,CENTRAL PRE MIX CONCRETE CO,Yakima,46.56850433,-120.45862579,320.0,80.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,41.4,1.4341094295692667,11513
+497,BAYVIEW REDI MIX,BAYVIEW REDI MIX,Grays Harbor,46.99594498,-123.45552063,111.0,105.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,93.1,1.431140861466822,11155
+498,JORSTAD PIT,POE ASPHALT PAVING INC,Whitman,46.72643662,-117.11344147,59.0,150.0,Rock and Stone ,Qa,Quaternary alluvium,alluvium,2,44.1,1.420663562281723,12620
+499,TOPPENISH,CPM DEVELOPMENT CORP,Yakima,46.3932709,-120.34819977,280.0,70.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,62.3,1.411583236321304,13009
+500,BLOCKHOUSE,DOUBLE M ENTERPRISES,Klickitat,45.8514399,-120.94727672,40.0,200.0,Geology Other,QPLv(s),Quaternary-Tertiary volcanic rocks,other Quaternary,2,114.3,1.4066938300349243,11852
+501,CRESTO PIT,ELLENSBURG CEMENT PRODUCTS,Kittitas,47.24108124,-121.16209412,113.0,90.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,50.5,1.4056461001164144,11260
+502,LAVINAL SAND & GRAVEL,LAVINAL CORPORATION,Kittitas,47.24942398,-120.69107819,74.8,110.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,37.3,1.4037252619324796,12961
+503,TWO RIVERS PIT,TWO RIVERS INC,Chelan,47.833991999999995,-120.84294128,88.2,100.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,38.2,1.4032013969732247,12311
+504,HEINEN BROTHERS ROCK PRODUCTS,HEINEN BROTHERS INC,Franklin,46.4250007,-119.01228452,86.0,100.0,Sand and Gravel,Qda,Quaternary dune sand,other Quaternary,2,74.9,1.4016298020954598,13055
+505,ADDY PIT,COLVILLE VALLEY CONCRETE,Stevens,48.35469123,-117.83154896,30.0,243.0,Sand and Gravel,Qs,Quaternary sedimentary rocks and deposits,other Quaternary,2,98.9,1.3904540162980208,13003
+506,OSO GRAVEL,GREEN CROW CORP,Snohomish,48.27428118,-121.97514506,400.0,45.0,Sand and Gravel,Qoa,Quaternary alluvium,alluvium,2,60.8,1.3626891734575088,12814
+507,MARKET STREET SAND,JMAC RESOURCES INC,Spokane,47.74573701,-117.36504472,41.56,120.0,Sand and Gravel,Qd,Quaternary dune sand,other Quaternary,2,32.9,1.3623399301513388,13144
+508,RICHLAND,CPM DEVELOPMENT CORP.,Benton,46.25586699,-119.26832514,100.0,70.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,101.4,1.3616414435389987,10316
+509,SUMMIT VALLEY PIT,MICHAEL E & DENISE E FLANDERS,Stevens,48.31166324,-118.01652502,39.95,130.0,Sand and Gravel,Qs,Quaternary sedimentary rocks and deposits,other Quaternary,2,98.0,1.3569266589057043,13244
+510,MANDY RD PIT,WALLACE ROCK PRODUCTS INC,Lewis,46.40572357,-122.92778778,163.0,50.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,135.1,1.3530849825378346,11145
+511,REWARD SAND & GRAVEL,CASCADE CONCRETE PRODUCTS CO INC,Okanogan,48.48588486,-120.21189082,33.0,145.0,Sand and Gravel,Qs,Quaternary sedimentary rocks and deposits,other Quaternary,2,105.0,1.351688009313155,12985
+512,DAYBREAK,J L STOREDAHL & SONS INC,Clark,45.82121658,-122.62197876,292.0,40.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,183.8,1.3466239813736904,10139
+513,CRESTLINE,CPM DEVELOPMENT CORP,Spokane,47.73574448,-117.37573242,40.0,110.0,Sand and Gravel,Qd,Quaternary dune sand,other Quaternary,2,31.5,1.340686845168801,10415
+514,OLYMPIA STREET QUARRY,COLUMBIA BASIN DEVELOPERS OF KENNEWICK LLC,Benton,46.15266326,-119.12705657,32.4,120.0,Rock and Stone ,Qa,Quaternary alluvium,alluvium,2,105.7,1.328812572759022,13251
+515,EVERGREEN,NORTHWEST ROCK INC,Grays Harbor,47.04277802,-123.69319153000001,80.0,60.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,103.1,1.3274155995343422,11473
+516,LEHMAN-HEATHERSTONE,GRANITE NORTHWEST INC (EAST),Yakima,46.65346527,-121.36396789,30.0,120.0,Rock and Stone ,Qva(dl),Pleistocene volcanic rocks,other Quaternary,2,51.1,1.321129220023283,11605
+517,ZACHER,DOUGLAS COUNTY TLS,Douglas,47.39686437,-120.14453883,28.400000000000002,128.0,Rock and Stone ,Qls,Quaternary mass-wasting deposits,other Quaternary,2,34.2,1.3209545983701978,11028
+518,WINSTON,JELD WEN INC,Kittitas,47.23661198,-121.05517083,14.51,270.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,45.8,1.319906868451688,12663
+519,WINTERS PIT,NORTHWEST ROCK INC,Grays Harbor,46.99414063,-123.44160461,72.12,60.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,92.6,1.3164144353899883,10314
+520,MARESCA SAND & GRAVEL,MARESCA SAND & GRAVEL,Stevens,48.34076859,-117.82926257,18.29,200.0,Sand and Gravel,Qs,Quaternary sedimentary rocks and deposits,other Quaternary,2,97.3,1.3164144353899883,13224
+521,EASTSIDE RESOURCES,SELLAND CONSTRUCTION CO,Douglas,47.41631801,-120.18587848,76.0,58.0,Rock and Stone ,Qls,Quaternary mass-wasting deposits,other Quaternary,2,30.4,1.3129220023282886,13249
+522,BLUE LAKE,SKAMANIA COUNTY PUBLIC WORKS,Skamania,45.67519379,-121.9377594,30.0,110.0,Rock and Stone ,Qvba(cl),Quaternary volcanic rocks,other Quaternary,2,160.4,1.308032596041909,10422
+523,RODEO TRAIL PIT,GRANITE CONSTRUCTION COMPANY,Okanogan,48.38652928,-119.54267698,70.4,55.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,89.1,1.3043655413271245,13036
+524,LS WAPATO LLC,INTERSTATE CONCRETE & ASPHALT,Yakima,46.48134753,-120.49377195,78.8,50.0,Sand and Gravel,Qt,Quaternary alluvium,alluvium,2,48.4,1.3015715948777649,13075
+525,NESHKAW SAND & GRAVEL,NESHKAW SAND & GRAVEL LLC,Grays Harbor,46.93985367,-123.85388947,39.9,90.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,119.7,1.30104772991851,10322
+526,WYNOOCHEE EAST,NORTHWEST ROCK INC,Grays Harbor,46.9818306,-123.64389038,41.0,80.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,104.5,1.30034924330617,10195
+527,SKYKOMISH HABITAT LLC,SKYKOMISH HABITAT LLC,Snohomish,47.83345787,-122.00881428,172.0,20.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,51.3,1.2828870779976718,13093
+528,BATUM #19,ADAMS COUNTY PUBLIC WORKS,Adams,47.23047638,-118.84824371,38.2,80.0,Rock and Stone ,Qa,Quaternary alluvium,alluvium,2,36.8,1.2823632130384168,10929
+529,ANCHOR POINT,J L STOREDAHL & SONS,Cowlitz,46.09757738,-122.89405137,209.0,,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,168.6,1.2818393480791619,12906
+530,FOSTER CREEK PIT,EAGLE CLIFF NORTHWEST LLC,Lewis,46.40343988,-122.90943122,60.0,50.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,135.1,1.278696158323632,12730
+531,NIELSON,JENSEN SAND & GRAVEL,King,47.16772842,-121.95639801,26.0,100.0,Sand and Gravel,Qls,Quaternary mass-wasting deposits,other Quaternary,2,68.3,1.2767753201396974,11269
+532,COWLITZ RIVER,ROBERT J THOMPSON,Lewis,46.45742416,-122.80361938,75.0,40.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,128.0,1.2727590221187426,11516
+533,DARCH QUARRY,BEEKS RANCHES INC,Klickitat,45.70931616,-120.392364,12.06,174.0,Rock and Stone ,Qls,Quaternary mass-wasting deposits,other Quaternary,2,132.5,1.2720605355064027,13162
+534,WINTHROP PIT,LLOYD LOGGING INC,Okanogan,48.48778916,-120.21833801,160.0,,Sand and Gravel,Qs,Quaternary sedimentary rocks and deposits,other Quaternary,2,105.1,1.270838183934808,12485
+535,RICHLAND WYE,INTERSTATE CONCRETE & ASPHALT,Benton,46.25453949,-119.26313782,37.5,70.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,101.3,1.2614086146682189,10158
+536,UPPER PEOH ROCK QUARRY,UPPER PEOH POINT ROCK QUARRY LLC,Kittitas,47.15930551,-120.94849469,100.0,23.0,Rock and Stone ,Qaf,Quaternary alluvium,alluvium,2,34.6,1.2538998835855646,13291
+537,TWIDWELL RD GRAVEL MINE,ORVILLE E & JAMIE C MOWRY,Grays Harbor,46.9921564,-123.38135929,14.0,115.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,89.7,1.2346915017462166,13171
+538,RIVERSIDE S&G,LOUIS F MATHESON,Snohomish,47.96514572,-122.06450793,21.0,85.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,54.4,1.2325960419091968,10260
+539,N BONNEVILLE QUARRY,FARWEST PORTABLE CRUSHING INC,Skamania,45.67267609,-121.94290924,33.0,60.0,Rock and Stone ,Qls,Quaternary mass-wasting deposits,other Quaternary,2,160.8,1.2318975552968567,11497
+540,GEORGE PIT,YAKIMA COUNTY PUBLIC WORKS,Yakima,46.49406052,-120.45631409,60.76,30.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,48.5,1.231024447031432,10634
+541,DECKER CREEK MINE,NORTHWEST ROCK INC,Mason,47.12518339,-123.47547415,44.300000000000004,42.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,84.5,1.230151338766007,13110
+542,MILWAUKEE PIT,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,47.18105274,-120.96767171,58.0,30.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,37.4,1.2231664726426077,12757
+543,QS-R-33,DOT - DEPT OF TRANSPORTATION,Benton,46.07935475,-119.60113861,27.0,65.0,Rock and Stone ,Qa,Quaternary alluvium,alluvium,2,125.8,1.2224679860302679,10815
+544,CASCADE CONCRETE,CASCADE CONCRETE PRODUCTS CO INC,Okanogan,48.46540451,-120.18561554,23.1,70.0,Sand and Gravel,Qs,Quaternary sedimentary rocks and deposits,other Quaternary,2,103.2,1.2125145518044238,11371
+545,PS-D-170 (BOULDER CREEK),DOT - DEPT OF TRANSPORTATION,Snohomish,48.2772104,-121.77441066,22.5,70.0,Sand and Gravel,Qvl(gp),Quaternary fragmental volcanic rocks and deposits (includes lahars),other Quaternary,2,75.2,1.210419091967404,13154
+546,HUMPTULIPS GRAVEL,QUIGG BROS INC,Grays Harbor,47.22743225,-123.97011566,40.0,39.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,111.1,1.2023864959254948,12857
+547,LANG,SEGALE PROPERTIES LLC,Cowlitz,46.29140472,-122.91073608,27.0,52.0,Sand and Gravel,Qvl(3sh),Quaternary fragmental volcanic rocks and deposits (includes lahars),other Quaternary,2,147.4,1.1994179278230501,12205
+548,QS-Z-146,DOT - DEPT OF TRANSPORTATION,Klickitat,45.86684036,-120.76972199,19.240000000000002,72.0,Sand and Gravel,QPLvb(s),Quaternary-Tertiary volcanic rocks,other Quaternary,2,111.8,1.1929569266589057,10513
+549,CHALLENGER RD PIT,SKAGIT AGGREGATES LLC,Skagit,48.53917529,-121.85992232,15.0,80.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,78.9,1.1878928987194413,13100
+550,SMOKEY POINT,CPC MATERIALS INC,Snohomish,48.20954514,-122.14450073,21.0,60.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,46.8,1.1854481955762515,10203
+551,ROCK ISLAND,DOUGLAS COUNTY TLS,Douglas,47.38234589,-120.18454018,15.36,78.0,Sand and Gravel,Qls,Quaternary mass-wasting deposits,other Quaternary,2,32.7,1.1840512223515716,11354
+552,DELL AVE,"KONCRETE INDUSTRIES, INC.",Walla Walla,46.07263565,-118.36611176,40.0,30.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,87.4,1.1823050058207218,10172
+553,DONEEN QUARRY,WHITMAN COUNTY PUBLIC WORKS,Whitman,47.14304297,-117.17063463,13.0,80.0,Rock and Stone ,Qa,Quaternary alluvium,alluvium,2,27.4,1.1753201396973225,13030
+554,DD MARQUARDT,NUTTER CORPORATION,Cowlitz,46.19755085,-122.90663035,45.5,15.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,157.7,1.1714784633294528,13103
+555,QS-P-97 GARFIELD,DOT - DEPT OF TRANSPORTATION,Whitman,47.01231003,-117.11708832,14.540000000000001,74.0,Rock and Stone ,Qa,Quaternary alluvium,alluvium,2,37.3,1.171303841676368,11929
+556,EAGLE HILL,SKAGIT COUNTY PUBLIC WORKS,Skagit,48.53115463,-121.79640198,15.4,65.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,83.6,1.1646682188591386,10304
+557,FRED BROWN SAND MINE,CPM DEVELOPMENT CORP,Spokane,47.80291436,-117.32446911,20.0,50.0,Sand and Gravel,Qd,Quaternary dune sand,other Quaternary,2,39.9,1.1554132712456344,13205
+558,PS-W-63 SHEEP CREEK,DOT - DEPT OF TRANSPORTATION,Stevens,48.94274139,-117.77307129,10.3,66.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,163.0,1.140745052386496,11950
+559,RAINS PIT,DELHUR INDUSTRIES INC,Clallam,48.08031209,-123.73342188,10.0,60.0,Sand and Gravel,Qls,Quaternary mass-wasting deposits,other Quaternary,2,46.0,1.1232828870779976,12327
+560,MATTAWA S PIT #57,GRANT COUNTY PUBLIC WORKS,Grant,46.64068222,-119.81612396,20.0,30.0,Sand and Gravel,Qd,Quaternary dune sand,other Quaternary,2,77.3,1.1040745052386496,12960
+561,S PORT INDUSTRIAL,PORT OF KALAMA,Cowlitz,45.99118042,-122.83802796,23.0,15.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,179.8,1.0927240977881256,12916
+562,FIORITO,DEROSIER TRUCKING INC,Cowlitz,46.20601939,-122.90538609,10.0,40.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,156.7,1.0770081490104773,11333
+563,PLEASANT HILL,DEROSIER TRUCKING,Cowlitz,46.20395395,-122.90738619,14.0,30.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,157.0,1.0696740395809081,11706
+564,FAZIO PIT,FAZIO BROS SAND CO INC,Clark,45.71344186,-122.75899056,13.85,25.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,199.7,1.0565774155995344,10377
+565,SAND PIT,PIRFIL CAM,Skamania,45.65664221,-121.94164007,5.1000000000000005,34.0,Sand and Gravel,Qls,Quaternary mass-wasting deposits,other Quaternary,2,162.3,1.0441792782305006,13245
+566,GWIN,DROLZ LOG & ROCK CO INC,Grays Harbor,47.1951662,-123.99898612,8.05,30.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,114.5,1.0434807916181605,12964
+567,SCHNEBLY,KITTITAS COUNTY PUBLIC WORKS,Kittitas,47.06123734,-120.40063477,6.9,20.0,Sand and Gravel,Qa,Quaternary alluvium,alluvium,2,35.2,1.018335273573923,10151
+568,ORONDO PIT,INTERSTATE CONCRETE & ASPHALT CO.,Douglas,47.61974861,-120.21505181,320.0,350.0,Sand and Gravel,pCgn(s),Precambrian heterogeneous metamorphic rocks,bedrock or older,3,24.0,0.9832363213038416,12875
+569,AIRPORT,MILES SAND & GRAVEL CO,Kitsap,47.43170929,-122.66869354,173.5,205.0,Sand and Gravel,Qf,Holocene artificial fill and modified land,bedrock or older,3,19.4,0.9353899883585565,11864
+570,HALLER,DELHUR INDUSTRIES INC,Clallam,48.03606415,-123.13924408,106.72,205.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,2.3,0.9064027939464493,11153
+571,KRMI QUARRY,"JA JACK & SONS, INC. D/B/A KITSAP RECLAMATION AND MATERIALS",Kitsap,47.5344162,-122.69289398,96.67,220.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,10.1,0.9008149010477299,12834
+572,MATS MATS,GLACIER NW,Jefferson,47.95807648,-122.68063355,117.0,170.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,18.6,0.8915599534342258,10170
+573,GREENBANK S&G,GREENBANK INC DBA GREENBANK CONCRETE & AGGREGATES,Island,48.12827683,-122.580513,160.0,100.0,Sand and Gravel,af,Holocene artificial fill and modified land,bedrock or older,3,13.4,0.8423166472642607,11408
+574,WILDCAT,KITSAP COUNTY PUBLIC WORKS,Kitsap,47.59415054,-122.79114532,40.0,325.0,Rock and Stone ,Eib,Tertiary intrusive rocks,bedrock or older,3,14.3,0.8398719441210711,10249
+575,HIGHLAND,HIGHLAND QUARRY LLC,Spokane,47.70663834,-117.53707886,50.42,202.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,24.9,0.8389988358556462,10193
+576,SHILLINGER,ALLEN SHEARER TRUCKING & LANDSCAPE SUPPLY INC,Kitsap,47.48365784,-122.79837036,115.0,100.0,Sand and Gravel,Qf,Holocene artificial fill and modified land,bedrock or older,3,19.7,0.8234575087310827,12585
+577,QS-P-151 COX,DOT - DEPT OF TRANSPORTATION,Whitman,46.67883682,-117.83174896,41.980000000000004,205.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,11.2,0.8222351571594878,10927
+578,DOLPHIN BAY QUARRY,DOLPHIN BAY QUARRY,San Juan,48.64445877,-122.91455841,41.300000000000004,200.0,Rock and Stone ,JTRmct(o),Mesozoic sedimentary rocks and deposits,bedrock or older,3,4.2,0.8145518044237485,12787
+579,HORSESHOE BEND QUARRY,HBQ INC,Yakima,46.76052856,-120.82801819,44.7,160.0,Rock and Stone ,Mv(gR2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,13.1,0.7984866123399301,10881
+580,PAGE CANYON QUARRY,ELLENSBURG CEMENT PRODUCTS,Kittitas,47.04190243,-120.70012163,50.26,135.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,19.7,0.7939464493597206,12980
+581,LAWSON QUARRY,RICHARD L LAWSON CONSTRUCTION,San Juan,48.5488934,-123.13521862,40.0,170.0,Rock and Stone ,KJmm,Mesozoic metasedimentary rocks,bedrock or older,3,12.4,0.7909778812572759,12888
+582,HAYFIELD QUARRY,SHAWNEE ROCK INC,Whitman,46.73834992,-117.75531769,42.0,115.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,6.1,0.7565774155995344,12523
+583,NNA RD 36-NE PIT #86,GRANT COUNTY PUBLIC WORKS,Grant,47.61599412,-119.18379438,80.0,75.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,6.0,0.7560535506402795,13046
+584,REPP QUARRY,WHITMAN COUNTY PUBLIC WORKS,Whitman,47.01264191,-117.59833527,30.79,156.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,21.8,0.7516880093131548,10492
+585,HAVANA QUARRY,SPOKANE CONSERVATION DISTRICT,Spokane,47.64722698,-117.34294812,50.0,100.0,Sand and Gravel,pChm(p),Precambrian heterogeneous metamorphic rocks,bedrock or older,3,24.8,0.749243306169965,12981
+586,HUMPHREY PIT,RECLAIM COMPANY,Yakima,46.68630166,-120.79584056,22.3,200.0,Sand and Gravel,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,20.7,0.7415599534342259,13277
+587,LIBERTY PIT,SHAWNEE ROCK INC,Spokane,47.37957932,-117.30649293,66.0,60.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,22.7,0.709778812572759,13065
+588,RAM RIDGE,RAM RIDGE LLC,Chelan,47.49681711,-120.31467296,28.5,110.0,Sand and Gravel,pCgn(s),Precambrian heterogeneous metamorphic rocks,bedrock or older,3,17.5,0.7019208381839348,13015
+589,QS-AD-74 LIND NORTH,DOT - DEPT OF TRANSPORTATION,Adams,46.98278427,-118.56020355,36.230000000000004,90.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,5.0,0.6905704307334108,10080
+590,BECKER,CENTRAL WASHINGTON ASPHALT INC,Adams,47.11146164,-118.57537079,38.0,75.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,13.6,0.6715366705471479,12983
+591,QS-C-252 DEEP LAKE,DOT - DEPT OF TRANSPORTATION,Spokane,47.46061707,-117.75032043,51.0,42.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,14.0,0.6435972060535506,12022
+592,YAKIMA COUNTY SECTION 27 RECLAMATION,HBQ INC,Yakima,46.75987899,-120.82446564,4.6000000000000005,140.0,Rock and Stone ,Mv(gR2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,13.1,0.6217694994179278,13241
+593,SEA ISLAND SHALE PIT,SEA ISLAND CORP,San Juan,48.64273453,-122.92066193,26.0,60.0,Rock and Stone ,pDi(t),Paleozoic-Precambrian intrusive rocks,bedrock or older,3,3.9,0.6074505238649592,12874
+594,BUCKHORN MT PROJECT/GOLD MINE,CROWN RESOURCES CORPORATION,Okanogan,48.9504269,-118.9818791,294.0,550.0,Metals,TRPMmv,Mesozoic-Paleozoic heterogeneous metamorphic rocks,bedrock or older,3,150.8,0.5891734575087311,13063
+595,MONROE QUARRY,"CADMAN MATERIALS, INC.",Snohomish,47.81716156,-121.96497345,471.0,380.0,Rock and Stone ,Ev(p),Tertiary volcanic rocks,bedrock or older,3,53.3,0.588998835855646,11346
+596,WA-0001E/CENTRALIA COAL MINE,TRANSALTA CENTRALIA MINING LLC,Lewis,46.72846603,-122.81341553,14450.0,340.0,Coal,En(sk),Tertiary sedimentary rocks and deposits,bedrock or older,3,98.2,0.5883003492433061,10145
+597,SOUTH PIT,LANE MT SILICA CO,Stevens,48.15421295,-117.87205505,242.3,530.0,Silica,CZq(a),Paleozoic metasedimentary rocks,bedrock or older,3,78.0,0.5842840512223516,11747
+598,WAUCONDA,COLUMBIA RIVER CARBONATES,Okanogan,48.78573227,-118.96974182,277.0,355.0,Limestone,pTmb,pre-Tertiary metasedimentary rocks,bedrock or older,3,132.8,0.5802677532013969,12462
+599,MONROE,AAA MONROE ROCK CORP,Snohomish,47.84829772,-122.02822262,304.0,344.0,Rock and Stone ,Ev(p),Tertiary volcanic rocks,bedrock or older,3,50.9,0.580093131548312,10409
+600,IRON MOUNTAIN QUARRY,IRON MOUNTAIN QUARRY LLC,Snohomish,48.08931031,-121.9426668,205.0,525.0,Rock and Stone ,KJmm(w),Mesozoic metasedimentary rocks,bedrock or older,3,60.8,0.5783469150174622,12574
+601,STONE QUARRY CANYON,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,46.9579348,-120.60048243,20.0,60.0,Sand and Gravel,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,16.2,0.5768917345750874,12825
+602,BEYERS QUARRY 33-15,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.48683548,-117.35860443,24.0,50.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,15.6,0.5742724097788126,12426
+603,KAPOWSIN,WASHINGTON ROCK QUARRIES INC,Pierce,46.9812355,-122.19842529,145.0,450.0,Sand and Gravel,MOian,Tertiary intrusive rocks,bedrock or older,3,75.2,0.5631548311990686,12783
+604,THAYER ROCK,RIVERBOTTOM ROCK,Kittitas,46.9275322,-120.5680542,18.0,60.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,16.8,0.5629220023282887,12858
+605,GLORFIELD/EATON LAKE,WHITMAN COUNTY PUBLIC WORKS,Whitman,47.16630808,-117.7403261,14.950000000000001,65.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,16.9,0.5587310826542491,11349
+606,YACOLT MT QUARRY,J L STOREDAHL & SONS INC,Clark,45.85807773,-122.45292864,135.0,500.0,Rock and Stone ,Ova(2),Tertiary volcanic rocks,bedrock or older,3,171.2,0.5586146682188592,13057
+607,CLAUSON LIME CO,AGGREGATE INDUSTRIES PACIFIC NW INC,Whatcom,48.96403122,-122.08113861,176.04,300.0,Limestone,PMDms(c),Paleozoic metasedimentary rocks,bedrock or older,3,73.6,0.5582654249126892,10361
+608,ST ANDREWS DO-182,DOUGLAS COUNTY TLS,Douglas,47.7280596,-119.44682977,28.5,35.0,Sand and Gravel,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,19.2,0.5573341094295693,11908
+609,CONNOR QUARRY 44-32,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.52756119,-117.27238464,10.5,75.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,22.6,0.5561117578579744,12594
+610,NEWSKAH QUARRY,NORTHWEST ROCK INC,Grays Harbor,46.8940056,-123.81078192,135.27,350.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,120.5,0.5521536670547148,10196
+611,SKOOKUM,PORT BLAKELY TREE FARMS,Mason,47.10630417,-123.19958496,150.0,300.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,71.1,0.5514551804423748,12642
+612,CONCRETE,GLACIER NW/DBA CALPORTLAND,Skagit,48.55120259,-121.71667652,125.0,400.0,Dolomite,PMDms(c),Paleozoic metasedimentary rocks,bedrock or older,3,89.3,0.5512805587892898,12195
+613,MOUNTAIN CREST,JOHN D THOMPSON,San Juan,48.64061704,-122.92023657,1.93,85.0,Rock and Stone ,JTRmct(o),Mesozoic sedimentary rocks and deposits,bedrock or older,3,3.7,0.550523864959255,12989
+614,GRANITE FALLS,IRON MOUNTAIN QUARRY LLC,Snohomish,48.09357133,-121.93897418,115.0,525.0,Rock and Stone ,KJmm(w),Mesozoic metasedimentary rocks,bedrock or older,3,61.1,0.5491850989522701,11878
+615,NORTH PIT,LANE MT SILICA CO,Stevens,48.1735878,-117.87179565,140.0,300.0,Silica,CZq(a),Paleozoic metasedimentary rocks,bedrock or older,3,80.1,0.5470896391152503,10114
+616,BLACK ROCK,BLACK ROCK MATERIALS LLC,Stevens,48.31449643,-117.7748704,102.61,403.0,Sand and Gravel,Ycb(e),Precambrian metasedimentary rocks,bedrock or older,3,93.7,0.5381839348079162,12996
+617,SPECTACLE LK,PACIFIC CALCIUM INC,Okanogan,48.7977066,-119.51652527,228.0,200.0,Limestone,PMcb(s),Paleozoic metasedimentary rocks,bedrock or older,3,133.7,0.5381839348079162,12755
+618,NORTH PINE 13-22,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.29279328,-117.36010742,20.0,40.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,15.9,0.530616996507567,12829
+619,COAL CREEK,J L STOREDAHL & SONS INC,Cowlitz,46.18387222,-123.03779602,132.0,230.0,Rock and Stone ,En(c),Tertiary sedimentary rocks and deposits,bedrock or older,3,160.9,0.5287543655413272,10557
+620,QS-T-64 AMES LAKE,DOT - DEPT OF TRANSPORTATION,Lincoln,47.38451386,-117.85158539,22.0,35.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,24.1,0.5286961583236321,12026
+621,EGG LAKE QUARRY,EGG LAKE QUARRY LLC,San Juan,48.56867861,-123.08606381,10.1,60.0,Rock and Stone ,KJmm,Mesozoic metasedimentary rocks,bedrock or older,3,8.3,0.5260768335273573,13228
+622,KENDALL QUARRY,LEHIGH NORTHWEST CEMENT CO,Whatcom,48.95666885,-122.12073517,100.0,300.0,Limestone,PMDmb(c),Paleozoic metasedimentary rocks,bedrock or older,3,70.7,0.5219441210710127,10362
+623,KALAMA QUARRY,LLOYD & NETTA GROAT,Cowlitz,46.04994202,-122.8396225,115.0,228.0,Rock and Stone ,OEva(g),Tertiary volcanic rocks,bedrock or older,3,173.3,0.5189755529685681,11365
+624,WELLSANDT-DANEKAS,COPENHAVER CONSTRUCTION INC,Adams,47.14569905,-118.33734687,22.7,30.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,20.4,0.5182188591385332,13174
+625,HWY 108 ROCK QUARRY,PORT BLAKELY TREE FARMS LP,Mason,47.09371069,-123.17263049,110.5,230.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,70.9,0.5160069848661234,12710
+626,MICA PLANT & MINE,MUTUAL MATERIALS CO,Spokane,47.56649017,-117.21001434,224.0,160.0,Clay,pChm(p),Precambrian heterogeneous metamorphic rocks,bedrock or older,3,28.3,0.5147846332945285,10456
+627,HOWARD FLATS,CHELAN SAND & GRAVEL LLC,Chelan,47.87535574,-119.9391877,91.0,285.0,Sand and Gravel,Kmg(c),Mesozoic metamorphic and igneous rocks,bedrock or older,3,55.7,0.5125145518044237,13043
+628,JUSTICE QUARRY,ALBERT JUSTICE,Lewis,46.54568366,-122.02484333,76.0,366.0,Rock and Stone ,Ova,Tertiary volcanic rocks,bedrock or older,3,102.1,0.510069848661234,13080
+629,COWEEMAN,DEROSIER TRUCKING,Cowlitz,46.13434089,-122.84308886,70.56,500.0,Rock and Stone ,OEvc(g),Tertiary fragmental volcanic rocks and deposits (includes lahars),bedrock or older,3,164.0,0.5090221187427241,10516
+630,ANDERSON QUARRY,INTERSTATE CONCRETE & ASPHALT,Yakima,46.52396011,-120.46704864,100.0,240.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,45.2,0.5084982537834691,12801
+631,ALGER CREEK,JERRY DEBRIAE,Wahkiakum,46.27241516,-123.39598847,85.0,280.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,159.5,0.5067520372526193,12738
+632,CIRCLE C QUARRY,CIRCLE C QUARRY,Walla Walla,46.05194092,-118.90270233,90.5,250.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,109.8,0.5048311990686845,12854
+633,PHIPPS QUARRY,J L STOREDAHL & SONS INC,Cowlitz,46.34790499,-122.82448147,178.0,150.0,Rock and Stone ,OEva(g),Tertiary volcanic rocks,bedrock or older,3,140.3,0.5016880093131548,12959
+634,ALDER BLUFF QUARRY,WEYERHAEUSER TIMBER HOLDINGS INC,Cowlitz,46.18807602,-123.08913422,67.68,400.0,Rock and Stone ,Mv(g),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,161.3,0.5015133876600698,11912
+635,KELLY HILL QUARRY,WHITE STONE CALCIUM INC,Stevens,48.78326294,-118.04639894,80.0,261.0,Rock and Stone ,OCcb(m),Paleozoic metasedimentary rocks,bedrock or older,3,148.9,0.5013387660069848,13156
+636,NASELLE QUARRY,NASELLE ROCK & ASPHALT CO,Pacific,46.38447004,-123.78360474,61.9,600.0,Rock and Stone ,Mvi(g),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,162.3,0.5009895227008149,10186
+637,CACTUS QUARRY,EAGLE ROCK QUARRY INC,Franklin,46.61763382,-118.92867279,87.9,240.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,53.6,0.49976717112922,10716
+638,NEW SHINE QUARRY,NEW SHINE QUARRY LLC,Jefferson,47.88530091,-122.71175689,142.0,160.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,26.0,0.49714784633294523,13201
+639,FRENCHMAN HILLS QUARRY,SEGALE PROPERTIES LLC,Grant,46.94938966,-119.36007402,640.0,116.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,65.5,0.4962747380675203,13111
+640,SCATTERCREEK QUARRY,JAMES HARDIE BUILDING PRODUCTS,King,47.16620636,-121.82705688,86.0,220.0,Silica,Mvr(fp),Tertiary volcanic rocks,bedrock or older,3,75.6,0.4950523864959254,12879
+641,CHINOOK,NASELLE ROCK & ASPHALT CO,Pacific,46.27103924,-123.92133501,70.5,290.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,178.6,0.49173457508731083,10188
+642,MORASCH,WHITMAN COUNTY PUBLIC WORKS,Whitman,46.86487579,-117.70175934,6.84,50.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,17.7,0.4892316647264261,11532
+643,PENNY CREEK,JJC RESOURCES LLC,Jefferson,47.81514795,-122.90817184,54.0,620.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,30.4,0.4877182770663562,13049
+644,MERIDIAN HILL,ALCO HOLDINGS LLC,Lewis,46.71084591,-122.76104050000001,64.0,300.0,Rock and Stone ,Eva(n),Tertiary volcanic rocks,bedrock or older,3,99.6,0.48754365541327127,13052
+645,SILVER BELL,MANHATTAN MINERALS INC,Okanogan,48.76065445,-118.83918762,80.0,210.0,Metals,Evr(k),Tertiary volcanic rocks,bedrock or older,3,132.0,0.4870197904540163,11967
+646,O L LUTHER PIT,O L LUTHER CO INC,Yakima,46.32336807,-120.12789917,143.0,140.0,Sand and Gravel,Mcg(e),Tertiary sedimentary rocks and deposits,bedrock or older,3,78.4,0.48544819557625146,12359
+647,COLUMBIA VAIL QUARRY LLC,COLUMBIA VAIL QUARRY LLC,Thurston,46.79389751,-122.65537063,53.7,440.0,Rock and Stone ,Eva(n),Tertiary volcanic rocks,bedrock or older,3,89.7,0.4830034924330616,13200
+648,ROCK CRUSHER HILL,NORTHWEST ROCK INC,Grays Harbor,46.8595329,-123.69878121,67.5,252.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,116.9,0.48125727590221185,12863
+649,CARROLLS PIT,J L STOREDAHL & SONS INC,Cowlitz,46.12090683,-122.86074829,106.4,165.0,Rock and Stone ,OEva(g),Tertiary volcanic rocks,bedrock or older,3,165.7,0.480384167636787,11807
+650,MT SOLO,3 B'S LAND & GRAVEL LLC,Cowlitz,46.15126857,-123.01311845,70.21000000000001,240.0,Rock and Stone ,Evb(gr),Tertiary volcanic rocks,bedrock or older,3,164.1,0.48020954598370197,11060
+651,WISHKAH QUARRY,WISHKAH ROCK PRODUCTS INC,Grays Harbor,47.20565415,-123.71924591,87.86,185.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,95.0,0.4767171129220023,12893
+652,RED ROCK COULEE #79,GRANT COUNTY PUBLIC WORKS,Grant,46.85888999,-119.58824019,123.64,140.0,Sand and Gravel,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,84.1,0.4756693830034924,13271
+653,WHITCOMB QUARRY,INTERSTATE CONCRETE & ASPHALT,Benton,45.88767624,-119.70001984,112.0,150.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,136.9,0.4746216530849825,10947
+654,BLACK LAKE QUARRY,BLACK LAKE QUARRY LLC,Thurston,47.01630783,-122.96364594,102.0,160.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,70.5,0.4742724097788125,12140
+655,CLAUSEN 23-24,SPOKANE CO PUBLIC WORKS,Spokane,47.38805008,-117.31308746,12.0,35.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,21.8,0.47369033760186263,11190
+656,QS-GA-68 DIXON QUARRY,DOT - DEPT OF TRANSPORTATION,Garfield,46.46539612,-117.70513505,50.0,350.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,26.8,0.46711292200232823,13077
+657,HAWK'S SUPERIOR ROCK,HAWKS SUPERIOR ROCK,Pacific,46.69022751,-123.77955627,48.0,400.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,134.9,0.46676367869615837,12812
+658,GOOD QUARRY,GOOD CRUSHING INC,Lewis,46.53393173,-122.9588089,141.8,120.0,Rock and Stone ,Mv(g),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,121.6,0.46641443538998834,11245
+659,WOODLAND PIT,J L STOREDAHL & SONS INC,Clark,45.89004517,-122.72059631,79.29,180.0,Rock and Stone ,Ova(1),Tertiary volcanic rocks,bedrock or older,3,185.0,0.4658905704307334,10007
+660,EAST LIND 24 QS,ADAMS COUNTY PUBLIC WORKS,Adams,46.96070862,-118.5766449,6.9,40.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,7.3,0.46565774155995343,11120
+661,WHITE RIVER,NORTHWEST AGGREGATES CO,King,47.1758194,-121.92619324,65.0,200.0,Rock and Stone ,Mva(fp),Tertiary volcanic rocks,bedrock or older,3,69.3,0.4603026775320139,12865
+662,LODESTONE QUARRY,LODESTONE QUARRY INC,Pacific,46.27480608,-123.76609854,64.0,200.0,Rock and Stone ,Mm(1n),Tertiary sedimentary rocks and deposits,bedrock or older,3,171.9,0.4590803259604191,13258
+663,ROWLEY BORROW SITE,GRANITE CONSTRUCTION CO (EAST),Yakima,46.64423485,-120.50703418,62.01,200.0,Rock and Stone ,Mv(w),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,32.4,0.4568102444703144,12774
+664,HAEBERLE RANCH INC,HAEBERLE RANCH INC,Okanogan,48.48749528,-119.59458776,50.0,280.0,Rock and Stone ,pKcs(b),pre-Tertiary heterogeneous metamorphic rocks,bedrock or older,3,100.9,0.4557625145518044,13108
+665,GOODWIN QUARRY,SIPER QUARRY LLC,Whatcom,48.86326727,-122.27526122,75.2,170.0,Rock and Stone ,PMDhm(c),Paleozoic heterogeneous metamorphic rocks,bedrock or older,3,55.6,0.4554132712456344,12917
+666,410 QUARRY,FOXX CREEK LLC,King,47.17985153,-121.91894531,40.230000000000004,402.0,Rock and Stone ,Mva(fp),Tertiary volcanic rocks,bedrock or older,3,69.4,0.4536670547147846,12576
+667,RAGING RIVER QUARRY,RAGING RIVER MINING INC,King,47.54811859,-121.90531921,51.300000000000004,250.0,Rock and Stone ,Evc(t),Tertiary fragmental volcanic rocks and deposits (includes lahars),bedrock or older,3,52.4,0.4527939464493597,11047
+668,AITLEY QUARRY,MOTLEY & MOTLEY INC,Whitman,46.72889328,-117.09107971,91.0,140.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,45.8,0.45244470314318974,12810
+669,WOODS CREEK QUARRY,LAKESIDE INDUSTRIES INC,Snohomish,47.89614105,-121.86672211,101.60000000000001,127.0,Rock and Stone ,Jigb(w),Mesozoic intrusive rocks,bedrock or older,3,64.0,0.449476135040745,10192
+670,SHERVE QUARRY,HEMPHILL BROTHERS INC,Stevens,48.89461136,-117.78930664,60.7,190.0,Limestone,OCcb(l),Paleozoic metasedimentary rocks,bedrock or older,3,157.8,0.4484284051222352,10381
+671,HOGEYE QUARRY,ATLAS SAND AND ROCK INC,Columbia,46.26211166,-118.03725433,57.0,200.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,56.0,0.44668218859138537,12944
+672,MALLOY 30-03,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.5160675,-117.7568512,8.43,30.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,14.7,0.44452852153667055,12618
+673,ARLINGTON,CADMAN MATERIALS INC,Snohomish,48.2119751,-122.12461853,122.60000000000001,110.0,Sand and Gravel,af,Holocene artificial fill and modified land,bedrock or older,3,48.3,0.4442374854481956,10162
+674,HAMPTON ROCK PIT,HAMPTON ROCK LLC,Adams,46.87,-119.24300000000001,160.44,100.0,,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,58.2,0.4433643771827707,13296
+675,MILNE QUARRY,S.E.A. CONSTRUCTION LLC,Pacific,46.65681076,-123.82080841,45.4,250.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,139.7,0.4402211874272409,10231
+676,FANCHER 40-21,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.55775833,-117.77156067,12.0,20.0,Sand and Gravel,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,17.5,0.4391152502910361,12449
+677,CHEYNE LANDFILL GRAVEL PIT,YAKIMA COUNTY PUBLIC SERVICES,Yakima,46.47482469,-120.25543158,185.0,92.0,Sand and Gravel,Mc(e),Tertiary sedimentary rocks and deposits,bedrock or older,3,59.2,0.4381257275902211,13190
+678,DRIVE INN/NAFF PIT,N.E.W. GRAVEL LLC,Stevens,48.58762636,-117.9778776,46.9,220.0,Rock and Stone ,COcg,Paleozoic sedimentary rocks,bedrock or older,3,126.5,0.4365541327124563,13126
+679,EATONVILLE,LYNCH CREEK QUARRY LLC,Pierce,46.8777771,-122.24872589,105.10000000000001,111.0,Rock and Stone ,OEvba,Tertiary volcanic rocks,bedrock or older,3,84.6,0.4363795110593714,11165
+680,COLUMBIA GRANITE,COLUMBIA GRANITE LLC,Thurston,46.79353714,-122.64946747,39.39,350.0,Rock and Stone ,MOigb,Tertiary intrusive rocks,bedrock or older,3,89.8,0.43515715948777645,12899
+681,SUMMITVIEW,YAKIMA COUNTY PUBLIC WORKS,Yakima,46.62441635,-120.66886139,72.7,135.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,28.6,0.43026775320139693,10444
+682,IRON MT TALUS,IRON MOUNTAIN FLAGSTONE LLC,Pend Oreille,48.29997249,-117.14312068,40.0,250.0,Sand and Gravel,Yms(p),Precambrian metasedimentary rocks,bedrock or older,3,96.1,0.4246798603026775,12977
+683,NEWSKAH QUARRY,NORTHWEST ROCK INC,Grays Harbor,46.89849693,-123.76915269,40.0,250.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,117.8,0.4246798603026775,13117
+684,RILEY QUARRY,PATRICIA K RILEY,Klickitat,45.81232071,-120.79730988,85.71000000000001,115.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,117.8,0.42398137369033756,11510
+685,WILKESON QUARRY,WILKESON SANDSTONE QUARRY LLC,Pierce,47.10840033,-122.02964095,50.0,175.0,Rock and Stone ,Ec(2pg),Tertiary sedimentary rocks and deposits,bedrock or older,3,69.5,0.4190919674039581,12963
+686,DAWSON DOLOMITE QUARRY,DAWSON TRUCKING INC,Stevens,48.17893542,-117.75665563,58.22,145.0,Rock and Stone ,Ycb(s),Precambrian metasedimentary rocks,bedrock or older,3,78.6,0.4162980209545984,13177
+687,DELPHI PIT,BRUMFIELD CONSTRUCTION INC,Thurston,47.02521896,-122.98596954,46.0,180.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,70.2,0.4138533178114086,10496
+688,CLERF QUARRY,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,46.96748802,-120.36046029,51.0,160.0,Rock and Stone ,PLcg(t),Tertiary sedimentary rocks and deposits,bedrock or older,3,33.1,0.41158323632130384,12735
+689,LITTLE CREEK QUARRY,NORTHWEST ROCK INC,Mason,47.15142538,-123.11618852,56.0,140.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,63.2,0.41036088474970894,12882
+690,MATSEN QUARRY,KLICKITAT COUNTY PUBLIC WORKS,Klickitat,45.94236043,-120.2388297,79.51,110.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,111.2,0.41036088474970894,13165
+691,KITITAS PIT,LOUIE GIBSON,Kittitas,46.97977838,-120.35677731,60.0,130.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,33.8,0.40844004656577415,13123
+692,AHTANUM QUARRY,HERKE ROCK,Yakima,46.5327053,-120.77531714,54.0,140.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,37.7,0.4077415599534342,12938
+693,WILLARD AGGREGATE,THOMCO AGGREGATE,Snohomish,48.05048432,-121.91660485,40.0,200.0,Rock and Stone ,KJmm(w),Mesozoic metasedimentary rocks,bedrock or older,3,63.1,0.4066938300349243,12508
+694,WINSTON QUARRY,WINSTON ROCK QUARRY LLC,Lewis,46.51122529,-122.55548618,38.2,215.0,Rock and Stone ,OEvba,Tertiary volcanic rocks,bedrock or older,3,121.1,0.4051222351571595,13079
+695,NORTHWEST MARBLE,NORTHWEST MARBLE PRODUCTS INC,Stevens,48.78153205,-118.02874422,26.0,455.0,Dolomite,OCcb(m),Paleozoic metasedimentary rocks,bedrock or older,3,148.4,0.40128055878928987,12793
+696,CHRIS WILLIAMS,CHRIS WILLIAMS,Okanogan,48.9036344,-119.51885527,27.38,355.0,Sand and Gravel,PMmm(s),Paleozoic metasedimentary rocks,bedrock or older,3,145.4,0.40110593713620485,13231
+697,HOSPITAL QUARRY,INTERSTATE CONCRETE & ASPHALT,Benton,46.14580917,-119.19094086,50.0,145.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,108.7,0.399708963911525,11560
+698,WASHOUGAL,"ZP#5, LLC",Clark,45.58068848,-122.30443573,120.0,80.0,Sand and Gravel,PLMc(t),Tertiary sedimentary rocks and deposits,bedrock or older,3,185.7,0.39481955762514553,10745
+699,NINE MILE QUARRY,GRANITE CONSTRUCTION CO (EAST),Walla Walla,46.06395455,-118.77573481,60.0,115.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,106.2,0.39237485448195575,12895
+700,JAMES DEAN CONSTRUCTION,JAMES DEAN CONSTRUCTION,Klickitat,45.76593581,-121.5273243,26.5,300.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,135.9,0.39027939464493594,13070
+701,MASON QUARRY,NEW SHINE QUARRY LLC,Jefferson,47.8875618,-122.71646881,40.0,160.0,Rock and Stone ,Ev(c),"Eocene Crescent Formation, volcanic rocks",bedrock or older,3,25.7,0.38399301513387657,12619
+702,BLACK RIVER,KANGLEY ROCK & RECYCLE,King,47.47706905,-122.24683317,33.0,200.0,Rock and Stone ,Ec(2pg),Tertiary sedimentary rocks and deposits,bedrock or older,3,29.8,0.38346915017462163,10242
+703,BINGEN PIT,TWIN CREEKS TIMBER LLC,Klickitat,45.71202228,-121.45142284,24.0,350.0,Rock and Stone ,Mv(gR2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,139.1,0.3829452852153667,10889
+704,QS-S-234,DOT - DEPT OF TRANSPORTATION,Kittitas,46.76968765,-120.38674164,70.0,100.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,31.5,0.38242142025611175,10054
+705,PS-L-296 PACKWOOD,DOT - DEPT OF TRANSPORTATION,Lewis,46.59191757,-121.66903679,90.10000000000001,85.0,Sand and Gravel,Mc,Tertiary sedimentary rocks and deposits,bedrock or older,3,75.0,0.3820721769499418,13028
+706,KIONA QUARRY,INTERSTATE CONCRETE & ASPHALT,Benton,46.26671601,-119.38746643,48.5,125.0,Rock and Stone ,Mv(sih),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,106.0,0.3815483119906869,11824
+707,ENUMCLAW QUARRY,RICHARD L PIEROTTI,King,47.22581863,-121.97538757,25.0,260.0,Rock and Stone ,Mian,Tertiary intrusive rocks,bedrock or older,3,62.8,0.37456344586728757,11178
+708,CASEY'S PIT,ROBERT L HORNBECK,Skagit,48.54374695,-121.40869904,21.2,350.0,Sand and Gravel,TRiq(m),Mesozoic intrusive rocks,bedrock or older,3,110.6,0.3738649592549476,11481
+709,VOISE QUARRY #89,GRANT COUNTY PUBLIC WORKS,Grant,47.17932181,-118.9876925,61.19,100.0,Sand and Gravel,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,42.0,0.37351571594877764,13281
+710,LIVINGSTON MT QUARRY,TOWER ROCK PRODUCTS INC,Clark,45.67426828,-122.40109517,40.0,140.0,Rock and Stone ,Ova(2),Tertiary volcanic rocks,bedrock or older,3,182.7,0.3717694994179278,13041
+711,GARDNER QUARRY,GARRY GARDNER,Cowlitz,46.33533748,-122.65766824,60.0,100.0,Rock and Stone ,Ova(1),Tertiary volcanic rocks,bedrock or older,3,140.7,0.3694994179278231,13025
+712,OLIVER CREEK QUARRY,ROCK SERVICES INC,Lewis,46.54230881,-122.00212097,28.6,200.0,Rock and Stone ,Ova,Tertiary volcanic rocks,bedrock or older,3,100.6,0.36845168800931316,12924
+713,SECTION 17 SOUTH,IMERYS MINERALS CALIFORNIA INC,Grant,47.04747499,-119.97196865,256.0,50.0,Diatomite,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,63.9,0.36827706635622814,13179
+714,MAPLE PIT QUARRY G-9,CLARK COUNTY PUBLIC WORKS,Clark,45.89646912,-122.48474121,31.5,175.0,Rock and Stone ,Ova(2),Tertiary volcanic rocks,bedrock or older,3,170.3,0.3668800931315483,10391
+715,C LIGHTENING RANCHES,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,47.11356735,-120.44047547,240.0,50.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,36.9,0.36635622817229335,12954
+716,EASTERDAY,COPENHAVER CONSTRUCTION INC,Benton,46.07775119,-118.99800058,35.0,160.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,109.4,0.3639115250291036,13218
+717,COLFAX QUARRY,SEUBERT EXCAVATORS INC,Whitman,46.89024734,-117.38577271,21.2,260.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,31.0,0.359720605355064,12354
+718,PULLAR,GRANITE CONSTRUCTION COMPANY,Whatcom,48.8494072,-122.45524596999999,60.0,95.0,Sand and Gravel,wtr,Water,bedrock or older,3,43.8,0.35832363213038415,10449
+719,COBRA QUARRY,STEVE & CHERYL GIMLIN,Yakima,46.61125565,-120.3569336,52.45,100.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,43.0,0.35570430733410946,12000
+720,AG EDWARDS INC PIT,WESTERN CONSTRUCTION OF LEWISTON,Benton,46.14112993,-119.26993285,52.22,100.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,112.2,0.3553550640279395,13282
+721,JMAC RESOURCES INC,JMAC RESOURCES INC,Benton,46.15007402,-119.23529672,30.0,165.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,110.0,0.35500582072176945,13259
+722,BADGER GULCH QUARRY,KLICKITAT COUNTY PUBLIC WORKS,Klickitat,45.85433138,-120.66333,72.13,80.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,113.5,0.3548311990686845,13202
+723,BASELINE QUARRY,ESCURE LLC,Grant,47.08425522,-119.99702454,52.0,100.0,Sand and Gravel,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,63.4,0.35430733410942955,12803
+724,CIRCLE C,KEYSTONE CONTRACTING INC,Clark,45.85849381,-122.72949219,42.9,110.0,Sand and Gravel,PLMc(t),Tertiary sedimentary rocks and deposits,bedrock or older,3,187.7,0.3513387660069848,11938
+725,SKOOKUMCHUCK,ROCK SERVICES INC,Thurston,46.8024559,-122.77054596,20.0,264.0,Rock and Stone ,Eva(n),Tertiary volcanic rocks,bedrock or older,3,89.6,0.35116414435389987,12602
+726,VAN WYK,GRANITE CONSTRUCTION CO (EAST),Yakima,46.44903484,-120.20272887,126.0,53.0,Sand and Gravel,Mcg(e),Tertiary sedimentary rocks and deposits,bedrock or older,3,64.1,0.35011641443539,13021
+727,GOTHAM/QS-FY-156,COPENHAVER CONSTRUCTION INC,Ferry,48.60149188,-118.65052874,25.25,180.0,Rock and Stone ,Evd(s),Tertiary volcanic rocks,bedrock or older,3,119.5,0.34644935972060537,12978
+728,FLOE QUARRY,DELHUR INDUSTRIES INC,Clallam,48.06317121,-124.13880647,28.7,160.0,Rock and Stone ,EPAm(c),Tertiary sedimentary rocks and deposits,bedrock or older,3,76.0,0.34644935972060537,12832
+729,QS-R-37,DOT - DEPT OF TRANSPORTATION,Benton,46.53730011,-119.8709259,39.2,120.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,78.2,0.34592549476135037,12813
+730,GREENVILLE,WALLA WALLA COUNTY PUBLIC WORKS,Walla Walla,46.30214691,-118.53995514,20.830000000000002,216.0,Sand and Gravel,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,77.7,0.3457508731082654,11767
+731,SCHRAG SITE #67,ADAMS COUNTY PUBLIC WORKS,Adams,47.07380676,-118.83503723,31.1,140.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,26.7,0.34365541327124566,12868
+732,FISHER QUARRY,J ARLIE BRYANT INC,Klickitat,45.97809601,-121.45951843,20.0,240.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,112.5,0.34348079161816064,10778
+733,TWISP 20 GRAVEL PIT,J A WRIGHT CONSTRUCTION LLC,Okanogan,48.35284297,-120.07993144,68.73,75.0,Sand and Gravel,KJvs(n),Mesozoic volcanic and sedimentary rocks,bedrock or older,3,93.6,0.340162980209546,13189
+734,DICKEY/BINGEN,KLICKITAT COUNTY PUBLIC WORKS,Klickitat,45.70596314,-121.44156647,15.49,320.0,Rock and Stone ,Mv(gR2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,139.4,0.33789289871944117,10964
+735,LINCOLN SAND & GRAVEL,MIKE STORMO,Lincoln,47.8207555,-118.19830298,32.0,130.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,60.4,0.33719441210710127,13104
+736,CARIBOU CREEK LOGGING INC,CARIBOU CREEK LOGGING & CONST INC,Kittitas,46.95536021,-120.33561386,49.19,95.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,34.5,0.3357974388824214,13125
+737,KONEN PIT,KONEN ROCK CRUSHING INC,Columbia,46.2934598,-118.03724873,30.400000000000002,130.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,53.0,0.3331781140861467,12456
+738,DRUFFEL,SEUBERT EXCAVATORS INC,Whitman,46.68918991,-117.11274719,34.5,120.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,44.1,0.3330034924330617,10128
+739,WESTSIDE QUARRY,WESTSIDE QUARRY INC,Cowlitz,46.20338821,-122.93737793,33.72,120.0,Rock and Stone ,Mv(g),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,157.4,0.33230500582072175,11122
+740,KEN & MONA HEILMAN DBA KENS CONSTRUCTION INC,KEN & MONA HEILMAN,Yakima,46.49295606,-120.32986764,54.0,80.0,Sand and Gravel,Mc(e),Tertiary sedimentary rocks and deposits,bedrock or older,3,54.0,0.32916181606519207,13084
+741,DALE DENNIS/ SLEEPY HOLLOW QUARRY INC,DALE DENNIS,Klickitat,45.81645574,-121.3742945,20.0,200.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,126.1,0.3284633294528521,13114
+742,HATCH QUARRY,INTERSTATE CONCRETE & ASPHALT,Walla Walla,46.07374272,-118.80997906,20.0,200.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,105.7,0.3284633294528521,13227
+743,QS-R-175,DOT - DEPT OF TRANSPORTATION,Benton,46.25037003,-119.61738586,78.0,60.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,112.2,0.32217694994179275,12430
+744,ALDERBROOK QUARRY,LAURA MOERKE JONES,Lewis,46.58224086,-123.02665937,30.0,120.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,117.7,0.3211292200232829,12913
+745,REED QUARRY,BROUGHTON LAND COMPANY,Columbia,46.33253098,-117.96929169,24.21,150.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,46.7,0.319906868451688,12971
+746,SCOTTY ROAD,LOUIS F MATHESON CONSTRUCTION,Snohomish,48.06686401,-121.93241119,20.0,180.0,Rock and Stone ,Jigbd(w),Mesozoic intrusive rocks,bedrock or older,3,61.8,0.31833527357392316,10901
+747,E-85 SIMS RD,WALLA WALLA COUNTY PUBLIC WORKS,Walla Walla,46.158535,-118.64647675,28.68,120.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,94.2,0.31589057043073343,11498
+748,QS-E-265,DOT - DEPT OF TRANSPORTATION,Yakima,46.72200012,-120.41519928,47.0,80.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,31.9,0.31239813736903377,10052
+749,KILOWATT PIT,JAMES DEAN CONSTRUCTION,Klickitat,45.96352768,-121.49166107,15.0,211.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,115.0,0.310128055878929,11372
+750,COURTNEY ROCK QUARRY,WALDOW FAMILY TRUST ENTERPRISES INC DBA NORTH CLARK CONSTRUCTION,Clark,45.90544368,-122.429593,16.75,200.0,Rock and Stone ,Ova(2),Tertiary volcanic rocks,bedrock or older,3,166.4,0.3090803259604191,13017
+751,MESKILL,LEWIS COUNTY ROAD DEPT,Lewis,46.632267,-123.16526032,140.0,35.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,115.8,0.3080325960419092,11454
+752,CONWELL HILL,CB NATIONAL LLC,Lewis,46.67014529,-122.96822541,11.4,280.0,Rock and Stone ,En(sk),Tertiary sedimentary rocks and deposits,bedrock or older,3,107.1,0.30611175785797434,12953
+753,FINLEY QUARRY,BENTON COUNTY PUBLIC WORKS,Benton,46.11936188,-119.04235077,25.28,120.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,106.3,0.30401629802095465,10619
+754,KRESKY MINE,RAINDROP PROPERTIES LLC,Lewis,46.683130999999996,-122.95447347,42.7,80.0,Sand and Gravel,En(sk),Tertiary sedimentary rocks and deposits,bedrock or older,3,105.4,0.30349243306169965,13248
+755,SKAMOKAWA ROCK,WAHKIAKUM COUNTY PUBLIC WORKS,Wahkiakum,46.2711998,-123.45333997,9.5,300.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,161.3,0.29965075669383,12744
+756,WASHOUGAL BASALT QUARRY,WASHOUGAL R&M QUARRY LLC,Skamania,45.63487415,-122.17548489,13.5,210.0,Rock and Stone ,Ova(2),Tertiary volcanic rocks,bedrock or older,3,174.8,0.2991268917345751,13098
+757,RESTHAVEN RIP RAP,INTERSTATE CONCRETE & ASPHALT,Yakima,46.62721031,-120.49593315,9.0,290.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,34.4,0.29563445867287547,12908
+758,ROCKPORT QUARRY,MARVIN DONOVAN JR,Skagit,48.49248571,-121.5738161,11.0,225.0,Rock and Stone ,PMDmv(c),Paleozoic metavolcanic rocks,bedrock or older,3,97.2,0.29336437718277064,12079
+759,TEMPLIN,SCARSELLA BROTHERS INC,Pacific,46.39979553,-123.93024444,22.1,121.0,Rock and Stone ,Mvi(g),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,167.3,0.2917927823050058,10589
+760,PULLER BROS,PULLER BROS,Walla Walla,46.06442261,-118.10436249,13.5,200.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,78.1,0.29109429569266587,12889
+761,CARPET HILL,QUIGG BROS INC,Lewis,46.67670991,-122.96307712,15.6,170.0,Rock and Stone ,En(sk),Tertiary sedimentary rocks and deposits,bedrock or older,3,106.3,0.29022118742724096,13073
+762,FERRY COUNTY TORBOY,FERRY COUNTY PUBLIC WORKS,Ferry,48.66789668,-118.67447124,33.18,91.91,Sand and Gravel,Ec(o),Tertiary sedimentary rocks and deposits,bedrock or older,3,125.8,0.2891734575087311,13203
+763,STEILACOOM,PIERCE CO WASTEWATER UTILITY,Pierce,47.1916941,-122.57916444,160.0,25.0,Sand and Gravel,Qf,Holocene artificial fill and modified land,bedrock or older,3,45.4,0.28864959254947614,10155
+764,ARNOLD/WILKINS,WILKINS KAISER & OLSEN INC,Skamania,45.71492004,-121.75902558,117.0,30.0,Rock and Stone ,PLiq(w),Tertiary intrusive rocks,bedrock or older,3,149.3,0.2828870779976717,11246
+765,SPOTTED DEER/RANDALL KIRK,DNR SW PRO 532,Clark,45.75904465,-122.3764801,27.5,100.0,Rock and Stone ,Ova(2),Tertiary volcanic rocks,bedrock or older,3,174.6,0.2828870779976717,12461
+766,MAC QUARRY,COPENHAVER CONSTRUCTION INC,Lincoln,47.66356245,-117.92117305,41.0,70.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,33.3,0.28201396973224674,13040
+767,ESTEB PIT,KLICKITAT COUNTY PUBLIC WORKS,Klickitat,45.80043764,-120.90634235,45.0,65.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,119.6,0.28131548311990684,10779
+768,TWIN RIVERS,LAFARGE PNW INC,Clallam,48.16324234,-123.96102905,200.0,,Clay,MOm(p),Tertiary sedimentary rocks and deposits,bedrock or older,3,63.9,0.28026775320139696,10284
+769,TRUCK SHOP,DGS TIMBER LLC,Klickitat,45.94612696,-121.1184461,12.44,190.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,106.3,0.280093131548312,12649
+770,UNION CENTER QUARRY,WHITMAN COUNTY PUBLIC WORKS,Whitman,46.74362946,-117.33139038,26.27,100.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,27.7,0.2785215366705472,10845
+771,THOMAS QUARRY,ELLENSBURG CEMENT PRODUCTS INC,Kittitas,47.16409025,-120.70608965,37.0,80.0,Rock and Stone ,PLcg(t),Tertiary sedimentary rocks and deposits,bedrock or older,3,32.9,0.27782305005820723,12752
+772,GOBEL,KEYSTONE CONTRACTING INC,Cowlitz,46.14840205,-123.00474312,15.0,150.0,Rock and Stone ,Evb(gr),Tertiary volcanic rocks,bedrock or older,3,164.3,0.2727590221187427,10883
+773,HAZEN QUARRY,SQUAK MOUNTAIN MATERIALS INC,King,47.50880432,-122.08452606,17.5,130.0,Rock and Stone ,Evc(t),Tertiary fragmental volcanic rocks and deposits (includes lahars),bedrock or older,3,40.0,0.26926658905704304,12652
+774,KERN PIT,KITTITAS COUNTY PUBLIC WORKS,Kittitas,46.95872879,-120.3275528,24.5,100.0,Rock and Stone ,Mc(e),Tertiary sedimentary rocks and deposits,bedrock or older,3,35.2,0.2666472642607683,10738
+775,ABE CREEK,BURNS CONSTRUCTION,Wahkiakum,46.18953324,-123.34583283,14.64,145.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,166.8,0.26577415599534343,12883
+776,C MOORE QUARRY,BENTON COUNTY PUBLIC WORKS,Benton,46.18387955,-119.46017833,27.45,90.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,116.7,0.2657741559953434,13053
+777,TROUTLAKE QUARRY,KLICKITAT COUNTY PUBLIC WORKS,Klickitat,45.99704742,-121.55723572,9.0,190.0,Rock and Stone ,Mv(g),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,114.3,0.2635040745052386,12849
+778,SNIPES BUTTE ROCK QUARRY,J ARLIE BRYANT INC,Klickitat,45.79574573,-120.8648345,20.0,110.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,119.9,0.26245634458672873,13192
+779,MILLER RIVER,MERIDIAN AGGREGATE,King,47.71629715,-121.38853455,16.3,125.0,Rock and Stone ,MOigd(g),Tertiary intrusive rocks,bedrock or older,3,66.9,0.2614086146682188,10903
+780,CERES HILL,HEADWELL LLC,Lewis,46.61586761,-123.13220978,10.0,165.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,116.6,0.2558207217694994,11839
+781,QS-O-85,KONEN ROCK PRODUCTS INC,Walla Walla,46.30057526,-118.53760529,15.0,120.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,77.8,0.24848661233993014,10670
+782,SWEN LARSEN,UNITED WESTERN SUPPLY CO,Whatcom,48.74346542,-122.00579071,20.0,100.0,Rock and Stone ,pTu(ts),pre-Tertiary ultramafic rocks,bedrock or older,3,69.3,0.2462165308498254,12069
+783,DALE DEFOOR/CENTRAL NURSERY,DALE DEFOOR,Kittitas,46.96928857,-120.34038178,101.0,10.0,Sand and Gravel,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,34.6,0.24342258440046566,13122
+784,QS-C-109 & EXT RAHMS,DOT - DEPT OF TRANSPORTATION,Spokane,47.459198,-117.147995,16.82,110.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,31.6,0.24342258440046566,10511
+785,GRABNER QUARRY,RILEY BROTHERS INC,Klickitat,45.88945413,-120.2644813,30.0,70.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,116.0,0.24220023282887074,13278
+786,NORTH BEND QUARRY,MT SI QUARRY INC,King,47.50915146,-121.80731964,18.0,100.0,Rock and Stone ,MOigd(s),Tertiary intrusive rocks,bedrock or older,3,60.3,0.23224679860302677,11310
+787,ROCKFORD 35-33,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.44556427,-117.1245575,23.5,80.0,Sand and Gravel,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,33.5,0.23154831199068684,11752
+788,GIBSON PIT ELK HEIGHTS,ELK HEIGHTS CEMENT PRODUCTS LLC,Kittitas,47.11775019,-120.78378388,20.0,90.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,27.3,0.22962747380675202,13153
+789,SECTION 20,IMERYS MINERALS CALIFORNIA INC,Grant,47.04170721,-119.97193496,44.0,42.0,Diatomite,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,63.7,0.22910360884749703,13005
+790,WAUCONDA P5-5,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.72650909,-118.98526764,12.86,110.0,Sand and Gravel,KJigd(w),Mesozoic intrusive rocks,bedrock or older,3,126.2,0.22142025611175786,11125
+791,OLEQUA QUARRY,CRAIG OPSAHL ROCK & CONST,Cowlitz,46.35665131,-122.93604279,6.9,130.0,Rock and Stone ,Evb(gr),Tertiary volcanic rocks,bedrock or older,3,140.6,0.22019790454016297,12741
+792,VULCAN PIT,PRAZER CONSTRUCTION LLC,Douglas,47.23989487,-120.05995941,15.0,100.0,Sand and Gravel,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,50.3,0.21915017462165307,12920
+793,NEIL KAYSER/KAYSER & SONS,NEIL C KAYSER,Klickitat,45.6913539,-120.88433032,20.0,80.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,131.5,0.2149592549476135,13134
+794,COLE QUARRY,CURTIS COLE,Grant,46.94541417,-119.09522815,35.0,50.0,Rock and Stone ,Mv(swc),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,45.6,0.21356228172293365,13148
+795,POTTRATZ QUARRY,COPENHAVER CONSTRUCTION INC,Spokane,47.30306136,-117.16705393,12.0,105.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,29.1,0.21268917345750873,12948
+796,ROCK SERVICES INC,ROCK SERVICES INC,Lewis,46.63190231,-123.19317677,14.0,100.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,116.6,0.21181606519208382,13124
+797,NORTHLY SMITH,INTERSTATE CONCRETE & ASPHALT DBA HOOD RIVER,Klickitat,45.65006797,-121.15975045,60.0,20.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,139.1,0.20657741559953433,11393
+798,TOWER RD PIT,TIM BROWN LOGGING INC,Cowlitz,46.35050889,-122.81299571,3.0,120.0,Rock and Stone ,OEva(g),Tertiary volcanic rocks,bedrock or older,3,139.9,0.20238649592549476,13161
+799,COATES,BENTON COUNTY PUBLIC WORKS,Benton,46.30929184,-119.67446899,16.86,80.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,104.7,0.19627473806752035,12537
+800,PIT 3 SW,DOUGLAS COUNTY TLS,Douglas,47.56204145,-120.17278611,13.85,90.0,Sand and Gravel,Mv(gN2b),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,26.4,0.1936554132712456,13195
+801,WINTHROP SHOP P3-20,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.42763519,-120.14332581,27.62,50.0,Sand and Gravel,KJvs(n),Mesozoic volcanic and sedimentary rocks,bedrock or older,3,100.0,0.1929569266589057,11446
+802,GOLD HILL,A & E LLC,Snohomish,48.26192474,-121.59104157,15.22,80.0,Rock and Stone ,Jph(d),Mesozoic metasedimentary rocks,bedrock or older,3,88.2,0.19033760186263096,11999
+803,GNAEDINGER,WHITMAN COUNTY PUBLIC WORKS,Whitman,46.93175507,-117.08578491,9.42,100.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,44.7,0.18841676367869614,12134
+804,QS-E-206,DOT - DEPT OF TRANSPORTATION,Yakima,46.48963165,-120.15581513,9.0,100.0,Sand and Gravel,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,63.4,0.18754365541327125,11152
+805,HIGHLAND PIT #2,GRANT COUNTY PUBLIC WORKS,Grant,47.7702272,-119.02028149,19.0,70.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,25.7,0.18649592549476132,13031
+806,QS-P-34 COLFAX-WEST,DOT - DEPT OF TRANSPORTATION,Whitman,46.88874436,-117.3861084,8.3,100.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,30.8,0.1861466821885914,10031
+807,QS-FN-110,DOT - DEPT OF TRANSPORTATION,Franklin,46.66702271,-118.99650574,21.0,60.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,52.9,0.18544819557625147,12368
+808,QS-T-185 MORRISON,DOT - DEPT OF TRANSPORTATION,Lincoln,47.65612411,-117.93901825,36.75,38.0,Sand and Gravel,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,33.9,0.18527357392316646,12483
+809,FISHERHILL QUARRY,KLICKITAT COUNTY PUBLIC WORKS,Klickitat,45.91928325,-121.27624748,19.98,68.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,112.7,0.18492433061699648,13127
+810,HORRIGAN,BENTON COUNTY PUBLIC WORKS,Benton,46.1284789,-119.79136212,25.77,50.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,111.7,0.18457508731082653,10905
+811,R-102 HIGHLAND,BENTON COUNTY PUBLIC WORKS,Benton,46.28298569,-119.54680634,25.5,50.0,Sand and Gravel,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,112.9,0.18422584400465655,11895
+812,WEAVER,KONEN ROCK PRODUCTS INC,Walla Walla,46.00172806,-118.70218658,15.39,75.0,Sand and Gravel,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,110.2,0.18160651920838183,12746
+813,FINN HILL,CLARK COUNTY PUBLIC WORKS,Clark,45.76525498,-122.43926239,5.0,100.0,Rock and Stone ,Ova(2),Tertiary volcanic rocks,bedrock or older,3,177.5,0.1761932479627474,10931
+814,BLOEDEL 1,BLOEDEL TIMBERLANDS,Whatcom,48.66561127,-122.41296387,5.0,100.0,Rock and Stone ,Jph(d),Mesozoic metasedimentary rocks,bedrock or older,3,38.3,0.1761932479627474,10731
+815,QS-O-66,DOT - DEPT OF TRANSPORTATION,Walla Walla,46.28201294,-118.12101746,7.3,85.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,57.5,0.16169965075669382,11614
+816,QS-AD-23 KLIEN,DOT - DEPT OF TRANSPORTATION,Adams,47.19361877,-118.30390167,29.0,35.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,26.2,0.15925494761350406,11803
+817,CHATTAROY HARDROCK,RIVERSIDE CONCRETE INC DBA BODES SAND AND GRAVEL,Spokane,47.93545914,-117.29445648,38.0,25.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,54.2,0.15855646100116413,12797
+818,LONG LAKE 70-26,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.80541229,-117.7263031,13.0,70.0,Sand and Gravel,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,37.8,0.1569848661233993,12541
+819,CAMPBELL #37,ADAMS COUNTY PUBLIC WORKS,Adams,46.91134262,-119.12241364,37.0,25.0,Rock and Stone ,Mv(wr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,48.3,0.15541327124563448,12418
+820,KELSO QUARRY,HIGH LEVEL LLC,Cowlitz,46.15250942,-122.86450004,20.0,50.0,Rock and Stone ,En(c),Tertiary sedimentary rocks and deposits,bedrock or older,3,162.2,0.15541327124563445,11842
+821,MARTIN ROAD PIT,ROCK SERVICES INC,Lewis,46.53342056,-122.13327026,8.3,80.0,Rock and Stone ,OEvc,Tertiary fragmental volcanic rocks and deposits (includes lahars),bedrock or older,3,110.3,0.1548894062863795,12727
+822,MICA QUARRY 44-23,JOHN KONZAL,Spokane,47.55366516,-117.21520233,31.0,30.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,27.5,0.15384167636786963,12798
+823,TRAVIS,BENTON COUNTY PUBLIC WORKS,Benton,46.12736511,-119.46167755,24.560000000000002,40.0,Rock and Stone ,Mv(sp),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,121.7,0.15139697322467985,10892
+824,WEBER QUARRY,NORTH CENTRAL CONSTRUCTION INC,Grant,47.27646309,-119.92313376,20.0,46.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,55.5,0.14476135040745053,13096
+825,KUHN BASALT QUARRY,GRANITE CONSTRUCTION CO (EAST),Garfield,46.39878808,-117.47806863,25.0,35.0,Rock and Stone ,Mv(w),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,37.8,0.14249126891734573,12999
+826,PAT KEHN NO. 84-07,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.9329296,-117.29492461,25.0,35.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,54.0,0.14249126891734573,13059
+827,HOLCOMB QUARRY,DOUGLAS COUNTY TLS,Douglas,47.82959763,-119.8053891,20.0,45.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,47.5,0.14214202561117578,12733
+828,QS-T-213 SHERMAN DRAW,DOT - DEPT OF TRANSPORTATION,Lincoln,47.76833344,-118.61562347,13.72,60.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,51.7,0.140046565774156,11163
+829,OWENS MINE R-87,BENTON COUNTY PUBLIC WORKS,Benton,46.15605445,-119.13484934,20.3,40.0,Sand and Gravel,Mv(su),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,105.6,0.13742724097788125,13240
+830,LIVINGSTON,TOWER ROCK PRODUCTS INC,Clark,45.67275238,-122.40505982,20.0,40.0,Rock and Stone ,Ova(2),Tertiary volcanic rocks,bedrock or older,3,183.1,0.13061699650756695,10930
+831,QS-O-38 & EXT,DOT - DEPT OF TRANSPORTATION,Walla Walla,46.23465729,-118.37425232,6.5,70.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,74.1,0.13009313154831198,12178
+832,BLACK STAR QUARRY,JEFF GAMACHE FARMS INC,Yakima,46.49706022,-120.21323603,15.0,50.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,59.7,0.12834691501746215,12851
+833,WARREN,COLUMBIA COUNTY PUBLIC WORKS,Columbia,46.29081345,-117.91898346,18.1,40.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,49.4,0.1178696158323632,12267
+834,CHERRY LANE,BENTON COUNTY PUBLIC WORKS,Benton,46.23809433,-119.73512268,16.0,40.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,106.1,0.10948777648428405,11075
+835,WOOD 60-14,SPOKANE COUNTY PUBLIC WORKS,Spokane,47.75812149,-117.73249054,10.0,50.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,33.0,0.10180442374854483,11406
+836,HARRIS,DEATLEY CRUSHING CO INC,Klickitat,45.72826217,-120.28128496,10.0,50.0,Sand and Gravel,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,132.7,0.10180442374854483,12943
+837,QS-R-18,DOT - DEPT OF TRANSPORTATION,Benton,46.26734161,-119.38550568,8.0,50.0,Rock and Stone ,Mv(sih),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,105.9,0.0941210710128056,11168
+838,LPP-GP-145/STACK PIT,LINCOLN COUNTY PUBLIC WORKS,Lincoln,47.52532577,-118.0123291,20.0,25.0,Sand and Gravel,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,33.8,0.09254947613504073,12811
+839,PS-C-56 ELK HEIGHTS,KITTITAS COUNTY PUBLIC WORKS,Kittitas,47.12308353,-120.80342368,6.9,50.0,Sand and Gravel,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,28.0,0.09045401629802095,11207
+840,SPRAUER QUARRY,DOUGLAS COUNTY TLS,Douglas,47.73335057,-119.93050921,11.0,42.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,48.3,0.089930151338766,13147
+841,QS-T-21 TELFORD,DOT - DEPT OF TRANSPORTATION,Lincoln,47.71782684,-118.44258881,17.93,30.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,62.7,0.08853317811408613,11391
+842,INGRAM,KLICKITAT COUNTY PUBLIC WORKS,Klickitat,46.03019333,-120.31928253,5.0,50.0,Rock and Stone ,Mv(su),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,99.8,0.08538998835855646,10780
+843,QS-T-67 JOHNSON,DOT - DEPT OF TRANSPORTATION,Lincoln,47.85448241,-118.71882003,8.0,47.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,49.1,0.0839930151338766,11921
+844,QS-T-195 HARRINGTON,DOT - DEPT OF TRANSPORTATION,Lincoln,47.46475983,-118.26673889,14.0,35.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,52.7,0.08346915017462164,11357
+845,QS-T-196 BLUESTEM,DOT - DEPT OF TRANSPORTATION,Lincoln,47.56459045,-118.17098999,13.0,35.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,46.3,0.07823050058207216,11924
+846,STERETT QUARRY,COPENHAVER CONSTRUCTION INC,Lincoln,47.64302952,-118.28888402,15.0,30.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,57.0,0.07700814901047728,13033
+847,BLOCK 86 QUARRY #53,GRANT COUNTY PUBLIC WORKS,Grant,46.93557358,-119.59624481,13.200000000000001,30.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,78.8,0.06583236321303841,12876
+848,MARCELLUS #17,ADAMS COUNTY PUBLIC WORKS,Adams,47.23374176,-118.40080261,14.65,25.0,Sand and Gravel,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,27.1,0.061990686845168806,11746
+849,BEAVER LAKE,BEAVER LAKE QUARRY INC,Skagit,48.43766785,-122.22866058,14.5,25.0,Rock and Stone ,Jhm(h),Mesozoic heterogeneous metamorphic rocks,bedrock or older,3,53.1,0.059895227008149005,12680
+850,HOLLOWAY,YAKIMA COUNTY PUBLIC WORKS,Yakima,46.05454254,-120.22586823,6.93,35.0,Rock and Stone ,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,100.1,0.05413271245634458,10801
+851,WILLIAMS PIT P6-51,OKANOGAN COUNTY PUBLIC WORKS,Okanogan,48.82790375,-119.50630188,5.62,35.0,Sand and Gravel,PMmm(s),Paleozoic metasedimentary rocks,bedrock or older,3,136.9,0.05029103608847497,12767
+852,QS-T-116 HAMMERSCHMIDT,DOT - DEPT OF TRANSPORTATION,Lincoln,47.82427273,-118.1886724,5.3,35.0,Rock and Stone ,Mv(wpr),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,60.1,0.04959254947613504,12242
+853,BASELINE RD,BASELINE TRUCKING INC,Grant,46.87407684,-119.59352112,5.0,35.0,Sand and Gravel,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,84.2,0.04784633294528521,12062
+854,ROYAL READY MIX,ROYAL READY MIX INC,Grant,46.87072606,-119.59405796,9.5,30.0,Sand and Gravel,Mv(sem),"Miocene Columbia River Basalt Group, Saddle Mountains Basalt",bedrock or older,3,84.3,0.04679860302677532,10190
+855,SADDLE MT PIT C-54,KITTITAS COUNTY PUBLIC WORKS,Kittitas,46.97657013,-120.25327301,6.9,30.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,41.2,0.03911525029103608,11971
+856,BENNETT PIT,KITTITAS COUNTY PUBLIC WORKS,Kittitas,46.97925568,-120.31748962,6.9,30.0,Rock and Stone ,Mv(wfs),"Miocene Columbia River Basalt Group, Wanapum Basalt",bedrock or older,3,36.6,0.03911525029103608,12905
+857,BROWN QUARRY,RICHARD BROWN,Stevens,47.82867447,-117.58426268,6.34,30.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,38.4,0.037194412107101275,13164
+858,SLUSSER QUARRY DO-97,APPLE VALLEY CONCRETE LLC,Douglas,47.70119767,-119.95663941,5.5,30.0,Rock and Stone ,Mv(gN2),"Miocene Columbia River Basalt Group, Grande Ronde Basalt",bedrock or older,3,45.2,0.036146682188591385,11909
+859,PIPER SAND PIT,WITTKOPF ENTERPRISES INC,Spokane,47.75006,-117.35583382,7.94,25.0,Sand and Gravel,Mc(l),Tertiary sedimentary rocks and deposits,bedrock or older,3,33.6,0.030558789289871945,13050

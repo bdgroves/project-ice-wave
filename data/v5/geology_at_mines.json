@@ -1,0 +1,4297 @@
+{
+"13155": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12604": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12612": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12614": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12616": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12617": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12618": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12619": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"12620": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12622": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12624": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12626": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12627": {
+"label": "Qao",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12629": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12635": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12639": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12642": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"12647": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12649": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12652": {
+"label": "Evc(t)",
+"desc": "Tertiary fragmental volcanic rocks and deposits (includes lahars)",
+"quad": "Compiled"
+},
+"12654": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12655": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12657": {
+"label": "Qgpc",
+"desc": "Pleistocene glacial and nonglacial deposits",
+"quad": "Compiled"
+},
+"12659": {
+"label": "Qgos",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12660": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12663": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12664": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12665": {
+"label": "Qapo(lh)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12668": {
+"label": "Qgo(sg)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12671": {
+"label": "Qgp",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12672": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12673": {
+"label": "Qao(lr)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12675": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12677": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12680": {
+"label": "Jhm(h)",
+"desc": "Mesozoic heterogeneous metamorphic rocks",
+"quad": "Port Townsend"
+},
+"12681": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12685": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12688": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12695": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12696": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12697": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12701": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12702": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12703": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12706": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12708": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12710": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"12712": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12716": {
+"label": "Qgp",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12717": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12720": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12721": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12724": {
+"label": "Qgos",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12727": {
+"label": "OEvc",
+"desc": "Tertiary fragmental volcanic rocks and deposits (includes lahars)",
+"quad": "Compiled"
+},
+"12730": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12733": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12735": {
+"label": "PLcg(t)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12738": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12741": {
+"label": "Evb(gr)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12744": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12745": {
+"label": "Qfs(t)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12746": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12747": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12749": {
+"label": "Qs",
+"desc": "Quaternary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12750": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12752": {
+"label": "PLcg(t)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12755": {
+"label": "PMcb(s)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"12756": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12757": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12763": {
+"label": "Qat(e)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12764": {
+"label": "Qapwo(2)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12767": {
+"label": "PMmm(s)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"12769": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12774": {
+"label": "Mv(w)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12783": {
+"label": "MOian",
+"desc": "Tertiary intrusive rocks",
+"quad": "Compiled"
+},
+"12786": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12787": {
+"label": "JTRmct(o)",
+"desc": "Mesozoic sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12793": {
+"label": "OCcb(m)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"12797": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12798": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12800": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12801": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12803": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12806": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12807": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12810": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12811": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12812": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"12813": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12814": {
+"label": "Qoa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12816": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12819": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12822": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12825": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12828": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12829": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12832": {
+"label": "EPAm(c)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12834": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"12841": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12843": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12845": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12849": {
+"label": "Mv(g)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12851": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12853": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12854": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12856": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12857": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12858": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12862": {
+"label": "Qapo",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12863": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12865": {
+"label": "Mva(fp)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12866": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12868": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12869": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12871": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12873": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12874": {
+"label": "pDi(t)",
+"desc": "Paleozoic-Precambrian intrusive rocks",
+"quad": "Compiled"
+},
+"12875": {
+"label": "pCgn(s)",
+"desc": "Precambrian heterogeneous metamorphic rocks",
+"quad": "Compiled"
+},
+"12876": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12879": {
+"label": "Mvr(fp)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12881": {
+"label": "Qgod",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12882": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"12883": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12886": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12887": {
+"label": "Qaf",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12888": {
+"label": "KJmm",
+"desc": "Mesozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"12889": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12890": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12893": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"12894": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12895": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12896": {
+"label": "Qglf",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12897": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12899": {
+"label": "MOigb",
+"desc": "Tertiary intrusive rocks",
+"quad": "Compiled"
+},
+"12901": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12902": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12903": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12905": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12906": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12908": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12909": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12910": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12912": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12913": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12916": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12917": {
+"label": "PMDhm(c)",
+"desc": "Paleozoic heterogeneous metamorphic rocks",
+"quad": "Compiled"
+},
+"12920": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12922": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12924": {
+"label": "Ova",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12929": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12931": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12932": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12933": {
+"label": "Qapo(h)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"10746": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10772": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10778": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10779": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10780": {
+"label": "Mv(su)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10783": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10792": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"10799": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10801": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10815": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10816": {
+"label": "Qfs(t)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10819": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10831": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10835": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"10844": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10845": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10852": {
+"label": "Qf(m)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10881": {
+"label": "Mv(gR2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10883": {
+"label": "Evb(gr)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"10889": {
+"label": "Mv(gR2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10892": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10898": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10901": {
+"label": "Jigbd(w)",
+"desc": "Mesozoic intrusive rocks",
+"quad": "Compiled"
+},
+"10903": {
+"label": "MOigd(g)",
+"desc": "Tertiary intrusive rocks",
+"quad": "Compiled"
+},
+"10905": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10927": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10929": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10930": {
+"label": "Ova(2)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"10931": {
+"label": "Ova(2)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"10935": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10938": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10941": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10947": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10958": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10959": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10961": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"10963": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10964": {
+"label": "Mv(gR2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10981": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11000": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11012": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11016": {
+"label": "Qgos",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11028": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"11030": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"11038": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11047": {
+"label": "Evc(t)",
+"desc": "Tertiary fragmental volcanic rocks and deposits (includes lahars)",
+"quad": "Compiled"
+},
+"11060": {
+"label": "Evb(gr)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"11068": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11075": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"11120": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11122": {
+"label": "Mv(g)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11125": {
+"label": "KJigd(w)",
+"desc": "Mesozoic intrusive rocks",
+"quad": "Compiled"
+},
+"11145": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11147": {
+"label": "Qfg(3)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11152": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"11153": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"11155": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11156": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"11163": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11165": {
+"label": "OEvba",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"11168": {
+"label": "Mv(sih)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"11178": {
+"label": "Mian",
+"desc": "Tertiary intrusive rocks",
+"quad": "Compiled"
+},
+"11179": {
+"label": "Qglf",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11188": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11190": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11207": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11241": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11245": {
+"label": "Mv(g)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11246": {
+"label": "PLiq(w)",
+"desc": "Tertiary intrusive rocks",
+"quad": "Compiled"
+},
+"11260": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11267": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11269": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"11280": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"11294": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11310": {
+"label": "MOigd(s)",
+"desc": "Tertiary intrusive rocks",
+"quad": "Compiled"
+},
+"11312": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11324": {
+"label": "QMcg",
+"desc": "Quaternary-Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"11326": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11328": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11333": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11346": {
+"label": "Ev(p)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"11349": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11351": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11354": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"11356": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11357": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11365": {
+"label": "OEva(g)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"11367": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11371": {
+"label": "Qs",
+"desc": "Quaternary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"11372": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11391": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11393": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11396": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11406": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11408": {
+"label": "af",
+"desc": "Holocene artificial fill and modified land",
+"quad": "Port Townsend"
+},
+"11422": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"11439": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11446": {
+"label": "KJvs(n)",
+"desc": "Mesozoic volcanic and sedimentary rocks",
+"quad": "Compiled"
+},
+"11454": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11464": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"11473": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11477": {
+"label": "Qgl",
+"desc": "Pleistocene bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"11481": {
+"label": "TRiq(m)",
+"desc": "Mesozoic intrusive rocks",
+"quad": "Compiled"
+},
+"11497": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"11498": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11500": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11505": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11510": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11512": {
+"label": "Qgom(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11513": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11516": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11532": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11537": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11543": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11548": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11555": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11556": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11558": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11560": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"11575": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11584": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11589": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11591": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"11595": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11596": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11605": {
+"label": "Qva(dl)",
+"desc": "Pleistocene volcanic rocks",
+"quad": "Compiled"
+},
+"11614": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11615": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11619": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11651": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11656": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11657": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11670": {
+"label": "Qfs",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11671": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11675": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11688": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"11701": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11703": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11706": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11712": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11720": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11742": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11745": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11746": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11747": {
+"label": "CZq(a)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"11752": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11753": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11755": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11767": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11774": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11778": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11785": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11803": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11806": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Port Townsend"
+},
+"11807": {
+"label": "OEva(g)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"11820": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11824": {
+"label": "Mv(sih)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"11830": {
+"label": "Qad(e)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"11833": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11839": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11840": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11841": {
+"label": "Qgo(es)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11842": {
+"label": "En(c)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"11850": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"11852": {
+"label": "QPLv(s)",
+"desc": "Quaternary-Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"11853": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11864": {
+"label": "Qf",
+"desc": "Holocene artificial fill and modified land",
+"quad": "Compiled"
+},
+"11866": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11870": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11872": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11874": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11878": {
+"label": "KJmm(w)",
+"desc": "Mesozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"11895": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"11902": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11908": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11909": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11912": {
+"label": "Mv(g)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11921": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11924": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"11929": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11936": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11938": {
+"label": "PLMc(t)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"11942": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11947": {
+"label": "Qgos(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11948": {
+"label": "Qgom(e)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11950": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"11956": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11966": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11967": {
+"label": "Evr(k)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"11971": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"11984": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11988": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11995": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"11998": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"11999": {
+"label": "Jph(d)",
+"desc": "Mesozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"12000": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12014": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12020": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12021": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12022": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12026": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12031": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12043": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12044": {
+"label": "Qap(a)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12047": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12054": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12062": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12064": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12068": {
+"label": "Qgom(e)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12069": {
+"label": "pTu(ts)",
+"desc": "pre-Tertiary ultramafic rocks",
+"quad": "Compiled"
+},
+"12072": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12073": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12079": {
+"label": "PMDmv(c)",
+"desc": "Paleozoic metavolcanic rocks",
+"quad": "Compiled"
+},
+"12085": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12087": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12091": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12094": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12095": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12098": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12101": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12104": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12126": {
+"label": "Qglf",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12132": {
+"label": "Qgpc",
+"desc": "Pleistocene glacial and nonglacial deposits",
+"quad": "Compiled"
+},
+"12134": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12140": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"12146": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12147": {
+"label": "Qglf",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12153": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12161": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12163": {
+"label": "Qao",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12168": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12178": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12195": {
+"label": "PMDms(c)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"12205": {
+"label": "Qvl(3sh)",
+"desc": "Quaternary fragmental volcanic rocks and deposits (includes lahars)",
+"quad": "Compiled"
+},
+"12207": {
+"label": "Qgo(sg)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12208": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12212": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12242": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12248": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12257": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12267": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12268": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12286": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12288": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12300": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12311": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12312": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12313": {
+"label": "Qfs(3)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12325": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12327": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"12330": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12354": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12358": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12359": {
+"label": "Mcg(e)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12367": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12368": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12370": {
+"label": "Qgdm(e)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12372": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12374": {
+"label": "Qfg(4)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12381": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12382": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12390": {
+"label": "Qfg(4)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12401": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12404": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"12417": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12418": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12424": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12426": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12430": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12438": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12449": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12453": {
+"label": "QPLvb(s)",
+"desc": "Quaternary-Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12456": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12459": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12460": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12461": {
+"label": "Ova(2)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12462": {
+"label": "pTmb",
+"desc": "pre-Tertiary metasedimentary rocks",
+"quad": "Compiled"
+},
+"12467": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12471": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12478": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12483": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12485": {
+"label": "Qs",
+"desc": "Quaternary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12486": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12491": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12493": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12494": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12500": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12508": {
+"label": "KJmm(w)",
+"desc": "Mesozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"12523": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12525": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12530": {
+"label": "Qgt(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12537": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"12541": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12542": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12550": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12552": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12558": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12560": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"12574": {
+"label": "KJmm(w)",
+"desc": "Mesozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"12576": {
+"label": "Mva(fp)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12577": {
+"label": "Qgos",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12585": {
+"label": "Qf",
+"desc": "Holocene artificial fill and modified land",
+"quad": "Compiled"
+},
+"12589": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12594": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12602": {
+"label": "Eva(n)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"10002": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10004": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10007": {
+"label": "Ova(1)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"10009": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10012": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"10019": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10031": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10051": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10052": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10054": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10068": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10080": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10084": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10100": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10113": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10114": {
+"label": "CZq(a)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"10117": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10123": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10127": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10128": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10139": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10143": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10145": {
+"label": "En(sk)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"10151": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10155": {
+"label": "Qf",
+"desc": "Holocene artificial fill and modified land",
+"quad": "Compiled"
+},
+"10158": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10159": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10161": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"10162": {
+"label": "af",
+"desc": "Holocene artificial fill and modified land",
+"quad": "Port Townsend"
+},
+"10170": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"10172": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10177": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10180": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10186": {
+"label": "Mvi(g)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10188": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"10190": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10192": {
+"label": "Jigb(w)",
+"desc": "Mesozoic intrusive rocks",
+"quad": "Compiled"
+},
+"10193": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10195": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10196": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10200": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"10202": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10203": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Port Townsend"
+},
+"10205": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"10206": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"10213": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10215": {
+"label": "Qfs(3)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10226": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10228": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10231": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"10233": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"10234": {
+"label": "Qgom(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10238": {
+"label": "Qfg(3)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10239": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10242": {
+"label": "Ec(2pg)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"10248": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10249": {
+"label": "Eib",
+"desc": "Tertiary intrusive rocks",
+"quad": "Compiled"
+},
+"10251": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10252": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10255": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10260": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10269": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10271": {
+"label": "Qp",
+"desc": "Quaternary bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"10272": {
+"label": "Qp",
+"desc": "Quaternary bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"10280": {
+"label": "Qfs",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10282": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10284": {
+"label": "MOm(p)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"10287": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10292": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10293": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Port Townsend"
+},
+"10298": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10300": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10303": {
+"label": "Qgom(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10304": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10307": {
+"label": "Qgom(e)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10311": {
+"label": "Qda",
+"desc": "Quaternary dune sand",
+"quad": "Compiled"
+},
+"10314": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10316": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10319": {
+"label": "Qgom(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10322": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10325": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10327": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10330": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10332": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10333": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10344": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10345": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10352": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10356": {
+"label": "Qgdm(e)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10357": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10361": {
+"label": "PMDms(c)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"10362": {
+"label": "PMDmb(c)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"10363": {
+"label": "Qgdm(e)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10365": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10377": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10381": {
+"label": "OCcb(l)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"10382": {
+"label": "Qapo(h)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"10385": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10391": {
+"label": "Ova(2)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"10396": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10402": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"10403": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10407": {
+"label": "Qap(a)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"10409": {
+"label": "Ev(p)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"10411": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"10415": {
+"label": "Qd",
+"desc": "Quaternary dune sand",
+"quad": "Compiled"
+},
+"10420": {
+"label": "Qgo(sg)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10422": {
+"label": "Qvba(cl)",
+"desc": "Quaternary volcanic rocks",
+"quad": "Compiled"
+},
+"10427": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10444": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10449": {
+"label": "wtr",
+"desc": "Water",
+"quad": "Compiled"
+},
+"10451": {
+"label": "Qgo(sg)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10452": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10455": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"10456": {
+"label": "pChm(p)",
+"desc": "Precambrian heterogeneous metamorphic rocks",
+"quad": "Compiled"
+},
+"10470": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10477": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10492": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10496": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"10498": {
+"label": "Qgp",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10501": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10510": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10511": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10512": {
+"label": "Qgo(sg)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10513": {
+"label": "QPLvb(s)",
+"desc": "Quaternary-Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"10516": {
+"label": "OEvc(g)",
+"desc": "Tertiary fragmental volcanic rocks and deposits (includes lahars)",
+"quad": "Compiled"
+},
+"10518": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10547": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"10554": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10555": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10557": {
+"label": "En(c)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"10563": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10566": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10572": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"10578": {
+"label": "Qad",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"10589": {
+"label": "Mvi(g)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"10597": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10609": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10619": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10626": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Port Townsend"
+},
+"10634": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"10647": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10648": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10664": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10670": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"10674": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10690": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10701": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10709": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10715": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"10716": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"10731": {
+"label": "Jph(d)",
+"desc": "Mesozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"10734": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"10738": {
+"label": "Mc(e)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"10745": {
+"label": "PLMc(t)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12935": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12938": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12941": {
+"label": "Qglf",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12942": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12943": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12944": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12948": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12949": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12951": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12952": {
+"label": "Qgom",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12953": {
+"label": "En(sk)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12954": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12956": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12957": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"12959": {
+"label": "OEva(g)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12960": {
+"label": "Qd",
+"desc": "Quaternary dune sand",
+"quad": "Compiled"
+},
+"12961": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12963": {
+"label": "Ec(2pg)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12964": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12965": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12968": {
+"label": "Qfg(4)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12970": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"12971": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12973": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"12975": {
+"label": "Qat(lb)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"12977": {
+"label": "Yms(p)",
+"desc": "Precambrian metasedimentary rocks",
+"quad": "Compiled"
+},
+"12978": {
+"label": "Evd(s)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"12979": {
+"label": "Qp",
+"desc": "Quaternary bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"12980": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"12981": {
+"label": "pChm(p)",
+"desc": "Precambrian heterogeneous metamorphic rocks",
+"quad": "Compiled"
+},
+"12982": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12983": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"12984": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12985": {
+"label": "Qs",
+"desc": "Quaternary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12986": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12989": {
+"label": "JTRmct(o)",
+"desc": "Mesozoic sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"12990": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12991": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12996": {
+"label": "Ycb(e)",
+"desc": "Precambrian metasedimentary rocks",
+"quad": "Compiled"
+},
+"12997": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12998": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"12999": {
+"label": "Mv(w)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13000": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13001": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13003": {
+"label": "Qs",
+"desc": "Quaternary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13004": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13005": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13009": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13010": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13012": {
+"label": "Qad(e)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"13013": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13015": {
+"label": "pCgn(s)",
+"desc": "Precambrian heterogeneous metamorphic rocks",
+"quad": "Compiled"
+},
+"13016": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13017": {
+"label": "Ova(2)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13018": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13021": {
+"label": "Mcg(e)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13024": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"13025": {
+"label": "Ova(1)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13026": {
+"label": "Qgl",
+"desc": "Pleistocene bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"13027": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13028": {
+"label": "Mc",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13029": {
+"label": "Qs",
+"desc": "Quaternary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13030": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13031": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13033": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13034": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13036": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13039": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13040": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13041": {
+"label": "Ova(2)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13043": {
+"label": "Kmg(c)",
+"desc": "Mesozoic metamorphic and igneous rocks",
+"quad": "Compiled"
+},
+"13044": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13046": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13047": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13049": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"13050": {
+"label": "Mc(l)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13051": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13052": {
+"label": "Eva(n)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13053": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13054": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13055": {
+"label": "Qda",
+"desc": "Quaternary dune sand",
+"quad": "Compiled"
+},
+"13056": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13057": {
+"label": "Ova(2)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13059": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13061": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13063": {
+"label": "TRPMmv",
+"desc": "Mesozoic-Paleozoic heterogeneous metamorphic rocks",
+"quad": "Compiled"
+},
+"13064": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13065": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13066": {
+"label": "Qglf",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13067": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13069": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13070": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13071": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"13072": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13073": {
+"label": "En(sk)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13074": {
+"label": "Qglf",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13075": {
+"label": "Qt",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13076": {
+"label": "Qgl",
+"desc": "Pleistocene bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"13077": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13078": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13079": {
+"label": "OEvba",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13080": {
+"label": "Ova",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13083": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13084": {
+"label": "Mc(e)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13086": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13087": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13090": {
+"label": "Qapt(ks)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"13092": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13093": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13094": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"13095": {
+"label": "Qgom(ee)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13096": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13097": {
+"label": "Qgog",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13098": {
+"label": "Ova(2)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13099": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13100": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13103": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13104": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13106": {
+"label": "Qfs(t)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13108": {
+"label": "pKcs(b)",
+"desc": "pre-Tertiary heterogeneous metamorphic rocks",
+"quad": "Compiled"
+},
+"13110": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13111": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13112": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"13113": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13114": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13117": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13119": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13120": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13122": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13123": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13124": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13125": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13126": {
+"label": "COcg",
+"desc": "Paleozoic sedimentary rocks",
+"quad": "Compiled"
+},
+"13127": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13128": {
+"label": "Qgl",
+"desc": "Pleistocene bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"13129": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13130": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13131": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13132": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13134": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13135": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"13140": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"13141": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"13144": {
+"label": "Qd",
+"desc": "Quaternary dune sand",
+"quad": "Compiled"
+},
+"13147": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13148": {
+"label": "Mv(swc)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13151": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13152": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13153": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13154": {
+"label": "Qvl(gp)",
+"desc": "Quaternary fragmental volcanic rocks and deposits (includes lahars)",
+"quad": "Compiled"
+},
+"13156": {
+"label": "OCcb(m)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"13157": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13158": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13159": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Compiled"
+},
+"13161": {
+"label": "OEva(g)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13162": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"13164": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13165": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13166": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13171": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13172": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13173": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13174": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13176": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13177": {
+"label": "Ycb(s)",
+"desc": "Precambrian metasedimentary rocks",
+"quad": "Compiled"
+},
+"13178": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13179": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13180": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13182": {
+"label": "Qgic",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"13183": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13184": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13185": {
+"label": "Qgod",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13186": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13187": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13189": {
+"label": "KJvs(n)",
+"desc": "Mesozoic volcanic and sedimentary rocks",
+"quad": "Compiled"
+},
+"13190": {
+"label": "Mc(e)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13191": {
+"label": "Qad(e)",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"13192": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13195": {
+"label": "Mv(gN2b)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13197": {
+"label": "Qgo(i)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13200": {
+"label": "Eva(n)",
+"desc": "Tertiary volcanic rocks",
+"quad": "Compiled"
+},
+"13201": {
+"label": "Ev(c)",
+"desc": "Eocene Crescent Formation, volcanic rocks",
+"quad": "Compiled"
+},
+"13202": {
+"label": "Mv(wr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13203": {
+"label": "Ec(o)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13205": {
+"label": "Qd",
+"desc": "Quaternary dune sand",
+"quad": "Compiled"
+},
+"13207": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13209": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Port Townsend"
+},
+"13211": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13213": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13214": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13215": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13216": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13217": {
+"label": "Qgl",
+"desc": "Pleistocene bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"13218": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13220": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13222": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13223": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13224": {
+"label": "Qs",
+"desc": "Quaternary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13225": {
+"label": "Qad",
+"desc": "Pleistocene alpine glacial drift",
+"quad": "Compiled"
+},
+"13227": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13228": {
+"label": "KJmm",
+"desc": "Mesozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"13230": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13231": {
+"label": "PMmm(s)",
+"desc": "Paleozoic metasedimentary rocks",
+"quad": "Compiled"
+},
+"13232": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13233": {
+"label": "Qgt",
+"desc": "Pleistocene continental glacial till",
+"quad": "Port Townsend"
+},
+"13234": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13235": {
+"label": "Qgl",
+"desc": "Pleistocene bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"13238": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13239": {
+"label": "Qga",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"13240": {
+"label": "Mv(su)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13241": {
+"label": "Mv(gR2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13244": {
+"label": "Qs",
+"desc": "Quaternary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13245": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"13246": {
+"label": "Qd",
+"desc": "Quaternary dune sand",
+"quad": "Compiled"
+},
+"13247": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13248": {
+"label": "En(sk)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13249": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"13250": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13251": {
+"label": "Qa",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13252": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13253": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13254": {
+"label": "Qgdm(e)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13258": {
+"label": "Mm(1n)",
+"desc": "Tertiary sedimentary rocks and deposits",
+"quad": "Compiled"
+},
+"13259": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13261": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13265": {
+"label": "Qfg(4)",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13266": {
+"label": "Qla",
+"desc": "Quaternary bog, marsh, swamp, or lake deposits",
+"quad": "Compiled"
+},
+"13267": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13268": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13269": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13271": {
+"label": "Mv(sem)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13274": {
+"label": "Ql",
+"desc": "Quaternary eolian deposits, loess",
+"quad": "Compiled"
+},
+"13275": {
+"label": "Qls",
+"desc": "Quaternary mass-wasting deposits",
+"quad": "Compiled"
+},
+"13276": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13277": {
+"label": "Mv(gN2)",
+"desc": "Miocene Columbia River Basalt Group, Grande Ronde Basalt",
+"quad": "Compiled"
+},
+"13278": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13280": {
+"label": "Qgd",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13281": {
+"label": "Mv(wfs)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+},
+"13282": {
+"label": "Mv(sp)",
+"desc": "Miocene Columbia River Basalt Group, Saddle Mountains Basalt",
+"quad": "Compiled"
+},
+"13283": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13286": {
+"label": "Qfg",
+"desc": "Pleistocene outburst flood deposits",
+"quad": "Compiled"
+},
+"13287": {
+"label": "Qgo(s)",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13288": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Compiled"
+},
+"13289": {
+"label": "Qgo",
+"desc": "Pleistocene continental glacial drift",
+"quad": "Port Townsend"
+},
+"13291": {
+"label": "Qaf",
+"desc": "Quaternary alluvium",
+"quad": "Compiled"
+},
+"13296": {
+"label": "Mv(wpr)",
+"desc": "Miocene Columbia River Basalt Group, Wanapum Basalt",
+"quad": "Compiled"
+}
+}
