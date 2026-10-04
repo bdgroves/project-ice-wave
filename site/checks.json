@@ -1,0 +1,266 @@
+{
+ "place_km": 10,
+ "trees": 200,
+ "training": {
+  "east_records": 40,
+  "east_places": 28,
+  "biggest_place": 10,
+  "large_mammals": 24,
+  "not_large_mammals": 16,
+  "small": [
+   "beaver",
+   "chub (fish)",
+   "cottontail",
+   "fox",
+   "ground squirrel",
+   "gull",
+   "horned lizard",
+   "human",
+   "pocket gopher",
+   "pocket mouse",
+   "prairie dog",
+   "snapping turtle",
+   "vole"
+  ],
+  "by_state": {
+   "Montana": 18,
+   "Nevada": 8,
+   "Idaho": 6,
+   "Washington": 5,
+   "Oregon": 3
+  },
+  "background": 273,
+  "west_records": 31,
+  "west_places": 19
+ },
+ "lithology": {
+  "east_v4": {
+   "background_values": [
+    0.5
+   ],
+   "presence_values": [
+    0.15,
+    0.4,
+    1.0
+   ],
+   "presence_at_background_value": 0
+  },
+  "east_v3": {
+   "background_value": 0.4,
+   "presence_not_default": 15
+  },
+  "west": {
+   "background_values": [
+    0.4
+   ],
+   "presence_not_default": 22,
+   "presence": 31
+  }
+ },
+ "zeros": {
+  "presence_all_zero": 23,
+  "presence": 40,
+  "presence_all_zero_states": {
+   "Montana": 18,
+   "Idaho": 5
+  },
+  "east_targets": 25,
+  "targets_all_zero": 12,
+  "top6_east": [
+   "E02",
+   "E03",
+   "E04",
+   "E05",
+   "E15",
+   "E16"
+  ],
+  "top6_all_zero": 6,
+  "targets_with_dtm": 20,
+  "zero_targets_with_dtm": 10,
+  "zero_targets_on_level_patch": 10,
+  "level_targets": [
+   {
+    "id": "E02",
+    "elev_m": 205.25,
+    "level_km2": 1.09
+   },
+   {
+    "id": "E03",
+    "elev_m": 194.62,
+    "level_km2": 6.1
+   },
+   {
+    "id": "E04",
+    "elev_m": 225.07,
+    "level_km2": 6.95
+   },
+   {
+    "id": "E05",
+    "elev_m": 241.84,
+    "level_km2": 0.19
+   },
+   {
+    "id": "E15",
+    "elev_m": 571.09,
+    "level_km2": 0.7
+   },
+   {
+    "id": "E16",
+    "elev_m": 568.88,
+    "level_km2": 0.11
+   },
+   {
+    "id": "E20",
+    "elev_m": 779.58,
+    "level_km2": 0.61
+   },
+   {
+    "id": "E21",
+    "elev_m": 904.48,
+    "level_km2": 0.7
+   },
+   {
+    "id": "E23",
+    "elev_m": 1349.91,
+    "level_km2": 0.24
+   },
+   {
+    "id": "E25",
+    "elev_m": 1034.25,
+    "level_km2": 0.25
+   }
+  ],
+  "osm_water": [
+   "E03",
+   "E04",
+   "E16",
+   "E21",
+   "E25",
+   "E30"
+  ]
+ },
+ "retest": {
+  "east_as_built": {
+   "features": [
+    "elevation",
+    "slope",
+    "aspect",
+    "tri",
+    "lith_score",
+    "tpi_15m"
+   ],
+   "records": 40,
+   "places": 28,
+   "record_loo_found": 37,
+   "place_out_records_found": 33,
+   "place_out_places_found": 25,
+   "place_out_auc": 1.0,
+   "background_flagged": 0.0
+  },
+  "east_without_lith": {
+   "features": [
+    "elevation",
+    "slope",
+    "aspect",
+    "tri",
+    "tpi_15m"
+   ],
+   "records": 40,
+   "places": 28,
+   "record_loo_found": 15,
+   "place_out_records_found": 13,
+   "place_out_places_found": 10,
+   "place_out_auc": 0.646,
+   "background_flagged": 0.179
+  },
+  "east_tpi_only": {
+   "features": [
+    "tpi_15m"
+   ],
+   "records": 40,
+   "places": 28,
+   "record_loo_found": 18,
+   "place_out_records_found": 20,
+   "place_out_places_found": 17,
+   "place_out_auc": 0.51,
+   "background_flagged": 0.326
+  },
+  "west_as_built": {
+   "features": [
+    "elevation",
+    "slope",
+    "aspect",
+    "tri",
+    "lith_score"
+   ],
+   "records": 31,
+   "places": 19,
+   "record_loo_found": 22,
+   "place_out_records_found": 20,
+   "place_out_places_found": 14,
+   "place_out_auc": 0.854,
+   "background_flagged": 0.049
+  },
+  "west_terrain_only": {
+   "features": [
+    "elevation",
+    "slope",
+    "aspect",
+    "tri"
+   ],
+   "records": 31,
+   "places": 19,
+   "record_loo_found": 18,
+   "place_out_records_found": 16,
+   "place_out_places_found": 11,
+   "place_out_auc": 0.627,
+   "background_flagged": 0.341
+  }
+ },
+ "tpi": {
+  "targets_with_tpi": 20,
+  "valley_floor": 12,
+  "valley_floor_on_level_patch": 8,
+  "valley_floor_ids": [
+   "E02",
+   "E03",
+   "E04",
+   "E15",
+   "E16",
+   "E18",
+   "E20",
+   "E21",
+   "E23",
+   "E26",
+   "E27",
+   "E34"
+  ],
+  "presence_median": -8.7,
+  "background_median": 0.0,
+  "tpi_only_auc": 0.51
+ },
+ "e02": {
+  "lat": 46.30028,
+  "lon": -120.13361,
+  "coyote_canyon": {
+   "lat": 46.1661,
+   "lon": -119.2728,
+   "source": "OpenStreetMap way 1102212408",
+   "name": "Mammoth Drive"
+  },
+  "km_to_coyote_canyon": 67.9,
+  "v3_rank_east": 1,
+  "v4_rank_east": 23,
+  "east_targets": 25,
+  "level_km2": 1.09,
+  "elev_m": 205.25,
+  "osm": {
+   "water": null,
+   "water_kind": null,
+   "protected": null
+  },
+  "nearest_training_km": 80.2,
+  "nearest_training": "bison (Bison)",
+  "dig_began": "2008 (quarry find 1999)"
+ }
+}

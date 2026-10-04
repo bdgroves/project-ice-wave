@@ -1,0 +1,277 @@
+{
+"near_km": 10,
+"new_km": 1,
+"checked": "2026-10-04T17:09Z",
+"records": 539,
+"localities": 69,
+"by_state": {
+"Oregon": 255,
+"Nevada": 103,
+"Idaho": 82,
+"Montana": 63,
+"Washington": 36
+},
+"unseen_localities": 9,
+"unseen": [
+{
+"lat": 42.807,
+"lng": -124.807,
+"state": "Oregon",
+"n": 11,
+"taxa": [
+"Acipenser medirostris",
+"Ammodytes hexapterus",
+"Beringraja binoculata",
+"Cryptacanthodes aleutensis",
+"Glyptocephalus zachirus",
+"Macrouridae",
+"Microgadus proximus",
+"Sebastes eos"
+]
+},
+{
+"lat": 42.8092,
+"lng": -124.5324,
+"state": "Oregon",
+"n": 1,
+"taxa": [
+"Proterozetes ulysses"
+]
+},
+{
+"lat": 42.8125,
+"lng": -124.5341,
+"state": "Oregon",
+"n": 16,
+"taxa": [
+"Acipenser medirostris",
+"Ammodytes hexapterus",
+"Atheresthes stomias",
+"Cetorhinus",
+"Citharichthys sordidus",
+"Cottidae",
+"Cryptacanthodes aleutensis",
+"Cymatogaster aggregata"
+]
+},
+{
+"lat": 42.8181,
+"lng": -124.5377,
+"state": "Oregon",
+"n": 9,
+"taxa": [
+"Ammodytes hexapterus",
+"Cryptacanthodes aleutensis",
+"Gadus chalcogrammus",
+"Merluccius productus",
+"Microgadus proximus",
+"Parophrys vetulus",
+"Raja",
+"Sebastes goodei"
+]
+},
+{
+"lat": 42.825,
+"lng": -124.5456,
+"state": "Oregon",
+"n": 14,
+"taxa": [
+"Balaena",
+"Balaenoptera acutorostrata",
+"Callorhinus",
+"Chendytes",
+"Enhydra",
+"Larus",
+"Phoca vitulina",
+"Proboscidea"
+]
+},
+{
+"lat": 42.8342,
+"lng": -124.5647,
+"state": "Oregon",
+"n": 1,
+"taxa": [
+"Odobenus rosmarus"
+]
+},
+{
+"lat": 42.835,
+"lng": -124.56,
+"state": "Oregon",
+"n": 9,
+"taxa": [
+"Atheresthes stomias",
+"Chendytes lawi",
+"Citharichthys sordidus",
+"Cymatogaster aggregata",
+"Diaphus theta",
+"Glyptocephalus zachirus",
+"Leptocottus armatus",
+"Parophrys vetulus"
+]
+},
+{
+"lat": 42.8,
+"lng": -124.5,
+"state": "Oregon",
+"n": 3,
+"taxa": [
+"Enhydra",
+"Otariidae",
+"Tapirus"
+]
+},
+{
+"lat": 47.6,
+"lng": -122.6,
+"state": "Washington",
+"n": 1,
+"taxa": [
+"Phenacomys intermedius"
+]
+}
+],
+"near_targets": [
+{
+"target": "W01",
+"km": 2.5,
+"key": "45.153_-122.847",
+"taxa": [
+"Bison antiquus"
+],
+"n": 1
+},
+{
+"target": "W01",
+"km": 3.0,
+"key": "45.148_-122.842",
+"taxa": [
+"Bison",
+"Equus",
+"Teratornis woodburnensis"
+],
+"n": 3
+},
+{
+"target": "E03",
+"km": 6.2,
+"key": "46.706_-117.691",
+"taxa": [
+"Mammuthus columbi"
+],
+"n": 1
+},
+{
+"target": "W13",
+"km": 7.6,
+"key": "48.62_-123.005",
+"taxa": [
+"Bison antiquus"
+],
+"n": 1
+},
+{
+"target": "E18",
+"km": 8.1,
+"key": "42.761_-120.551",
+"taxa": [
+"Equus conversidens",
+"Homo sapiens",
+"Oncorhynchus",
+"Siphateles bicolor"
+],
+"n": 4
+},
+{
+"target": "W17",
+"km": 8.7,
+"key": "44.533_-122.9",
+"taxa": [
+"Mammuthus"
+],
+"n": 1
+},
+{
+"target": "W13",
+"km": 9.6,
+"key": "48.598_-122.945",
+"taxa": [
+"Bison antiquus"
+],
+"n": 1
+}
+],
+"new_since_last_check": [],
+"locality_keys": [
+"36.217_-114.9",
+"36.501_-116.337",
+"36.654_-114.569",
+"38.8_-119.5",
+"38.95_-114.017",
+"39.0_-114.1",
+"39.0_-119.2",
+"39.367_-114.6",
+"42.085_-119.937",
+"42.098_-123.407",
+"42.469_-123.12",
+"42.5_-112.1",
+"42.667_-114.783",
+"42.761_-120.551",
+"42.783_-112.85",
+"42.807_-124.807",
+"42.809_-124.532",
+"42.812_-124.534",
+"42.818_-124.538",
+"42.825_-124.546",
+"42.834_-124.565",
+"42.835_-124.56",
+"42.8_-112.9",
+"42.8_-124.5",
+"43.04_-112.06",
+"43.0_-115.7",
+"43.0_-118.0",
+"43.128_-121.046",
+"43.333_-120.5",
+"43.3_-111.2",
+"43.6_-117.5",
+"44.0_-116.583",
+"44.533_-122.9",
+"44.633_-112.583",
+"44.959_-122.878",
+"45.148_-122.842",
+"45.153_-122.847",
+"45.374_-122.777",
+"45.431_-122.776",
+"45.519_-122.958",
+"46.0_-110.667",
+"46.283_-112.717",
+"46.2_-112.767",
+"46.317_-112.717",
+"46.4_-105.8",
+"46.583_-112.9",
+"46.583_-113.0",
+"46.596_-113.043",
+"46.612_-113.16",
+"46.615_-112.982",
+"46.617_-113.05",
+"46.617_-113.133",
+"46.667_-113.167",
+"46.6_-112.967",
+"46.706_-117.691",
+"46.7_-113.3",
+"46.872_-120.773",
+"47.0_-118.5",
+"47.202_-117.523",
+"47.2_-111.0",
+"47.483_-117.567",
+"47.607_-119.263",
+"47.6_-122.6",
+"48.05_-123.117",
+"48.117_-122.761",
+"48.598_-122.945",
+"48.608_-122.927",
+"48.62_-123.005",
+"48.8_-110.0"
+]
+}

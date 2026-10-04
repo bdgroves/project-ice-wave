@@ -1,0 +1,384 @@
+{
+ "1": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "2": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "3": {
+  "water": "Lake Bryan",
+  "water_kind": "reservoir",
+  "protected": null
+ },
+ "4": {
+  "water": "Lower Granite Lake",
+  "water_kind": "reservoir",
+  "protected": null
+ },
+ "5": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "6": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "7": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "8": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "9": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "10": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "11": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "12": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "13": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "14": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "15": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "16": {
+  "water": "Bear Lake",
+  "water_kind": "water",
+  "protected": null
+ },
+ "17": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "18": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "19": {
+  "water": null,
+  "water_kind": null,
+  "protected": "Alvord Desert Wilderness Study Area"
+ },
+ "20": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "21": {
+  "water": "Waptus Lake",
+  "water_kind": "lake",
+  "protected": "Okanogan-Wenatchee National Forest"
+ },
+ "22": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "23": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "24": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "25": {
+  "water": "water",
+  "water_kind": "basin",
+  "protected": null
+ },
+ "26": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "27": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "28": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "29": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "30": {
+  "water": "Lake Wallula",
+  "water_kind": "reservoir",
+  "protected": "McNary National Wildlife Refuge"
+ },
+ "31": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "32": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "33": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "34": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "35": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "36": {
+  "water": null,
+  "water_kind": null,
+  "protected": "Willamette National Forest"
+ },
+ "37": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "38": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "39": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "40": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "41": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "42": {
+  "water": null,
+  "water_kind": null,
+  "protected": null
+ },
+ "records_admin": {
+  "43.333332,-120.500000": "Oregon",
+  "39.000000,-114.099998": "Nevada",
+  "42.799999,-112.900002": "Idaho",
+  "46.200001,-112.766670": "Montana",
+  "38.799999,-119.500000": "Nevada",
+  "38.950001,-114.016670": "Utah",
+  "36.216667,-114.900002": "Nevada",
+  "44.633331,-112.583336": "Montana",
+  "46.400002,-105.800003": "Montana",
+  "43.299999,-111.199997": "Idaho",
+  "42.783333,-112.849998": "Idaho",
+  "47.200001,-111.000000": "Montana",
+  "47.483334,-117.566666": "Washington",
+  "46.615002,-112.982498": "Montana",
+  "46.666668,-113.166664": "Montana",
+  "46.616669,-113.050003": "Montana",
+  "47.000000,-118.500000": "Washington",
+  "46.595554,-113.043335": "Montana",
+  "43.599998,-117.500000": "Oregon",
+  "47.202000,-117.523003": "Washington",
+  "39.000000,-119.199997": "Nevada",
+  "46.283333,-112.716667": "Montana",
+  "36.654446,-114.568886": "Nevada",
+  "43.000000,-118.000000": "Oregon",
+  "48.799999,-110.000000": "Montana",
+  "46.612221,-113.160004": "Montana",
+  "42.761299,-120.551399": "Oregon",
+  "46.706001,-117.691002": "Washington",
+  "36.501389,-116.336945": "Nevada",
+  "46.599998,-112.966667": "Montana",
+  "39.366669,-114.599998": "Nevada",
+  "43.040001,-112.059998": "Idaho",
+  "46.871895,-120.773102": "Washington",
+  "42.500000,-112.099998": "Idaho",
+  "46.000000,-110.666664": "Montana",
+  "46.700001,-113.300003": "Montana",
+  "46.616669,-113.133331": "Montana",
+  "46.583332,-113.000000": "Montana",
+  "46.583332,-112.900002": "Montana",
+  "46.316666,-112.716667": "Montana",
+  "48.601665,-123.347221": "British Columbia",
+  "48.458611,-123.294724": "British Columbia",
+  "48.472778,-123.291115": "British Columbia",
+  "48.456669,-123.326111": "British Columbia",
+  "48.116943,-122.760559": "Washington",
+  "45.519016,-122.958008": "Oregon",
+  "44.533333,-122.900002": "Oregon",
+  "44.958775,-122.878143": "Oregon",
+  "36.099998,-117.900002": "California",
+  "48.049999,-123.116669": "Washington",
+  "45.373905,-122.776749": "Oregon",
+  "42.468811,-123.119583": "Oregon",
+  "48.449722,-123.504723": "British Columbia",
+  "45.148335,-122.842499": "Oregon",
+  "35.305557,-119.623337": "California",
+  "35.099998,-120.000000": "California",
+  "35.933334,-119.816666": "California",
+  "39.483334,-114.033333": "Utah",
+  "45.430923,-122.775742": "Oregon",
+  "48.597881,-122.944626": "Washington",
+  "48.620098,-123.005096": "Washington",
+  "48.607800,-122.927200": "Washington",
+  "45.152935,-122.847435": "Oregon",
+  "42.098263,-123.407272": "Oregon",
+  "48.549999,-123.366669": "British Columbia",
+  "48.073572,-123.089484": "Washington",
+  "44.900000,-122.800000": "Oregon",
+  "42.400000,-123.100000": "Oregon",
+  "45.200000,-123.000000": "Oregon",
+  "42.700000,-117.700000": "Oregon",
+  "45.100000,-122.800000": "Oregon",
+  "43.800000,-117.600000": "Oregon",
+  "43.700000,-118.000000": "Oregon",
+  "47.668428,-122.350877": "Washington",
+  "47.957611,-124.366025": "Washington",
+  "36.223920,-114.900220": "Nevada",
+  "36.172459,-114.429866": "Nevada",
+  "48.610969,-122.986114": "Washington",
+  "46.654200,-120.528900": "Washington",
+  "38.979607,-119.764015": "Nevada",
+  "42.900000,-117.900000": "Oregon",
+  "39.370000,-114.700000": "Nevada",
+  "47.802448,-124.104813": "Washington",
+  "47.880310,-124.180557": "Washington",
+  "47.380600,-121.645300": "Washington"
+ },
+ "coyote_canyon": {
+  "lat": 46.1661,
+  "lon": -119.2728,
+  "source": "OpenStreetMap way 1102212408",
+  "name": "Mammoth Drive"
+ },
+ "coyote_canyon_candidates": [
+  {
+   "type": "way",
+   "id": 27198937,
+   "name": "Clodfelter Road",
+   "lat": 46.1882427,
+   "lon": -119.2560986
+  },
+  {
+   "type": "way",
+   "id": 27198938,
+   "name": "Clodfelter Road",
+   "lat": 46.188919,
+   "lon": -119.2557417
+  },
+  {
+   "type": "way",
+   "id": 86572970,
+   "name": "South Clodfelter Road",
+   "lat": 46.1954616,
+   "lon": -119.2523288
+  },
+  {
+   "type": "way",
+   "id": 316671090,
+   "name": "Clodfelter Road",
+   "lat": 46.165604,
+   "lon": -119.2765557
+  },
+  {
+   "type": "way",
+   "id": 525717453,
+   "name": "South Clodfelter Road",
+   "lat": 46.1985259,
+   "lon": -119.2487531
+  },
+  {
+   "type": "way",
+   "id": 693906893,
+   "name": "Clodfelter Road",
+   "lat": 46.1913639,
+   "lon": -119.2548489
+  },
+  {
+   "type": "way",
+   "id": 693906894,
+   "name": "Clodfelter Road",
+   "lat": 46.1893117,
+   "lon": -119.2555943
+  },
+  {
+   "type": "way",
+   "id": 914017268,
+   "name": "Coyote Canyon",
+   "lat": 46.1556984,
+   "lon": -119.2651105
+  },
+  {
+   "type": "way",
+   "id": 1102212408,
+   "name": "Mammoth Drive",
+   "lat": 46.1661177,
+   "lon": -119.2728487
+  },
+  {
+   "type": "way",
+   "id": 1363154300,
+   "name": "Coyote Canyon Mammoth Site",
+   "lat": 46.1590477,
+   "lon": -119.2657424
+  },
+  {
+   "type": "way",
+   "id": 1364117122,
+   "name": "Clodfelter Road",
+   "lat": 46.193532,
+   "lon": -119.2540557
+  }
+ ]
+}
