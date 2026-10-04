@@ -42,10 +42,10 @@ def log(*a):
     print(f"[{time.time() - T0:5.0f}s]", *a, flush=True)
 
 
-def get(url, tries=4):
+def get(url, tries=4, timeout=60):
     for i in range(tries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
                 return json.loads(r.read())
         except Exception as e:  # noqa: BLE001
             log("  retry", i, str(e)[:100], url[:90])
@@ -87,17 +87,27 @@ def kind_of(desc):
 
 cache = OUT / "geology_at_mines.json"
 geo = json.loads(cache.read_text()) if cache.exists() else {}
-for _, m in mines.iterrows():
-    key = str(int(m.MINE_PERMIT_NUMBER))
-    if key in geo:
-        continue
+
+
+def unit_at(m):
     q = urllib.parse.urlencode({"geometry": f"{m.LONGITUDE},{m.LATITUDE}", "geometryType": "esriGeometryPoint", "inSR": 4326,
                                 "spatialRel": "esriSpatialRelIntersects", "outFields": "MAP_UNIT_100K_LABEL,MAP_UNIT_100K_SYMBOL,MAP_UNIT_100K_QUAD_NAME",
                                 "returnGeometry": "false", "f": "json"})
-    r = get(DNR + "100K_Surface_Geology_WA_GeMS/MapServer/11/query?" + q)
+    r = get(DNR + "100K_Surface_Geology_WA_GeMS/MapServer/11/query?" + q, tries=3, timeout=45)
     a = (r or {}).get("features", [{}])
     a = a[0].get("attributes", {}) if a else {}
-    geo[key] = {"label": a.get("MAP_UNIT_100K_LABEL"), "desc": a.get("MAP_UNIT_100K_SYMBOL"), "quad": a.get("MAP_UNIT_100K_QUAD_NAME")}
+    return str(int(m.MINE_PERMIT_NUMBER)), {"label": a.get("MAP_UNIT_100K_LABEL"), "desc": a.get("MAP_UNIT_100K_SYMBOL"), "quad": a.get("MAP_UNIT_100K_QUAD_NAME")}
+
+
+from concurrent.futures import ThreadPoolExecutor   # noqa: E402
+todo = [m for _, m in mines.iterrows() if str(int(m.MINE_PERMIT_NUMBER)) not in geo]
+log(f"geology lookups to do: {len(todo)}")
+with ThreadPoolExecutor(8) as ex:
+    for i, (k, v) in enumerate(ex.map(unit_at, todo)):
+        geo[k] = v
+        if i % 50 == 0:
+            log(f"  {i + 1}/{len(todo)}")
+            cache.write_text(json.dumps(geo, indent=0))
 cache.write_text(json.dumps(geo, indent=0))
 mines["unit"] = [geo[str(int(p))]["label"] for p in mines.MINE_PERMIT_NUMBER]
 mines["unit_desc"] = [geo[str(int(p))]["desc"] for p in mines.MINE_PERMIT_NUMBER]
