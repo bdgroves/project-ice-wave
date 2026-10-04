@@ -186,7 +186,17 @@ fc = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": 
       "properties": {"rank": int(r["rank"]), "name": str(r.MINE_NAME).title(), "operator": str(r.APPLICANT_NAME).title(), "county": r.COUNTY_NAME,
                      "acres": r.PERMIT_ACREAGE, "depth_ft": r.PERMIT_DEPTH, "commodity": str(r.COMMODITY_DESC).strip() if isinstance(r.COMMODITY_DESC, str) else None, "ground": r.ground,
                      "tier": int(r.tier), "unit": r.unit_desc, "km_to_find": r.km_to_find}} for _, r in mines.iterrows()]}
-(OUT / "quarries.geojson").write_text(json.dumps(fc, default=lambda o: None if o != o else o))
+def clean(o):
+    if isinstance(o, float) and o != o:
+        return None
+    if isinstance(o, dict):
+        return {k: clean(v) for k, v in o.items()}
+    if isinstance(o, list):
+        return [clean(v) for v in o]
+    return o
+
+
+(OUT / "quarries.geojson").write_text(json.dumps(clean(fc), allow_nan=False, default=str))
 (OUT / "finds.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": [
     {"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(r.lon, 4), round(r.lat, 4)]},
      "properties": {"n": int(r.n), "taxa": r.taxa, "sources": r.sources}} for _, r in places.iterrows()]}))

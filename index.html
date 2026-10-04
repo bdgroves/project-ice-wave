@@ -40,7 +40,7 @@ h2{font:800 clamp(30px,4vw,44px)/1 var(--sans);text-transform:uppercase;color:va
 h3{font:600 22px/1.2 var(--sans);text-transform:uppercase;letter-spacing:.03em;margin:0 0 6px}
 p+p{margin-top:.8em}
 .lede{max-width:68ch}
-#map{height:min(72vh,640px);border:2px solid var(--navy);margin-top:16px;background:#dfe6e9}
+#map,#pitmap{height:min(72vh,640px);border:2px solid var(--navy);margin-top:16px;background:#dfe6e9}
 .key{display:flex;flex-wrap:wrap;gap:8px 18px;font:12.5px var(--mono);color:var(--stone);margin-top:10px}
 .key i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
 .key i.sq{border-radius:2px}
@@ -84,7 +84,7 @@ dialog img{max-width:96vw;max-height:88vh;display:block}
 dialog p{font:12.5px var(--mono);color:#e6eaef;padding:8px 0}
 footer{margin-top:50px;background:var(--navy);color:#d5ddf0;padding:26px 0 36px;font:12.5px/1.8 var(--mono)}
 footer a{color:#fff}
-@media (max-width:820px){header.hero,.two{grid-template-columns:1fr}.cards{grid-template-columns:1fr}#map{height:62vh}}
+@media (max-width:820px){header.hero,.two{grid-template-columns:1fr}.cards{grid-template-columns:1fr}#map,#pitmap{height:62vh}}
 </style>
 </head>
 <body>
@@ -95,7 +95,7 @@ footer a{color:#fff}
       <div>
         <div class="k">Ice Age animals · WA · OR · NV · ID · MT · a model, rechecked</div>
         <h1>Ice<span>Wave</span></h1>
-        <p class="dek">I built a model to point at places in the Northwest where mammoths and other Ice Age animals might be buried. When I re-checked it, its favourite places turned out to be rivers and reservoirs. Here's how that happened, and what's left standing.</p>
+        <p class="dek">I built a model to point at places in the Northwest where mammoths and other Ice Age animals might be buried. When I re-checked it, its favourite places turned out to be rivers and reservoirs. So now IceWave looks where Washington's Ice Age bones actually turn up: wherever someone is digging into the right ground.</p>
       </div>
       <div class="status" id="status">Loading…</div>
     </header>
@@ -125,8 +125,29 @@ footer a{color:#fff}
     <div class="holds" id="holds"></div>
   </section>
 
+  <section id="pits">
+    <h2>Where to look instead</h2>
+    <p class="lede">Washington's best-known Ice Age finds have one thing in common: someone was digging. Quarry workers found the <a href="https://www.mcbones.org/history--research.html">Coyote Canyon mammoth</a> in a rock pit south of Kennewick in 1999. Emanuel Manis found the <a href="https://www.historylink.org/File/8511">Sequim mastodon</a> with a backhoe, digging a pond, in 1977. A road crew found the <a href="https://www.cwu.edu/academics/anthropology/mammoth/about.php">Wenas Creek mammoth</a> near Selah in 2005, and builders found a <a href="https://www.cbsnews.com/amp/news/scientists-hope-to-lift-mammoth-tusk-from-trench-in-seattle">mammoth tusk</a> 30 feet down in a Seattle apartment excavation in 2014. The ground that holds them is Ice Age ground: flood deposits, loess, old lake beds and bogs, glacial gravels. Bedrock basalt doesn't.</p>
+    <p class="lede">So IceWave now maps every active surface-mine permit in Washington and checks what each pit is cut into, on the state's 1:100,000 geologic map. Every Monday it checks the permit list again, so a new pit in Ice Age ground shows up here.</p>
+    <div class="cards" id="pitcards"></div>
+    <div id="pitmap" role="region" aria-label="Map of Washington's active surface mines, coloured by the ground each one cuts"></div>
+    <div class="key">
+      <span><i style="background:#c7472f"></i>Ice Age flood deposits</span>
+      <span><i style="background:#e0a63a"></i>Loess</span>
+      <span><i style="background:#7a4fb5"></i>Lake or bog deposits</span>
+      <span><i style="background:#2f86c9"></i>Glacial deposits</span>
+      <span><i style="background:#9aa3ad"></i>Alluvium and other</span>
+      <span><i style="background:#4a4f57"></i>Bedrock</span>
+      <span><i style="background:#fff;border:3px solid #1b2230"></i>Coyote Canyon</span>
+      <span><i class="sq" style="background:#1b2230"></i>Recorded Ice Age find</span>
+    </div>
+    <h3 style="margin-top:26px">The biggest pits in eastern Washington's Ice Age ground</h3>
+    <div class="tbl"><table id="pittable"><thead><tr><th>Pit</th><th>Operator</th><th>County</th><th>Cut into</th><th>Acres</th><th>Depth</th></tr></thead><tbody></tbody></table></div>
+    <p class="note" id="pitnote"></p>
+  </section>
+
   <section>
-    <h2>The targets</h2>
+    <h2>The old targets</h2>
     <p class="lede">The model scored terrain cells across five states, kept the best cell in each one-degree square, and listed the top ones: 17 west of the Cascades and 25 east. Here's each one with what's actually there. The final east model (v4) re-ranked the same 25; the column shows where each one ended up.</p>
     <div class="tabs"><button id="tEast" aria-pressed="true">East · 25</button><button id="tWest" aria-pressed="false">West · 17</button></div>
     <div class="tbl"><table id="targets"><thead></thead><tbody></tbody></table></div>
@@ -158,7 +179,7 @@ footer a{color:#fff}
 
   <section>
     <h2>What's next</h2>
-    <p class="lede">IceWave needs rebuilding, not tuning. What it would take:</p>
+    <p class="lede">The pit list is the useful part now: a short, real list of places where Ice Age ground is being opened up this year. The model itself still needs rebuilding, not tuning:</p>
     <ul class="plain lede">
       <li>Measure every input the same way at fossil records and at background points: the same elevation source, and real geology at both, not a default for one side.</li>
       <li>Mask out water before scoring, so a flattened river can never be a target.</li>
@@ -166,7 +187,7 @@ footer a{color:#fff}
       <li>Test by leaving out whole places, as the re-check does, and report that number.</li>
       <li>Score the whole landscape, then compare the top cells with places like Coyote Canyon that the model never saw.</li>
     </ul>
-    <p class="lede" style="margin-top:12px">Until then the weekly PBDB check keeps running, so the page will say when someone records a new Pleistocene find, and whether it's near anything IceWave pointed at.</p>
+    <p class="lede" style="margin-top:12px">Meanwhile the weekly checks keep running: PBDB for new Ice Age finds, and the state's permit list for new pits in Ice Age ground. If you work at one, or live near one: bone in a gravel face is worth a phone call to the <a href="https://www.burkemuseum.org/">Burke Museum</a>.</p>
   </section>
 </main>
 
@@ -206,7 +227,7 @@ async function main(){
   const [targets, known, checks] = await Promise.all(['site/targets.geojson','site/known.geojson','site/checks.json'].map(get));
   let live = null; try { live = await get('site/live.json'); } catch(e) {}
   const T = targets.features.map(f => ({...f.properties, lon:f.geometry.coordinates[0], lat:f.geometry.coordinates[1]}));
-  const tr = checks.training, z = checks.zeros, rt = checks.retest, e02 = checks.e02, tp = checks.tpi, li = checks.lithology;
+  const tr = checks.training, z = checks.zeros, rt = checks.retest, e02 = checks.e02, tp = checks.tpi, li = checks.lithology, md = checks.modern;
 
   // status: the weekly PBDB check
   try {
@@ -272,8 +293,8 @@ async function main(){
        p:`By the notebook's own threshold ${tp.valley_floor} close-ups are "valley floor"; ${tp.valley_floor_on_level_patch} of those are water surfaces. A river is the bottom of its valley, so a deep negative TPI there says nothing about buried bone. On its own, TPI ${tp.tpi_only_auc < 0.55 ? "doesn't tell the fossil places from random ground at all" : 'barely tells the fossil places from random ground'}: AUC ${f2(tp.tpi_only_auc)}.`},
       {k:'The west model', big:`${f2(wt.place_out_auc)}`, was:'AUC 0.890 ± 0.105',
        p:`The west model had the same rock-score shortcut (background ${li.west.background_values.join(', ')}; ${li.west.presence_not_default} of ${li.west.presence} fossil records differ). Tested by leaving out whole places, it scores AUC ${f2(w.place_out_auc)} with the rock score and ${f2(wt.place_out_auc)} on terrain alone, where it finds ${wt.place_out_places_found} of ${wt.places} places it hadn't seen but flags ${pct(wt.background_flagged)} of random ground. ${tr.west_by_osm_state && tr.west_by_osm_state['British Columbia'] ? `And ${tr.west_by_osm_state['British Columbia']} of its ${tr.west_records} records, filed under Washington, are in British Columbia.` : ''}`},
-      {k:'What it learned from', big:`${tr.not_large_mammals} of ${tr.east_records}`, was:'"Pleistocene megafauna"',
-       p:`The east model's ${tr.east_records} "megafauna" records come from ${tr.east_places} places, and ${tr.not_large_mammals} aren't big animals at all: ${tr.small.slice(0, -1).join(', ')} and ${tr.small.slice(-1)}. ${tr.by_state.Montana} of the ${tr.east_records} are in Montana, which has none of the targets; Washington, which has most of them, has ${tr.by_state.Washington}.`},
+      {k:'What it learned from', big: md ? `${md.modern} of ${md.west_records}` : `${tr.not_large_mammals} of ${tr.east_records}`, was:'"Pleistocene megafauna"',
+       p:`${md ? `${md.modern} of the west model's ${md.west_records} records aren't fossils at all. They're museum specimens of modern animals: a horse, bison and elk from Seattle's Woodland Park Zoo, elk collected in the Hoh valley in 1915, and others. The harvest never asked iDigBio for fossils only. ` : ''}On the east side, ${tr.not_large_mammals} of the ${tr.east_records} "megafauna" records aren't big animals: ${tr.small.slice(0, -1).join(', ')} and ${tr.small.slice(-1)}.`},
     ];
     $('cards').innerHTML = cards.map(c => `<div class="card${c.hot ? ' hot' : ''}"><h3>${c.k}</h3><div class="big">${c.big}</div><div class="was">${esc(c.was)}</div><p>${c.p}</p></div>`).join('');
     $('holds').innerHTML = `<h3>What still holds</h3><p>The idea is sound: the Ice Age floods really did catch big animals and bury them in the Columbia Basin, and Coyote Canyon proves it. The data harvest (PBDB and iDigBio records across five states) is real and reusable. And the re-check is reproducible: the as-built east model still scores ${a.record_loo_found} of ${a.records} the notebook's way (36 in the notebook; the count shifts by one between scikit-learn versions), which is how I know the shortcut, not the terrain, was doing the work. What IceWave doesn't have yet is a target worth driving to. <b>Treat the list below as a record of what went wrong, not a field guide.</b></p>`;
@@ -309,6 +330,46 @@ async function main(){
   } catch(e) { console.error(e); }
 }
 main().catch(e => { $('status').textContent = 'Could not load the data: ' + e.message; });
+// ── where to look instead: the pits ──────────────────────────────────────
+const GROUND = {'Ice Age flood deposits':'#c7472f', 'loess':'#e0a63a', 'lake or bog deposits':'#7a4fb5', 'glacial deposits':'#2f86c9',
+                'alluvium':'#9aa3ad', 'other Quaternary':'#9aa3ad', 'bedrock or older':'#4a4f57'};
+async function pits(){
+  const [q, finds, ev, checks] = await Promise.all(['data/v5/quarries.geojson','data/v5/finds.geojson','data/v5/eval.json','site/checks.json'].map(get));
+  const P = q.features.map(f => ({...f.properties, lon:f.geometry.coordinates[0], lat:f.geometry.coordinates[1]}));
+  const bg = ev.by_ground, cc = ev.coyote_canyon_pit;
+  const ice = (bg['Ice Age flood deposits'] || 0) + (bg['loess'] || 0) + (bg['lake or bog deposits'] || 0);
+  try {
+    $('pitcards').innerHTML = [
+      {k:'Pits in Ice Age ground', big:`${ev.tier1} of ${ev.mines}`, p:`Of Washington's ${ev.mines} active surface-mine permits, ${ev.tier1} are cut into Ice Age ground: ${bg['Ice Age flood deposits'] || 0} in flood deposits, ${bg['loess'] || 0} in loess, ${bg['lake or bog deposits'] || 0} in lake and bog deposits, and ${bg['glacial deposits'] || 0} in glacial deposits. ${bg['bedrock or older'] || 0} are in bedrock, mostly basalt.`},
+      {k:'The check', big: cc ? cc.ground : '–', p: cc ? `The pit at Coyote Canyon, ${esc(cc.name.replace(/\b\w+/g, w => w[0] + w.slice(1).toLowerCase()))}, is cut into ${esc(cc.unit)}, so it's on the list. That's a check, not a test: I wrote the rules knowing it was on loess, and one pit proves little. It ranks ${cc.rank} of ${cc.of} in quarries.csv's rough order (Ice Age ground first, then bigger and deeper pits).` : ''},
+      {k:'New this week', big: ev.new_permits && ev.new_permits.length ? `${ev.new_permits.length}` : '0', p: ev.new_permits && ev.new_permits.length
+        ? `New permits since the last check: ${ev.new_permits.map(n => `${esc(n.name)} (${esc(n.county)}, ${esc(n.ground)})`).join('; ')}.`
+        : `No new permits since the last check (${fmtDay(ev.checked)}). When one opens in Ice Age ground, it'll be listed here.`},
+    ].map(c => `<div class="card"><h3>${c.k}</h3><div class="big" style="font-size:${String(c.big).length > 8 ? 30 : 46}px">${esc(c.big)}</div><p>${c.p}</p></div>`).join('');
+  } catch(e) { console.error(e); }
+  try {
+    const map = L.map('pitmap', {scrollWheelZoom:false}).setView([47.3, -120.4], 7);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+      {maxZoom:16, attribution:'Basemap © Esri, USGS, NOAA · Pits: WA DNR'}).addTo(map);
+    P.slice().reverse().forEach(p => L.circleMarker([p.lat, p.lon], {radius: 3 + Math.min(6, Math.sqrt(p.acres || 1) / 3), color:'#fff', weight:1,
+        fillColor: GROUND[p.ground] || '#9aa3ad', fillOpacity:.9})
+      .bindPopup(`<b>${esc(p.name)}</b><div class="m">${esc(p.operator)} · ${esc(p.county)} County · ${p.acres ?? '?'} acres · ${p.depth_ft ?? '?'} ft deep</div>
+        Cut into <b style="font-size:14px">${esc(p.ground)}</b><br><span class="m">${esc(p.unit || '')}</span>`).addTo(map));
+    L.geoJSON(finds, {pointToLayer:(f, latlng) => L.marker(latlng, {icon: L.divIcon({className:'', iconSize:[10,10], html:'<div style="width:10px;height:10px;background:#1b2230;transform:rotate(45deg)"></div>'})}),
+      onEachFeature:(f, l) => l.bindPopup(`<b>Recorded Ice Age find</b><div class="m">${f.properties.sources.join(', ')} · ${f.properties.n} record${f.properties.n > 1 ? 's' : ''}</div><em>${f.properties.taxa.map(esc).join(', ')}</em>`)}).addTo(map);
+    const c = checks.e02 && checks.e02.coyote_canyon;
+    if (c) L.circleMarker([c.lat, c.lon], {radius:9, color:'#1b2230', weight:3, fillColor:'#fff', fillOpacity:1}).addTo(map).bindPopup('<b>Coyote Canyon mammoth site</b><div class="m">McBones Research Center</div>');
+  } catch(e) { console.error(e); }
+  try {
+    const east = P.filter(p => p.lon > -121 && ['Ice Age flood deposits', 'loess', 'lake or bog deposits'].includes(p.ground))
+      .sort((a, b) => ((b.acres || 0) * Math.max(b.depth_ft || 0, 1)) - ((a.acres || 0) * Math.max(a.depth_ft || 0, 1))).slice(0, 20);
+    $('pittable').querySelector('tbody').innerHTML = east.map(p => `<tr><td><b>${esc(p.name)}</b></td><td class="wrap">${esc(p.operator)}</td><td>${esc(p.county)}</td>
+      <td><span class="pill" style="background:${GROUND[p.ground]}">${esc(p.ground)}</span></td><td>${p.acres ?? '–'}</td><td>${p.depth_ft ? p.depth_ft + ' ft' : '–'}</td></tr>`).join('');
+    $('pitnote').innerHTML = `${ice} pits east and west are in flood deposits, loess or lake beds; these are the 20 biggest east of the Cascades, by area times permitted depth. These are working pits on private or leased land: don't go in. If you work at one or know the operator, the ask is simple: if a machine turns up bone, stop, photograph it where it lies, and call the <a href="https://www.burkemuseum.org/">Burke Museum</a>. Data: Washington DNR active surface-mine permits and 1:100,000 geologic map; finds from PBDB and iDigBio (fossil specimens only). The full list is <a href="https://github.com/bdgroves/project-ice-wave/blob/main/data/v5/quarries.csv">quarries.csv</a>.`;
+  } catch(e) { console.error(e); }
+}
+pits().catch(e => console.error('pits:', e));
+
 </script>
 </body>
 </html>

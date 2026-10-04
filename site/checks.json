@@ -276,5 +276,59 @@
   "nearest_training_km": 80.2,
   "nearest_training": "bison (Bison)",
   "dig_began": "2008 (quarry find 1999)"
+ },
+ "modern": {
+  "west_records": 31,
+  "modern": 6,
+  "records": [
+   {
+    "lat": 47.668428,
+    "lon": -122.350877,
+    "what": "horse, bison and elk",
+    "where": "Seattle, Woodland Park Zoo",
+    "collection": "Burke Museum mammalogy (UWBM)",
+    "years": "1922-2012"
+   },
+   {
+    "lat": 47.957611,
+    "lon": -124.366025,
+    "what": "horse",
+    "where": "Forks",
+    "collection": "Slater Museum mammals (PSM)",
+    "years": null
+   },
+   {
+    "lat": 47.802448,
+    "lon": -124.104813,
+    "what": "elk",
+    "where": "Upper Hoh River",
+    "collection": "Field Museum mammals (FMNH); California Academy of Sciences (CAS)",
+    "years": "1915-1917"
+   },
+   {
+    "lat": 47.88031,
+    "lon": -124.180557,
+    "what": "elk",
+    "where": "Bogachiel River, Olympic Mountains",
+    "collection": "Field Museum mammals (FMNH)",
+    "years": "1898"
+   },
+   {
+    "lat": 47.3806,
+    "lon": -121.6453,
+    "what": "elk",
+    "where": "Cedar River watershed",
+    "collection": "Burke Museum mammalogy (UWBM)",
+    "years": "1979"
+   },
+   {
+    "lat": 48.610969,
+    "lon": -122.986114,
+    "what": "bison",
+    "where": "Four Winds Camp, near Deer Harbor, Orcas Island",
+    "collection": "UBC Beaty Biodiversity Museum",
+    "years": "1957"
+   }
+  ]
  }
 }

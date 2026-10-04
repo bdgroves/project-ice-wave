@@ -204,5 +204,14 @@ out["e02"] = {
 }
 print("6. e02:", out["e02"])
 
+# ── 7. modern animals in the training data ───────────────────────────────
+mod_file = D / "checks" / "modern_records.json"
+if mod_file.exists():
+    mod = json.loads(mod_file.read_text())["records"]
+    wp_ = west[wp]
+    hits = [r for r in mod if ((wp_.latitude.round(4) == round(r["lat"], 4)) & (wp_.longitude.round(4) == round(r["lon"], 4))).any()]
+    out["modern"] = {"west_records": int(len(wp_)), "modern": len(hits), "records": hits}
+    print("7. modern:", len(hits), "of", len(wp_), "west training records are modern museum specimens")
+
 (SITE / "checks.json").write_text(json.dumps(out, indent=1, default=lambda o: o.item() if hasattr(o, "item") else str(o)))
 print("wrote site/checks.json")
