@@ -162,7 +162,8 @@ if len(cc):
     r = cc.iloc[0]
     ev["coyote_canyon_pit"] = {"name": r.MINE_NAME, "permit": int(r.MINE_PERMIT_NUMBER), "rank": int(r["rank"]), "of": len(mines),
                                "ground": r.ground, "unit": r.unit_desc, "km_to_find": float(r.km_to_find),
-                               "percentile": round(1 - (r["rank"] - 1) / len(mines), 3)}
+                               "percentile": round(float(1 - (r["rank"] - 1) / len(mines)), 3),
+                               "tier1_rank": int((mines[mines.tier == 1]["rank"] < r["rank"]).sum() + 1), "tier1": int((mines.tier == 1).sum())}
     log("Coyote Canyon pit:", ev["coyote_canyon_pit"])
 # how many recorded find places sit within 3 km of a tier-1 pit? (a rough check that pits and finds go together)
 t1 = mines[mines.tier == 1]
@@ -173,7 +174,7 @@ keep = ["rank", "MINE_NAME", "APPLICANT_NAME", "COUNTY_NAME", "LATITUDE", "LONGI
 mines[keep].to_csv(OUT / "quarries.csv", index=False)
 fc = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [round(r.LONGITUDE, 5), round(r.LATITUDE, 5)]},
       "properties": {"rank": int(r["rank"]), "name": str(r.MINE_NAME).title(), "operator": str(r.APPLICANT_NAME).title(), "county": r.COUNTY_NAME,
-                     "acres": r.PERMIT_ACREAGE, "depth_ft": r.PERMIT_DEPTH, "commodity": (r.COMMODITY_DESC or "").strip(), "ground": r.ground,
+                     "acres": r.PERMIT_ACREAGE, "depth_ft": r.PERMIT_DEPTH, "commodity": str(r.COMMODITY_DESC).strip() if isinstance(r.COMMODITY_DESC, str) else None, "ground": r.ground,
                      "tier": int(r.tier), "unit": r.unit_desc, "km_to_find": r.km_to_find}} for _, r in mines.iterrows()]}
 (OUT / "quarries.geojson").write_text(json.dumps(fc, default=lambda o: None if o != o else o))
 (OUT / "finds.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": [
