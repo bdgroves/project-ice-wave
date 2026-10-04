@@ -1,0 +1,28 @@
+{
+ "mines": 859,
+ "by_ground": {
+  "glacial deposits": 326,
+  "bedrock or older": 292,
+  "Ice Age flood deposits": 117,
+  "alluvium": 57,
+  "other Quaternary": 32,
+  "loess": 25,
+  "lake or bog deposits": 10
+ },
+ "tier1": 478,
+ "finds": 71,
+ "find_places": 14,
+ "coyote_canyon_pit": {
+  "name": "MAHAFFEY ROCK PIT #1",
+  "permit": 11422,
+  "rank": 185,
+  "of": 859,
+  "ground": "loess",
+  "unit": "Quaternary eolian deposits, loess",
+  "km_to_find": 110.6,
+  "percentile": 0.786,
+  "tier1_rank": 185,
+  "tier1": 478
+ },
+ "find_places_within_3km_of_tier1_pit": 1
+}

@@ -1,36 +1,30 @@
 [    1s] active surface-mine permits: 859
-[    1s] geology lookups to do: 859
-[    2s]   1/859
-[    4s]   51/859
-[    7s]   101/859
-[    9s]   151/859
-[   11s]   201/859
-[   14s]   251/859
-[   16s]   301/859
-[   19s]   351/859
-[   21s]   401/859
-[   23s]   451/859
-[   26s]   501/859
-[   28s]   551/859
-[   30s]   601/859
-[   33s]   651/859
-[   35s]   701/859
-[   38s]   751/859
-[   40s]   801/859
-[   42s]   851/859
-[   43s] pits by ground: {'glacial deposits': 326, 'bedrock or older': 292, 'Ice Age flood deposits': 117, 'alluvium': 57, 'other Quaternary': 32, 'loess': 25, 'lake or bog deposits': 10}
-[   43s] unit descriptions seen, by kind:
-[   43s]   Ice Age flood deposits: {'Pleistocene outburst flood deposits': 117}
-[   43s]   alluvium: {'Quaternary alluvium': 57}
-[   43s]   bedrock or older: {'Miocene Columbia River Basalt Group, Wanapum Basalt': 85, 'Miocene Columbia River Basalt Group, Grande Ronde Basalt': 44, 'Miocene Columbia River Basalt Group, Saddle Mountains Basalt': 34, 'Tertiary volcanic rocks': 31, 'Tertiary sedimentary rocks and deposits': 23, 'Eocene Crescent Formation, volcanic rocks': 15, 'Paleozoic metasedimentary rocks': 11, 'Tertiary intrusive rocks': 7, 'Mesozoic metasedimentary rocks': 7, 'Holocene artificial fill and modified land': 5, 'Tertiary fragmental volcanic rocks and deposits (includes lahars)': 4, 'Precambrian heterogeneous metamorphic rocks': 4}
-[   43s]   glacial deposits: {'Pleistocene continental glacial drift': 280, 'Pleistocene continental glacial till': 26, 'Pleistocene alpine glacial drift': 18, 'Pleistocene glacial and nonglacial deposits': 2}
-[   43s]   lake or bog deposits: {'Pleistocene bog, marsh, swamp, or lake deposits': 6, 'Quaternary bog, marsh, swamp, or lake deposits': 4}
-[   43s]   loess: {'Quaternary eolian deposits, loess': 25}
-[   43s]   other Quaternary: {'Quaternary mass-wasting deposits': 9, 'Quaternary sedimentary rocks and deposits': 8, 'Quaternary dune sand': 7, 'Quaternary-Tertiary volcanic rocks': 3, 'Quaternary fragmental volcanic rocks and deposits (includes lahars)': 2, 'Quaternary-Tertiary sedimentary rocks and deposits': 1, 'Pleistocene volcanic rocks': 1, 'Quaternary volcanic rocks': 1}
-[   45s] Ice Age vertebrate fossil records in WA: 71 at 14 places (PBDB 36, iDigBio 35)
-[   45s] Coyote Canyon pit: {'name': 'MAHAFFEY ROCK PIT #1', 'permit': 11422, 'rank': 185, 'of': 859, 'ground': 'loess', 'unit': 'Quaternary eolian deposits, loess', 'km_to_find': 110.6, 'percentile': np.float64(0.786)}
-Traceback (most recent call last):
-  File "/home/runner/work/project-ice-wave/project-ice-wave/tools/v5/quarries.py", line 176, in <module>
-    "acres": r.PERMIT_ACREAGE, "depth_ft": r.PERMIT_DEPTH, "commodity": (r.COMMODITY_DESC or "").strip(), "ground": r.ground,
-                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'float' object has no attribute 'strip'
+[    1s] geology lookups to do: 0
+[    1s] pits by ground: {'glacial deposits': 326, 'bedrock or older': 292, 'Ice Age flood deposits': 117, 'alluvium': 57, 'other Quaternary': 32, 'loess': 25, 'lake or bog deposits': 10}
+[    1s] unit descriptions seen, by kind:
+[    1s]   Ice Age flood deposits: {'Pleistocene outburst flood deposits': 117}
+[    1s]   alluvium: {'Quaternary alluvium': 57}
+[    1s]   bedrock or older: {'Miocene Columbia River Basalt Group, Wanapum Basalt': 85, 'Miocene Columbia River Basalt Group, Grande Ronde Basalt': 44, 'Miocene Columbia River Basalt Group, Saddle Mountains Basalt': 34, 'Tertiary volcanic rocks': 31, 'Tertiary sedimentary rocks and deposits': 23, 'Eocene Crescent Formation, volcanic rocks': 15, 'Paleozoic metasedimentary rocks': 11, 'Tertiary intrusive rocks': 7, 'Mesozoic metasedimentary rocks': 7, 'Holocene artificial fill and modified land': 5, 'Tertiary fragmental volcanic rocks and deposits (includes lahars)': 4, 'Precambrian heterogeneous metamorphic rocks': 4}
+[    1s]   glacial deposits: {'Pleistocene continental glacial drift': 280, 'Pleistocene continental glacial till': 26, 'Pleistocene alpine glacial drift': 18, 'Pleistocene glacial and nonglacial deposits': 2}
+[    1s]   lake or bog deposits: {'Pleistocene bog, marsh, swamp, or lake deposits': 6, 'Quaternary bog, marsh, swamp, or lake deposits': 4}
+[    1s]   loess: {'Quaternary eolian deposits, loess': 25}
+[    1s]   other Quaternary: {'Quaternary mass-wasting deposits': 9, 'Quaternary sedimentary rocks and deposits': 8, 'Quaternary dune sand': 7, 'Quaternary-Tertiary volcanic rocks': 3, 'Quaternary fragmental volcanic rocks and deposits (includes lahars)': 2, 'Quaternary-Tertiary sedimentary rocks and deposits': 1, 'Pleistocene volcanic rocks': 1, 'Quaternary volcanic rocks': 1}
+[    4s] Ice Age vertebrate fossil records in WA: 71 at 14 places (PBDB 36, iDigBio 35)
+[    4s] Coyote Canyon pit: {'name': 'MAHAFFEY ROCK PIT #1', 'permit': 11422, 'rank': 185, 'of': 859, 'ground': 'loess', 'unit': 'Quaternary eolian deposits, loess', 'km_to_find': 110.6, 'percentile': 0.786, 'tier1_rank': 185, 'tier1': 478}
+[    4s] top 15:
+[    4s]     rank              MINE_NAME                   APPLICANT_NAME COUNTY_NAME   LATITUDE   LONGITUDE  PERMIT_ACREAGE  PERMIT_DEPTH   COMMODITY_DESC     unit                              unit_desc                  ground
+0      1             BEAR CREEK            PENINSULA TOPSOIL LLC       Mason  47.497421 -122.815811          380.00         170.0  Sand and Gravel      Qga  Pleistocene continental glacial drift        glacial deposits
+1      2             INTERSTATE    INTERSTATE CONCRETE & ASPHALT     Spokane  47.568048 -117.496170          181.00         175.0  Rock and Stone      Qglf    Pleistocene outburst flood deposits  Ice Age flood deposits
+2      3               VAN DYKE      WHITMAN COUNTY PUBLIC WORKS     Whitman  47.227310 -117.450211          115.98         190.0  Sand and Gravel      Qfg    Pleistocene outburst flood deposits  Ice Age flood deposits
+3      4  BASALT QUARRY A B & C                KITSAP QUARRY LLC      Kitsap  47.555403 -122.732544           89.40         200.0  Rock and Stone       Qgo  Pleistocene continental glacial drift        glacial deposits
+4      5          EUCLID RD PIT                  MURPHY BROS INC     Spokane  47.684063 -117.565109          108.50         150.0  Sand and Gravel      Qfg    Pleistocene outburst flood deposits  Ice Age flood deposits
+5      6          KITSAP QUARRY                KITSAP QUARRY LLC      Kitsap  47.554279 -122.707397           71.30         200.0  Rock and Stone       Qgo  Pleistocene continental glacial drift        glacial deposits
+6      7   SHOLD EXCAVATING INC             SHOLD EXCAVATING INC   Jefferson  48.015987 -122.753472          120.88         130.0  Rock and Stone       Qga  Pleistocene continental glacial drift        glacial deposits
+7      8           GROVE RD PIT           POE ASPHALT PAVING INC     Spokane  47.579998 -117.495201           68.00         200.0  Sand and Gravel     Qglf    Pleistocene outburst flood deposits  Ice Age flood deposits
+8      9            CAYS RD PIT          BLAKE SAND & GRAVEL INC     Clallam  48.132092 -123.169113           57.00         200.0  Sand and Gravel   Qgo(i)  Pleistocene continental glacial drift        glacial deposits
+9     10                 DICKEY       PORT ORCHARD SAND & GRAVEL      Kitsap  47.649097 -122.728653          150.00         100.0  Sand and Gravel      Qgt   Pleistocene continental glacial till        glacial deposits
+10    11              GROVE PIT              SHAMROCK PAVING INC     Spokane  47.575022 -117.503675          125.00         100.0  Sand and Gravel     Qglf    Pleistocene outburst flood deposits  Ice Age flood deposits
+11    12           BLEWETT PASS                     R&P ROCK LLC      Chelan  47.468172 -120.654675           37.40         340.0  Rock and Stone   Qat(lb)       Pleistocene alpine glacial drift        glacial deposits
+12    13                 DICKEY            PYRAMID MATERIALS INC      Kitsap  47.641567 -122.727249           60.00         150.0  Sand and Gravel      Qgt   Pleistocene continental glacial till        glacial deposits
+13    14     WENATCHEE ROCK PIT  CENTRAL WASHINGTON ASPHALT, INC      Chelan  47.558787 -120.274257           55.50         160.0  Sand and Gravel      Qfg    Pleistocene outburst flood deposits  Ice Age flood deposits
+14    15      SKIA SURFACE MINE           MCCORMICK LAND COMPANY      Kitsap  47.507151 -122.739013           85.50         110.0  Sand and Gravel      Qgt   Pleistocene continental glacial till        glacial deposits
