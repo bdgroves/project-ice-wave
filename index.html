@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IceWave: hunting Ice Age bones with a model, rechecked</title>
+<meta name="description" content="A machine-learning model that pointed to places in the Northwest where mammoths and other Ice Age animals might be buried, rechecked honestly: what it learned, what it didn't, and what the Coyote Canyon mammoth really says.">
+<meta property="og:title" content="IceWave: hunting Ice Age bones with a model, rechecked">
+<meta property="og:description" content="I re-checked my Ice Age fossil model. Its top targets turned out to be rivers and reservoirs. Here's how that happened, and what holds up.">
+<meta property="og:image" content="https://brooksgroves.com/project-ice-wave/assets/icewave_flag_social.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{--navy:#1e3c96;--green:#0f6b43;--wave:#2f86c9;--ice:#eaf3fa;--paper:#f6f7f3;--bone:#ffffff;--ink:#1b2230;--stone:#646b74;--mist:#d7dde3;
+  --water:#2f86c9;--zero:#c7472f;--land:#0f6b43;--fossil:#e0a63a;--small:#9aa3ad;
+  --sans:'Barlow Condensed',system-ui,sans-serif;--serif:'Source Serif 4',Georgia,serif;--mono:'DM Mono',ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#10151d;--bone:#18202b;--ink:#e6eaef;--stone:#9aa3ad;--mist:#2a3441;--ice:#1a2533}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--paper)}
+body{background:var(--paper);color:var(--ink);font:17px/1.65 var(--serif)}
+a{color:var(--navy)} @media (prefers-color-scheme:dark){a{color:#8fc3ea}}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.flag{background:linear-gradient(var(--navy) 0 46px,#fff 46px);color:var(--ink);border-bottom:12px solid var(--green)}
+.top{display:flex;justify-content:space-between;gap:12px;height:46px;align-items:center;font:12px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.top a{color:#fff;text-decoration:none}
+header.hero{padding:28px 0 30px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:28px;align-items:end;color:#1b2230}
+.hero h1{font:800 clamp(56px,10vw,112px)/.86 var(--sans);letter-spacing:.01em;text-transform:uppercase;color:var(--green)}
+.hero h1 span{color:var(--wave)}
+.hero .k{font:600 15px var(--mono);letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;color:var(--navy)}
+.hero p.dek{font-size:clamp(18px,2.2vw,22px);line-height:1.45;margin-top:14px;max-width:36ch}
+.status{background:#eaf3fa;border:2px solid var(--navy);padding:14px 16px;font:13px/1.6 var(--mono);color:#1b2230}
+.status b{font-weight:500;color:var(--navy)}
+.status .when{color:#646b74;display:block;margin-top:6px}
+section{padding:42px 0 6px}
+h2{font:800 clamp(30px,4vw,44px)/1 var(--sans);text-transform:uppercase;color:var(--navy);margin-bottom:12px;letter-spacing:.01em}
+@media (prefers-color-scheme:dark){h2{color:#8fc3ea}}
+h3{font:600 22px/1.2 var(--sans);text-transform:uppercase;letter-spacing:.03em;margin:0 0 6px}
+p+p{margin-top:.8em}
+.lede{max-width:68ch}
+#map{height:min(72vh,640px);border:2px solid var(--navy);margin-top:16px;background:#dfe6e9}
+.key{display:flex;flex-wrap:wrap;gap:8px 18px;font:12.5px var(--mono);color:var(--stone);margin-top:10px}
+.key i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
+.key i.sq{border-radius:2px}
+.leaflet-popup-content{font:14px/1.5 var(--serif);margin:12px 14px}
+.leaflet-popup-content b{font-family:var(--sans);font-size:17px;text-transform:uppercase;letter-spacing:.02em}
+.leaflet-popup-content .m{font:11.5px var(--mono);color:#646b74}
+.leaflet-popup-content img{width:100%;margin-top:8px;border:1px solid #ccc;cursor:zoom-in}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:18px}
+.card{background:var(--bone);border-top:6px solid var(--green);padding:16px 18px 18px}
+.card.hot{border-top-color:var(--zero)}
+.card .big{font:800 46px/1 var(--sans);color:var(--navy);margin:4px 0 6px}
+@media (prefers-color-scheme:dark){.card .big{color:#8fc3ea}}
+.card .was{font:12.5px var(--mono);color:var(--stone);text-decoration:line-through}
+.card p{font-size:15.5px}
+.note{font-size:15px;color:var(--stone);max-width:72ch;margin-top:14px}
+.holds{background:var(--ice);border-left:6px solid var(--green);padding:16px 20px;margin-top:20px;max-width:80ch}
+table{width:100%;border-collapse:collapse;margin-top:16px;font:13.5px var(--mono)}
+th{font:600 14px var(--sans);text-transform:uppercase;letter-spacing:.05em;text-align:left;border-bottom:2px solid var(--navy);padding:6px 8px;color:var(--stone)}
+td{padding:7px 8px;border-bottom:1px solid var(--mist);white-space:nowrap}
+td.wrap{white-space:normal;min-width:180px}
+tr:hover td{background:var(--bone)}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font:12px var(--mono);color:#fff}
+.tbl{overflow-x:auto}
+.tabs{display:flex;gap:8px;margin-top:14px}
+.tabs button{font:600 15px var(--sans);text-transform:uppercase;letter-spacing:.05em;padding:6px 14px;border:2px solid var(--navy);background:transparent;color:var(--ink);cursor:pointer}
+.tabs button[aria-pressed=true]{background:var(--navy);color:#fff}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:16px}
+.gallery figure{background:var(--bone);border:1px solid var(--mist)}
+.gallery img{width:100%;display:block;aspect-ratio:2.8/1;object-fit:cover;cursor:zoom-in}
+.gallery figcaption{font:12px/1.45 var(--mono);color:var(--stone);padding:6px 8px 8px}
+.gallery figcaption b{color:var(--water);font-weight:500}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+.callout{background:var(--green);color:#eef5ef;padding:20px 22px;margin-top:16px}
+.callout h3{color:#fff}
+.callout a{color:#cfe8ff}
+ul.plain{margin:10px 0 0 18px}
+ul.plain li{margin:4px 0}
+dialog{border:none;padding:0;max-width:96vw;background:transparent}
+dialog::backdrop{background:rgba(5,10,20,.85)}
+dialog img{max-width:96vw;max-height:88vh;display:block}
+dialog p{font:12.5px var(--mono);color:#e6eaef;padding:8px 0}
+footer{margin-top:50px;background:var(--navy);color:#d5ddf0;padding:26px 0 36px;font:12.5px/1.8 var(--mono)}
+footer a{color:#fff}
+@media (max-width:820px){header.hero,.two{grid-template-columns:1fr}.cards{grid-template-columns:1fr}#map{height:62vh}}
+</style>
+</head>
+<body>
+<div class="flag">
+  <div class="wrap">
+    <div class="top"><a href="https://brooksgroves.com">Brooks Groves</a><a href="https://github.com/bdgroves/project-ice-wave">The code ↗</a></div>
+    <header class="hero">
+      <div>
+        <div class="k">Ice Age animals · WA · OR · NV · ID · MT · a model, rechecked</div>
+        <h1>Ice<span>Wave</span></h1>
+        <p class="dek">I built a model to point at places in the Northwest where mammoths and other Ice Age animals might be buried. When I re-checked it, its favourite places turned out to be rivers and reservoirs. Here's how that happened, and what's left standing.</p>
+      </div>
+      <div class="status" id="status">Loading…</div>
+    </header>
+  </div>
+</div>
+
+<main class="wrap">
+  <section>
+    <h2>The map</h2>
+    <p class="lede">Gold dots are the fossil records the two models learned from: west of the Cascades (left of -121.5°) and east of them. Grey ones in the east are small animals, birds and fish rather than big mammals; hollow ones had no terrain values at all. The targets are coloured by what the re-check found under them. Tap anything.</p>
+    <div id="map" role="region" aria-label="Map of IceWave's training records, targets and the Coyote Canyon mammoth site"></div>
+    <div class="key">
+      <span><i style="background:var(--fossil)"></i>Training record: large mammal</span>
+      <span><i style="background:var(--small)"></i>small animal, bird or fish</span>
+      <span><i style="background:transparent;border:2px solid var(--fossil)"></i>no terrain values</span>
+      <span><i class="sq" style="background:var(--water)"></i>Target on water</span>
+      <span><i class="sq" style="background:var(--zero)"></i>Target with all-zero terrain</span>
+      <span><i class="sq" style="background:var(--land)"></i>Other target</span>
+      <span><i style="background:#fff;border:3px solid #1b2230"></i>Coyote Canyon mammoth site</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>How far to trust it</h2>
+    <p class="lede">I built IceWave in early 2026, a sequel to <a href="https://brooksgroves.com/project-paleowave/">PaleoWave</a>, and it looked like a success: high scores, a "blind validation" at a real mammoth dig, a 90% leave-one-out recall. Coming back to it this fall, I re-checked every headline number from the files in the repository. None of them survives. The arithmetic is in <a href="https://github.com/bdgroves/project-ice-wave/blob/main/tools/check.py">tools/check.py</a>, so anyone can rerun it.</p>
+    <div class="cards" id="cards"></div>
+    <div class="holds" id="holds"></div>
+  </section>
+
+  <section>
+    <h2>The targets</h2>
+    <p class="lede">The model scored terrain cells across five states and kept the best few in each one-degree square: 17 west of the Cascades and 25 east. Here's each one with what's actually there. The final east model (v4) re-ranked the same 25; the column shows where each one ended up.</p>
+    <div class="tabs"><button id="tEast" aria-pressed="true">East · 25</button><button id="tWest" aria-pressed="false">West · 17</button></div>
+    <div class="tbl"><table id="targets"><thead></thead><tbody></tbody></table></div>
+    <p class="note">"Level patch" is the area around the target where the 3DEP elevation surface is flat to within a centimetre. Elevation models draw lakes, reservoirs and wide rivers as one flat level, so a patch of a square kilometre is water. Water names come from OpenStreetMap. The full lists are <a href="https://github.com/bdgroves/project-ice-wave/blob/main/data/model/icewave_v3_top50_lidar.csv">icewave_v3_top50_lidar.csv</a> and <a href="https://github.com/bdgroves/project-ice-wave/blob/main/data/model/icewave_v4_final_top50.csv">icewave_v4_final_top50.csv</a>.</p>
+  </section>
+
+  <section>
+    <h2>Close-ups</h2>
+    <p class="lede">For twenty east targets I pulled USGS 3DEP elevation at about 14 m and drew a hillshade, the topographic position (blue for hollows, red for rises) and slope. The README called these LiDAR; they're 3DEP elevation fetched at 14 m, which in eastern Washington is built from lidar but isn't raw lidar. Look at the star: on many of them it sits on a perfectly smooth, featureless surface. That's water.</p>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <section class="two">
+    <div>
+      <h2>The real mammoth</h2>
+      <p>The Coyote Canyon Mammoth Site is real and well worth a visit. Quarry workers south of Kennewick found big bones in 1999; the McBones Research Center has been excavating a Columbian mammoth there since 2008, in deposits left by the Ice Age floods that poured out of Glacial Lake Missoula and across eastern Washington between roughly 18,000 and 15,000 years ago. They run tours.</p>
+      <p>It's a fine example of exactly what IceWave was hoping to find: big animals caught and buried by the floods in the Columbia Basin. It just isn't where the model pointed. <span id="ccline"></span></p>
+      <p class="note">Learn more, and book a tour, at <a href="https://www.mcbones.org/">mcbones.org</a>. It's an active, permitted excavation on private land; please don't visit outside a tour.</p>
+    </div>
+    <div>
+      <h2>If you go</h2>
+      <div class="callout">
+        <h3>Look, photograph, report. Don't collect.</h3>
+        <p>Vertebrate fossils on federal land can only be collected under a permit, under the Paleontological Resources Preservation Act. Much of the Columbia Basin, the Willamette Valley and Puget Sound is private land: farm fields, quarries and back yards, so ask before you walk. If you find bone, leave it where it is, photograph it with something for scale, note the coordinates, and tell the landowner or land agency, or a museum such as the Burke in Seattle.</p>
+        <p>And skip the targets on water. Several of them are in the middle of a river or a reservoir.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What's next</h2>
+    <p class="lede">IceWave needs rebuilding, not tuning. What it would take:</p>
+    <ul class="plain lede">
+      <li>Measure every input the same way at fossil records and at background points: the same elevation source, and real geology at both, not a default for one side.</li>
+      <li>Mask out water before scoring, so a flattened river can never be a target.</li>
+      <li>Train on the animals it's meant to find (large mammals), or model small animals separately; and drop records whose coordinates are only a county centroid.</li>
+      <li>Test by leaving out whole places, as the re-check does, and report that number.</li>
+      <li>Score the whole landscape, then compare the top cells with places like Coyote Canyon that the model never saw.</li>
+    </ul>
+    <p class="lede" style="margin-top:12px">Until then the weekly PBDB check keeps running, so the page will say when someone records a new Pleistocene find, and whether it's near anything IceWave pointed at.</p>
+  </section>
+</main>
+
+<dialog id="zoom"><img alt=""><p></p></dialog>
+
+<footer>
+  <div class="wrap">
+    Data: <a href="https://paleobiodb.org">Paleobiology Database</a> (checked weekly) · <a href="https://www.idigbio.org">iDigBio</a> · USGS 3DEP elevation · USGS State Geologic Map Compilation · water names © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.<br>
+    Basemap: Esri World Topographic Map. Code, notebooks and every number on this page: <a href="https://github.com/bdgroves/project-ice-wave">github.com/bdgroves/project-ice-wave</a>. More projects at <a href="https://brooksgroves.com">brooksgroves.com</a>.
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const get = async u => { const r = await fetch(u + '?t=' + Date.now(), {cache:'no-store'}); if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); };
+const fmtDay = iso => { const [y,m,d] = iso.slice(0,10).split('-').map(Number); return new Date(y, m-1, d).toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'}); };
+const ll = (lat, lon) => `${lat.toFixed(3)}°N ${Math.abs(lon).toFixed(3)}°W`;
+const pct = x => Math.round(x * 100) + '%';
+const WATER_KM2 = 0.05;
+
+// What the re-check found at a target, in words and a colour.
+function verdict(p){
+  const w = p.osm && p.osm.water;
+  if (w || (p.level_km2 ?? 0) >= WATER_KM2)
+    return {c:'var(--water)', hex:'#2f86c9', k:'water', t: w ? (w === 'water' || w === 'river' || w === 'reservoir' || w === 'lake' ? `on a ${w}` : `on ${w}`) : `on a level patch of ${p.level_km2} km² (water)`};
+  if (p.zero_terrain) return {c:'var(--zero)', hex:'#c7472f', k:'zero', t:'terrain values all zero; no close-up to check'};
+  return {c:'var(--land)', hex:'#0f6b43', k:'land', t:'on land'};
+}
+
+function zoom(src, cap){ const d = $('zoom'); d.querySelector('img').src = src; d.querySelector('p').textContent = cap; d.showModal(); }
+$('zoom').addEventListener('click', () => $('zoom').close());
+
+async function main(){
+  const [targets, known, checks] = await Promise.all(['site/targets.geojson','site/known.geojson','site/checks.json'].map(get));
+  let live = null; try { live = await get('site/live.json'); } catch(e) {}
+  const T = targets.features.map(f => ({...f.properties, lon:f.geometry.coordinates[0], lat:f.geometry.coordinates[1]}));
+  const tr = checks.training, z = checks.zeros, rt = checks.retest, e02 = checks.e02, tp = checks.tpi, li = checks.lithology;
+
+  // status: the weekly PBDB check
+  try {
+    if (live && live.checked) {
+      const nearT = [...new Set(live.near_targets.map(n => n.target))];
+      $('status').innerHTML = `<b>PBDB lists ${live.records.toLocaleString()}</b> Pleistocene vertebrate records at ${live.localities} places in the five states today. ` +
+        `<b>${live.unseen_localities}</b> of those places are more than ${live.new_km} km from anything IceWave learned from. ` +
+        (nearT.length ? `${nearT.length} target${nearT.length>1?'s have':' has'} a recorded find within ${live.near_km} km (${nearT.join(', ')}).` : `None is within ${live.near_km} km of a target.`) +
+        (live.new_since_last_check && live.new_since_last_check.length ? ` <b>${live.new_since_last_check.length} new since last week.</b>` : '') +
+        `<span class="when">Checked ${fmtDay(live.checked)} · every Monday</span>`;
+    } else {
+      $('status').innerHTML = `Trained on ${tr.east_records} records east of the Cascades (${tr.east_places} places) and ${tr.west_records} west (${tr.west_places} places). <span class="when">The weekly PBDB check hasn't run yet.</span>`;
+    }
+  } catch(e) { console.error(e); }
+
+  // map
+  try {
+    const map = L.map('map', {scrollWheelZoom:false}).setView([45.0, -117.0], 6);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+      {maxZoom:16, attribution:'Basemap © Esri, USGS, NOAA'}).addTo(map);
+    L.polyline([[49.2,-121.5],[41.8,-121.5]], {color:'#1e3c96', weight:1.5, dashArray:'6 6', opacity:.7, interactive:false}).addTo(map)
+      .bindTooltip('the Cascade split, -121.5°', {permanent:false});
+    L.geoJSON(known, {pointToLayer:(f, latlng) => {
+        const p = f.properties, small = p.large === false;
+        return L.circleMarker(latlng, {radius:5, color: p.zero_terrain ? (small ? '#9aa3ad' : '#e0a63a') : '#fff', weight: p.zero_terrain ? 2.5 : 1.2,
+          fillColor: small ? '#9aa3ad' : '#e0a63a', fillOpacity: p.zero_terrain ? 0 : .95});
+      },
+      onEachFeature:(f, l) => { const p = f.properties, c = f.geometry.coordinates;
+        l.bindPopup(`<b>Training record · ${p.model}</b><div class="m">${ll(c[1], c[0])}${p.state ? ' · ' + esc(p.state) : ''}</div>
+          <em>${esc(p.taxon || 'taxon not matched')}</em>${p.kind ? ` (${esc(p.kind)})` : ''}
+          ${p.zero_terrain ? '<br>The elevation grid didn\'t reach this record, so it went into the model with elevation, slope, aspect and ruggedness all <b style="font-size:14px">0</b>.' : ''}
+          <div class="m" style="margin-top:6px">lith_score ${p.lith_score} (every background point: ${p.model === 'east' ? li.east_v4.background_values.join(', ') : li.west.background_values.join(', ')})</div>`); }}).addTo(map);
+    T.forEach(p => {
+      const v = verdict(p);
+      const m = L.marker([p.lat, p.lon], {icon: L.divIcon({className:'', iconSize:[30,18], iconAnchor:[15,9],
+        html:`<div style="background:${v.hex};color:#fff;font:600 12px/18px 'Barlow Condensed',sans-serif;text-align:center;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.3);border-radius:3px">${p.id}</div>`})}).addTo(map);
+      m.bindPopup(`<b>${p.id}</b> <span class="m">· ${p.eco} · v3 #${p.v3_rank}${p.v4_rank ? ` · final v4 #${p.v4_rank} of 25` : ''}</span>
+        <div class="m">${ll(p.lat, p.lon)}${p.elev_m ? ' · ' + p.elev_m + ' m' : ''}${p.tpi_m !== undefined ? ' · TPI ' + (p.tpi_m > 0 ? '+' : '') + p.tpi_m + ' m' : ''}</div>
+        <span style="color:${v.hex};font-weight:600">${esc(v.t)}</span>${p.osm && p.osm.protected ? `, inside ${esc(p.osm.protected)}` : ''}
+        ${p.panel ? `<img src="site/${p.panel}" alt="Terrain close-up ${p.id}" onclick="zoom('outputs/lidar_${p.id}.png','${p.id}')">` : ''}`, {maxWidth:340});
+    });
+    if (e02 && e02.coyote_canyon) {
+      const cc = e02.coyote_canyon;
+      L.circleMarker([cc.lat, cc.lon], {radius:9, color:'#1b2230', weight:3, fillColor:'#fff', fillOpacity:1}).addTo(map)
+        .bindPopup(`<b>Coyote Canyon mammoth site</b><div class="m">McBones Research Center · excavating since 2008</div>A Columbian mammoth in Ice Age flood deposits, south of Kennewick. <b style="font-size:14px">${e02.km_to_coyote_canyon} km</b> from E02, the target IceWave said had "called its shot" here.`);
+      L.polyline([[cc.lat, cc.lon], [e02.lat, e02.lon]], {color:'#1b2230', weight:2, dashArray:'4 6', interactive:false}).addTo(map);
+    }
+  } catch(e) { console.error(e); }
+
+  // honesty cards
+  try {
+    const a = rt.east_as_built, nl = rt.east_without_lith, w = rt.west_as_built, wt = rt.west_terrain_only;
+    const water = z.osm_water ? z.osm_water.length : z.zero_targets_on_level_patch;
+    const cards = [
+      {hot:1, k:'E02 and the mammoth', big:`${e02.km_to_coyote_canyon} km`, was:'"the predicted pixel"',
+       p:`E02 isn't at the Coyote Canyon dig; it's ${e02.km_to_coyote_canyon} km away, ${e02.osm && e02.osm.water ? `on the ${esc(e02.osm.water)}` : `on a ${e02.level_km2} km² level patch of the elevation model (water)`}. The dig has been running since 2008, so it wasn't a blind test either; and the notebook marked E02 "validated" in code simply because it was first in the list. The final model ranks it ${e02.v4_rank_east} of ${e02.east_targets}.`},
+      {hot:1, k:'Zeros looked like fossils', big:`${z.presence_all_zero} of ${z.presence}`, was:'"slope = 0 at 30 m resolution"',
+       p:`The elevation grid never reached Montana, so all ${z.presence_all_zero_states.Montana} Montana records${z.presence_all_zero_states.Idaho ? ` and ${z.presence_all_zero_states.Idaho} in Idaho` : ''} went in with elevation, slope, aspect and ruggedness all exactly 0. The model learned that zeros mean fossils. Out in the landscape, zero slope and zero ruggedness is what water looks like, so ${z.top6_all_zero} of the top ${z.top6_east.length} east targets are all zeros, and ${water} targets are on rivers, reservoirs or lakes.`},
+      {hot:1, k:'A label, not geology', big:`${tr.east_records - li.east_v4.presence_at_background_value} of ${tr.east_records}`, was:'LOO recall 36/40 (90%)',
+       p:`Every random background point was given the same rock score (${li.east_v4.background_values[0]}) instead of being looked up on the geologic map; none of the ${tr.east_records} fossil records has that value. So "not ${li.east_v4.background_values[0]}" means "fossil", perfectly. That's the 90%. Take the rock score out and, leaving out whole places, the model finds ${nl.place_out_places_found} of ${nl.places} it hadn't seen (AUC ${nl.place_out_auc}, where 0.5 is a coin toss).`},
+      {k:'Valley floors', big:`${tp.valley_floor_on_level_patch} of ${tp.valley_floor}`, was:'"13 of 20 valley floor"',
+       p:`By the notebook's own threshold ${tp.valley_floor} close-ups are "valley floor"; ${tp.valley_floor_on_level_patch} of those are water surfaces. A river is the bottom of its valley, so a deep negative TPI there says nothing about buried bone. On its own, TPI barely tells the fossil places from random ground: AUC ${tp.tpi_only_auc}.`},
+      {k:'The west model', big:`${wt.place_out_auc}`, was:'AUC 0.890 ± 0.105',
+       p:`The west model had the same rock-score shortcut (background ${li.west.background_values.join(', ')}; ${li.west.presence_not_default} of ${li.west.presence} fossil records differ). Tested by leaving out whole places, it scores AUC ${w.place_out_auc} with the rock score and ${wt.place_out_auc} on terrain alone, finding ${wt.place_out_places_found} of ${wt.places} places it hadn't seen.`},
+      {k:'What it learned from', big:`${tr.not_large_mammals} of ${tr.east_records}`, was:'"Pleistocene megafauna"',
+       p:`The east model's ${tr.east_records} "megafauna" records come from ${tr.east_places} places, and ${tr.not_large_mammals} aren't big animals at all: ${tr.small.slice(0, -1).join(', ')} and ${tr.small.slice(-1)}. ${tr.by_state.Montana} of the ${tr.east_records} are in Montana, which has none of the targets; Washington, which has most of them, has ${tr.by_state.Washington}.`},
+    ];
+    $('cards').innerHTML = cards.map(c => `<div class="card${c.hot ? ' hot' : ''}"><h3>${c.k}</h3><div class="big">${c.big}</div><div class="was">${esc(c.was)}</div><p>${c.p}</p></div>`).join('');
+    $('holds').innerHTML = `<h3>What still holds</h3><p>The idea is sound: the Ice Age floods really did catch big animals and bury them in the Columbia Basin, and Coyote Canyon proves it. The data harvest (PBDB and iDigBio records across five states) is real and reusable. And the re-check is reproducible: the as-built east model still scores ${a.record_loo_found} of ${a.records} the notebook's way, which is how I know the shortcut, not the terrain, was doing the work. What IceWave doesn't have yet is a target worth driving to. <b>Treat the list below as a record of what went wrong, not a field guide.</b></p>`;
+  } catch(e) { console.error(e); $('cards').textContent = 'Could not draw the checks: ' + e.message; }
+
+  try {
+    const cc = e02.coyote_canyon;
+    $('ccline').innerHTML = `E02, the target the old README said had "called its shot", is ${e02.km_to_coyote_canyon} km to the north-west${e02.osm && e02.osm.water ? `, on the ${esc(e02.osm.water)}` : ', on a river surface'}.`;
+  } catch(e) {}
+
+  // targets table
+  function table(eco){
+    const rows = T.filter(p => p.eco === eco).sort((a, b) => a.v3_rank - b.v3_rank);
+    const east = eco === 'east';
+    $('targets').querySelector('thead').innerHTML = `<tr><th>Target</th><th>Where</th><th>v3 rank</th>${east ? '<th>Final v4</th><th>Level patch</th><th>TPI</th>' : ''}<th>What's there</th><th>Close-up</th></tr>`;
+    $('targets').querySelector('tbody').innerHTML = rows.map(p => { const v = verdict(p); return `<tr>
+      <td><b>${p.id}</b></td><td>${ll(p.lat, p.lon)}</td><td>${p.v3_rank}</td>
+      ${east ? `<td>${p.v4_rank ?? '–'}</td><td>${p.level_km2 !== undefined ? p.level_km2 + ' km²' : '–'}</td><td>${p.tpi_m !== undefined ? (p.tpi_m > 0 ? '+' : '') + p.tpi_m + ' m' : '–'}</td>` : ''}
+      <td class="wrap"><span class="pill" style="background:${v.hex}">${v.k}</span> ${esc(v.t)}${p.osm && p.osm.protected ? `, in ${esc(p.osm.protected)}` : ''}</td>
+      <td>${p.panel ? `<a href="#" onclick="zoom('outputs/lidar_${p.id}.png','${p.id}');return false">${p.id}</a>` : '–'}</td></tr>`; }).join('');
+    $('tEast').setAttribute('aria-pressed', east); $('tWest').setAttribute('aria-pressed', !east);
+  }
+  try {
+    table('east');
+    $('tEast').onclick = () => table('east'); $('tWest').onclick = () => table('west');
+  } catch(e) { console.error(e); }
+
+  // gallery
+  try {
+    $('gallery').innerHTML = T.filter(p => p.panel).sort((a, b) => a.v3_rank - b.v3_rank).map(p => { const v = verdict(p); return `<figure>
+      <img loading="lazy" src="site/${p.panel}" alt="Terrain close-up of ${p.id}" onclick="zoom('outputs/lidar_${p.id}.png','${p.id} · ${esc(v.t)}')">
+      <figcaption>${p.id} · v3 #${p.v3_rank} · TPI ${p.tpi_m > 0 ? '+' : ''}${p.tpi_m} m<br>${v.k === 'water' ? `<b>${esc(v.t)}</b>` : esc(v.t)}</figcaption></figure>`; }).join('');
+  } catch(e) { console.error(e); }
+}
+main().catch(e => { $('status').textContent = 'Could not load the data: ' + e.message; });
+</script>
+</body>
+</html>

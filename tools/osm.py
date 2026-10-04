@@ -2,8 +2,8 @@
 Run once (in CI; the result is committed): ask OpenStreetMap what is mapped at each target and at
 each training record, and where the Coyote Canyon mammoth site is. Writes data/checks/osm_targets.json.
 
-  - for each target: any water area it sits inside (lake, reservoir, river), with its name, and any
-    protected area (a wilderness, a park)
+  - for each target: any water area it sits inside (lake, reservoir, river), with its name; any named
+    river or canal within 100 m; and any protected area (a wilderness, a park)
   - for each training record: the state or province it falls in
   - Coyote Canyon: South Clodfelter Road, the site's address (McBones Research Center), south of Kennewick
 
@@ -63,6 +63,13 @@ for _, r in tg.iterrows():
              'area.a[~"^(natural|water|waterway|landuse|leisure|boundary)$"~"^(water|lake|reservoir|river|riverbank|'
              'basin|national_park|protected_area|nature_reserve)$"]; out tags;')
 res = tagged(overpass("\n".join(q))["elements"])
+# Rivers are often mapped only as a centre line, which is_in can't see: take named waterways within 100 m.
+time.sleep(10)
+q = ["[out:json][timeout:600];"]
+for _, r in tg.iterrows():
+    q.append(f'make mark id="{int(r["rank"])}"; out;')
+    q.append(f'way(around:100,{r.latitude:.6f},{r.longitude:.6f})[waterway~"^(river|canal|stream)$"]; out tags;')
+ways = tagged(overpass("\n".join(q))["elements"])
 targets = {}
 for k, tags in res.items():
     water = next((t for t in tags if t.get("natural") == "water" or t.get("landuse") in ("reservoir", "basin")
@@ -70,9 +77,10 @@ for k, tags in res.items():
     prot = next((t for t in tags if t.get("boundary") in ("national_park", "protected_area") or t.get("leisure") == "nature_reserve"), None)
     targets[k] = {"water": None if water is None else (water.get("name") or water.get("water") or "water"),
                   "water_kind": None if water is None else (water.get("water") or water.get("landuse") or water.get("natural")),
-                  "protected": None if prot is None else prot.get("name")}
+                  "protected": None if prot is None else prot.get("name"),
+                  "waterway": next((w.get("name") or w.get("waterway") for w in ways.get(k, []) if w.get("name")),
+                                   next((w.get("waterway") for w in ways.get(k, [])), None))}
     print(f"#{k}: {targets[k]}")
-    time.sleep(0)
 
 # Which state or province is each training record in?
 recs = pd.concat([pd.read_csv(D / "pbdb" / "icewave_east_expanded.csv")[["latitude", "longitude"]],
@@ -97,12 +105,12 @@ for e in cc:
     c = e.get("center") or {"lat": e.get("lat"), "lon": e.get("lon")}
     print("  coyote canyon candidate:", e["type"], e["id"], e.get("tags", {}).get("name"), c)
 site = None
-for e in named:
-    if any(w in e.get("tags", {}).get("name", "").lower() for w in ("mammoth", "mcbones")):
-        c = e.get("center") or {"lat": e["lat"], "lon": e["lon"]}
-        site = {"lat": round(c["lat"], 4), "lon": round(c["lon"], 4), "source": f"OpenStreetMap {e['type']} {e['id']}",
-                "name": e["tags"]["name"]}
-        break
+for want in ("mammoth site", "mcbones"):                  # the site itself, not Mammoth Drive or the canyon
+    for e in named:
+        if site is None and want in e.get("tags", {}).get("name", "").lower():
+            c = e.get("center") or {"lat": e["lat"], "lon": e["lon"]}
+            site = {"lat": round(c["lat"], 4), "lon": round(c["lon"], 4), "source": f"OpenStreetMap {e['type']} {e['id']}",
+                    "name": e["tags"]["name"]}
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(targets | {"records_admin": admin, "coyote_canyon": site,

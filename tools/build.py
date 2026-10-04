@@ -149,7 +149,7 @@ if live_file.exists():
         d = km(lat, lon, locs.lat.to_numpy(), locs.lng.to_numpy())
         for i in np.where(d <= NEAR_KM)[0]:
             near.append({"target": t["properties"]["id"], "km": round(float(d[i]), 1), "key": locs.key[i],
-                         "taxa": locs.taxa[i], "n": int(locs.n[i])})
+                         "taxa": locs.taxa[i], "n": int(locs.n[i]), "in_training": not bool(locs.unseen[i])})
     unseen = locs[locs.unseen]
     live |= {
         "checked": L["checked"], "records": int(len(recs)), "localities": int(len(locs)),

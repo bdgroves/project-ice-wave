@@ -18,11 +18,11 @@ What it checks (each one prints, and lands in checks.json for the page):
   6. e02        How far target E02 is from the Coyote Canyon mammoth site, and where E02 ranks in
                 the final model.
 
-Inputs are in data/, plus site/targets.geojson from tools/build.py (run that first). tools/osm.py (run once, in CI) adds what OpenStreetMap maps at each
-target; if its file is missing, that part is skipped.
+Inputs are in data/, plus site/targets.geojson from tools/build.py (run that first). tools/osm.py
+(run once, in CI) adds what OpenStreetMap maps at each target and where the Coyote Canyon site is;
+if its file is missing, those parts are skipped.
 """
 import json
-import math
 from pathlib import Path
 
 import sys
@@ -41,11 +41,6 @@ SITE.mkdir(exist_ok=True)
 PLACE_KM = 10            # records closer than this (single linkage) count as one place
 TREES = 200
 RF = dict(n_estimators=TREES, max_depth=6, min_samples_leaf=3, class_weight="balanced", random_state=42, n_jobs=-1)
-
-# Coyote Canyon Mammoth Site (McBones Research Center), S Clodfelter Rd, south of Kennewick, WA.
-# Position from OpenStreetMap via tools/osm.py when available; this fallback is the quarry on
-# Clodfelter Rd at the head of Coyote Canyon, read off the map, good to about a kilometre.
-COYOTE_CANYON = {"lat": 46.149, "lon": -119.140, "source": "fallback"}
 
 def places(lat, lon, limit=PLACE_KM):
     """Single-linkage groups: records within `limit` km of each other (directly or in a chain) are one place."""
@@ -91,6 +86,8 @@ def retest(df, feats):
 
 
 out = {"place_km": PLACE_KM, "trees": TREES}
+osm_file = D / "checks" / "osm_targets.json"
+osm = json.loads(osm_file.read_text()) if osm_file.exists() else {}
 
 # ── 1. training ──────────────────────────────────────────────────────────
 pres = pd.read_csv(D / "pbdb" / "icewave_east_presence_features_v2.csv")
@@ -115,6 +112,12 @@ west.loc[wp, "place"] = places(west.loc[wp, "latitude"], west.loc[wp, "longitude
 west.loc[~wp, "place"] = -1 - np.arange((~wp).sum())
 out["training"]["west_records"] = int(wp.sum())
 out["training"]["west_places"] = int(west.loc[wp, "place"].nunique())
+adm = osm.get("records_admin", {})
+if adm:
+    def where(df):
+        return pd.Series([adm.get(f"{a:.6f},{b:.6f}") for a, b in zip(df.latitude, df.longitude)]).value_counts().to_dict()
+    out["training"]["east_by_osm_state"] = where(pres)
+    out["training"]["west_by_osm_state"] = where(west[wp])
 print("1. training:", out["training"])
 
 # ── 2. lithology ─────────────────────────────────────────────────────────
@@ -138,8 +141,6 @@ zero_p = (expanded.elevation == 0) & (expanded.slope == 0) & (expanded.aspect ==
 gj = json.loads((SITE / "targets.geojson").read_text())     # written by tools/build.py
 targets = [f["properties"] | {"lat": f["geometry"]["coordinates"][1], "lon": f["geometry"]["coordinates"][0]}
            for f in gj["features"]]
-osm_file = D / "checks" / "osm_targets.json"
-osm = json.loads(osm_file.read_text()) if osm_file.exists() else {}
 ev = [t for t in targets if t["eco"] == "east"]
 ev_v3 = sorted(ev, key=lambda t: t["v3_rank"])
 top6 = [t["id"] for t in ev_v3[:6]]
@@ -155,7 +156,7 @@ out["zeros"] = {
     "level_targets": [{"id": t["id"], "elev_m": t["elev_m"], "level_km2": t["level_km2"]} for t in lvl],
 }
 if osm:
-    water = [t["id"] for t in ev if t.get("osm", {}).get("water")]
+    water = [t["id"] for t in ev if t.get("osm", {}).get("water") or t.get("osm", {}).get("waterway")]
     out["zeros"]["osm_water"] = water
 print("3. zeros:", {k: v for k, v in out["zeros"].items() if k != "level_targets"})
 
@@ -190,12 +191,12 @@ out["tpi"] = {
 print("5. tpi:", out["tpi"])
 
 # ── 6. e02 ───────────────────────────────────────────────────────────────
-cc = osm.get("coyote_canyon") or COYOTE_CANYON
+cc = osm.get("coyote_canyon")                 # from tools/osm.py: the "Coyote Canyon Mammoth Site" outline in OpenStreetMap
 e02 = next(t for t in targets if t["rank"] == 2)
 near = pres.assign(d=km(e02["lat"], e02["lon"], pres.latitude, pres.longitude)).sort_values("d").iloc[0]
 out["e02"] = {
     "lat": e02["lat"], "lon": e02["lon"], "coyote_canyon": cc,
-    "km_to_coyote_canyon": round(float(km(e02["lat"], e02["lon"], cc["lat"], cc["lon"])), 1),
+    "km_to_coyote_canyon": round(float(km(e02["lat"], e02["lon"], cc["lat"], cc["lon"])), 1) if cc else None,
     "v3_rank_east": 1, "v4_rank_east": e02.get("v4_rank"), "east_targets": len(ev),
     "level_km2": e02.get("level_km2"), "elev_m": e02.get("elev_m"), "osm": e02.get("osm"),
     "nearest_training_km": round(float(near.d), 1), "nearest_training": f"{GENUS.get(near.genus, (near.genus,))[0]} ({near.genus})",
