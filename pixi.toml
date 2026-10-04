@@ -1,7 +1,7 @@
 [workspace]
 name = "project-icewave"
 version = "0.1.0"
-description = "ML-assisted Pleistocene megafauna locality prediction — WA, OR, NV"
+description = "IceWave: a model of where Ice Age animals might be buried in the Northwest, and its re-check"
 channels = ["conda-forge"]
 platforms = ["win-64", "osx-arm64", "linux-64"]
 
@@ -30,3 +30,26 @@ gpxpy = ">=1.6.2,<2"
 
 [tasks]
 lab = "jupyter lab --notebook-dir=notebooks"
+
+# The page's data: light enough for any platform (CI uses pip with the same packages)
+[feature.site]
+platforms = ["win-64", "osx-arm64", "linux-64"]
+
+[feature.site.dependencies]
+python = "3.12.*"
+pandas = "*"
+numpy = "*"
+scipy = "*"
+scikit-learn = "==1.9.1"   # pinned: the re-check's counts shift between versions
+rasterio = "*"
+pillow = "*"
+
+[feature.site.tasks]
+osm = "python tools/osm.py"
+pbdb = "python tools/pbdb.py"
+build = "python tools/build.py"
+check = "python tools/check.py"
+serve = "python -m http.server"
+
+[environments]
+site = { features = ["site"], no-default-feature = true }

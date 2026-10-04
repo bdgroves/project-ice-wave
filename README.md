@@ -1,244 +1,98 @@
-<div align="center">
-
-![IceWave Flag](assets/icewave_flag.png)
-
 # 🦣 Project IceWave
 
-### Pleistocene Megafauna Locality Intelligence
-#### Washington · Oregon · Nevada · Idaho · Montana
+<p align="center">
+  <img src="assets/icewave_flag.png" width="520" alt="Project IceWave flag: a green mammoth in a circle over blue waves, on navy, white and green bands"/>
+</p>
 
-[![West AUC](https://img.shields.io/badge/West%20AUC-0.890%20★-00b4d8?style=for-the-badge)](https://github.com/bdgroves/project_ice_wave)
-[![East LOO](https://img.shields.io/badge/East%20LOO%20Recall-36%2F40%2090%25%20◆-f4a261?style=for-the-badge)](https://github.com/bdgroves/project_ice_wave)
-[![Validated](https://img.shields.io/badge/E02-McBones%20✓-4a9a4a?style=for-the-badge)](https://mcbones.org)
-[![LiDAR](https://img.shields.io/badge/LiDAR%20TPI-13%2F20%20Valley%20Floor-7b68ee?style=for-the-badge)](https://github.com/bdgroves/project_ice_wave)
+<p align="center">
+  <b>Where might the Ice Age's big animals be buried in the Northwest?</b><br>
+  A random-forest model of where Pleistocene fossils turn up in Washington, Oregon, Nevada, Idaho and Montana, the places it pointed to, and an honest re-check of how far to trust it.
+</p>
 
-*Split-ecoregion Random Forest ML model predicting Pleistocene megafauna fossil localities from USGS terrain, SGMC lithology, and PBDB/iDigBio occurrence data.*
-
-</div>
-
----
-
-## ✅ Blind Validation — The Model Called Its Shot
-
-> Target **E02** (46.3003°N, 120.1336°W) was predicted as the **#1 east target** before any knowledge of existing dig sites. March 2026: active Columbian mammoth excavation confirmed at **McBones Coyote Canyon** near Kennewick, WA. LiDAR TPI independently confirms valley floor geometry at the predicted pixel. Three methods. One answer.
-
-| | Latitude | Longitude | TPI | Source |
-|:---|:---:|:---:|:---:|:---|
-| **IceWave E02** | **46.3003°N** | **120.1336°W** | **-5.4m ▼** | ML model only |
-| McBones Coyote Canyon | ~46.30°N | ~120.1°W | — | Active excavation |
-| LiDAR DTM confirmation | 46.3003°N | 120.1336°W | -5.4m | USGS 3DEP 15m |
-
-Mammoth killed ~17,000 years ago — drowned in a Missoula Flood event, deposited as slack-water receded. Exactly the depositional geometry the model learned to find.
+**[→ The page: brooksgroves.com/project-ice-wave](https://brooksgroves.com/project-ice-wave/)**
 
 ---
 
-## 🛰️ LiDAR TPI Analysis — Notebook 05
+## The idea
 
-At 30m resolution, nearly every east target showed slope=0, TRI=0 — indistinguishable. **Topographic Position Index (TPI)** at 15m resolution from USGS 3DEP measures how much higher or lower a pixel is than its 3km neighborhood, cleanly separating Missoula Flood valley floors from ridge artifacts.
+Between roughly 18,000 and 15,000 years ago, Glacial Lake Missoula broke through its ice dam again and again, and floods poured across eastern Washington. Mammoths, bison, camels and horses were caught in them and buried where the water slowed and dropped its silt. The [Coyote Canyon Mammoth Site](https://www.mcbones.org/) south of Kennewick, excavated since 2008, is one of those places.
 
-**13 of 20 east targets confirmed as genuine valley floor / channel zones.**
+IceWave gathered Pleistocene vertebrate records from the Paleobiology Database (PBDB) and iDigBio, described the ground at each one (elevation, slope, aspect, ruggedness, topographic position and a rock score from the USGS State Geologic Map Compilation), and trained random forests to score other ground by how alike it looks: one model west of the Cascades (west of -121.5°) and one east of them.
 
-### E02 — McBones Validation Zone ✓
-*46.3003°N, 120.1336°W · TPI=-5.4m · 18.95km² channel zone · score=1.000*
+## Rechecked, October 2026
 
-![E02 LiDAR](outputs/lidar_E02.png)
+I came back to this project and re-checked its headline numbers from the files in this repo ([`tools/check.py`](tools/check.py), which writes [`site/checks.json`](site/checks.json)). None of them survives, and the old README overstated all of them. I've kept it in the git history; the corrections are part of the record.
 
-> **LEFT:** Bare-earth hillshade with blue channel zones (18.95km²) — the entire Yakima/Kennewick corridor lights up. **CENTER:** TPI map — deep blue confirms the valley floor position. **RIGHT:** Slope — flat agricultural plain with steep Yakima Ridge scarp to the north. Star = predicted target, confirmed by McBones dig within miles.
+| What the README said | What the files show |
+|---|---|
+| **E02 "blind validation":** the #1 east target "called its shot" at the McBones Coyote Canyon mammoth dig, "at the predicted pixel" | E02 is **69 km** from the Coyote Canyon Mammoth Site, in the Yakima Valley, on a 1.1 km² patch that the elevation model has flattened to a single level, which is how it draws ponds, wetlands and rivers. The dig has run since 2008 (the bones were found in 1999), so it wasn't blind. Notebook 05 printed "[VALIDATED]" beside whichever target came first in the list. The final model (v4) ranks E02 **23rd of 25**. |
+| **East v4: leave-one-out recall 36/40 (90%)** | Every random background point was given the same rock score, 0.5, instead of a lookup on the geologic map; none of the 40 fossil records has 0.5. So "rock score ≠ 0.5" means "fossil", perfectly. The re-check reproduces it the notebook's way (37/40 with today's scikit-learn). Take the rock score out and leave out whole places, and the model finds 10 of 28 places it hadn't seen only by also flagging 18% of random ground: **AUC 0.65**, where 0.5 is a coin toss. |
+| **East v3: AUC 0.846**; "at 30 m resolution nearly every east target showed slope = 0, TRI = 0" | The 30 m elevation grid didn't reach Montana. All 18 Montana records and 5 in Idaho, **23 of the 40**, went into training with elevation, slope, aspect and ruggedness all exactly 0, and the model learned that zeros mean fossils. In the landscape, zero slope and zero ruggedness is what water looks like. **All six** top east targets have all-zero terrain, and all 10 zero-terrain targets with close-ups sit on dead-level water surfaces: Snake River reservoirs (E03 Lake Bryan, E04 Lower Granite Lake), Bear Lake (E16), Waptus Lake in the Alpine Lakes Wilderness (E21). E30 is on Lake Wallula, the Columbia. |
+| **LiDAR TPI: 13 of 20 east targets "confirmed valley floor"** | By the notebook's own threshold (TPI < −5 m) it's 12, and **8 of those 12** are water surfaces: a river is the bottom of its valley. On its own TPI doesn't separate fossil places from background at all (AUC 0.51). The "LiDAR" is USGS 3DEP elevation fetched at about 14 m. |
+| **West AUC 0.890 ± 0.105** | The west model had the same rock-score shortcut (background all 0.4; 22 of 31 fossil records differ). Leaving out whole places it scores AUC 0.85 with the rock score and **0.63 on terrain alone**, where it finds 11 of 19 places but flags 34% of random ground. Six of its 31 records, filed under Washington, are in British Columbia. |
+| **"Pleistocene megafauna"** | 16 of the east model's 40 records aren't big animals: a gull, a chub, a horned lizard, a snapping turtle, a beaver, a fox, a cottontail, a human, and rodents. 18 of the 40 are from Montana, which has none of the targets; Washington, which has most of them, has 5. |
 
----
+**What still holds:** the idea. The floods really did bury big animals in the Columbia Basin, and Coyote Canyon shows it. The PBDB and iDigBio harvest across five states is real and reusable, and the re-check is reproducible. What IceWave doesn't have is a target worth driving to. **The targets are a record of what went wrong, not a field guide.** Several are in the middle of a river or a reservoir.
 
-### E21 — Most Extreme Basin in Dataset
-*47.5086°N, 121.1892°W · TPI=-250.1m · Wenatchee/Entiat corridor · score=0.478*
+## The page
 
-![E21 LiDAR](outputs/lidar_E21.png)
+[`index.html`](index.html) is the project's page, served by GitHub Pages: a map of the training records and the 42 targets coloured by what's actually there, the re-check, a targets table, the 20 terrain close-ups, and the real mammoth. It reads only the files in [`site/`](site/):
 
-> **TPI=-250m** is the most topographically enclosed position in the entire dataset. This target sits at the bottom of a deeply incised river valley — the kind of geometry where Missoula Flood slack-water would have pooled and concentrated sediment for thousands of years. The v3 model scored this 0.478 on terrain alone; v4 +TPI re-ranks it significantly higher.
+| Script | Writes | When |
+|---|---|---|
+| [`tools/pbdb.py`](tools/pbdb.py) | `site/pbdb_live.json`: every Pleistocene vertebrate PBDB lists in the five states (the same query notebook 04 ran) | Mondays, by GitHub Actions |
+| [`tools/osm.py`](tools/osm.py) | `data/checks/osm_targets.json`: the water, rivers and protected areas OpenStreetMap maps at each target, the state or province of each training record, and the Coyote Canyon site's outline | once; the answer is committed |
+| [`tools/build.py`](tools/build.py) | `site/targets.geojson`, `site/known.geojson`, `site/panels/`, and `site/live.json` (PBDB places the model never saw, and anything within 10 km of a target) | after each PBDB check |
+| [`tools/check.py`](tools/check.py) | `site/checks.json`: the re-check above (random forests with the notebooks' settings, 200 trees instead of 500 so it runs in a few minutes; scikit-learn pinned at 1.9.1, because the counts shift by a record or two between versions) | after each PBDB check |
 
----
+The first PBDB check (October 4, 2026) found 539 records, the same count notebook 04 harvested, at 69 places; 9 of them, mostly marine fish on the southern Oregon coast, are more than 1 km from anything IceWave learned from.
 
-### E19 — Largest Channel Zone in Dataset
-*42.4669°N, 117.9392°W · TPI=-3.2m · Owyhee Basin, SE Oregon · 32.39km² channel · score=0.616*
-
-![E19 LiDAR](outputs/lidar_E19.png)
-
-> **32.39km²** of connected channel zone — the largest slack-water footprint in the dataset. SE Oregon Basin & Range playa environment. Actively eroding terrain, surface prospecting feasible. The broad blue zone on the hillshade panel shows the scale of the paleolake/flood deposit. High-clearance 4WD required, nearest services 50+ miles.
-
----
-
-## 📊 Model Performance
-
-| Version | Region | AUC | n | Status |
-|:--------|:------:|:---:|:--:|:-------|
-| **v3** | **West** | **0.890 ± 0.105** | **35** | **★ Active — Willamette / Puget Sound** |
-| **v3** | **East** | **0.846 ± 0.073** | **40** | **◆ Active — Columbia Basin / Owyhee** |
-| **v4** | **East** | **LOO 36/40 (90%)** | **40** | **◆ Active — +TPI, LOO validated** |
-| v2 | East | 0.566 ± 0.121 | 17 | retired |
-| v1 | Both | 0.853 ± 0.063 | 78 | retired |
-
-- **Cascade split:** -121.5°W — separate west (maritime) and east (semi-arid) models
-- **Composite score:** 80% ML probability + 20% SGMC lithology score
-- **East training:** PBDB 5-state harvest (WA, OR, NV, ID, MT), background ratio 8:1
-- **Features v3:** elevation, slope, aspect, TRI, TWI, lith_score
-- **Features v4:** + tpi_15m (USGS 3DEP 15m, 1500m neighborhood)
-
----
-
-## 🗺️ Top Targets
-
-### ★ West — AUC 0.890 (Willamette Valley / Puget Sound)
-
-| Rank | Latitude | Longitude | Score | Waypoint |
-|:----:|:--------:|:---------:|:-----:|:--------:|
-| W01 | 45.1753°N | 122.8419°W | 1.000 | IW-W01 |
-| W02 | 45.2614°N | 122.9253°W | 0.993 | IW-W02 |
-| W03 | 45.3003°N | 122.6753°W | 0.991 | IW-W03 |
-| W04 | 45.3447°N | 122.6336°W | 0.989 | IW-W04 |
-| W05 | 45.4253°N | 122.8836°W | 0.986 | IW-W05 |
-
-### ◆ East — AUC 0.846 (Columbia Basin / Yakima / Owyhee / Basin & Range)
-
-| Rank | Latitude | Longitude | Score | TPI | Tier | Waypoint |
-|:----:|:--------:|:---------:|:-----:|:---:|:----:|:--------:|
-| **E02 ✓** | **46.3003°N** | **120.1336°W** | **1.000** | **-5.4m** | **1A** | IW-E02 |
-| E03 | 46.6753°N | 117.7586°W | 1.000 | -86.3m | 1B | IW-E03 |
-| E04 | 46.6336°N | 117.3836°W | 0.994 | -106.2m | 1B | IW-E04 |
-| E05 | 46.3558°N | 120.5364°W | 0.994 | +0.1m | 2 | IW-E05 |
-| E15 | 47.9531°N | 117.8003°W | 0.814 | -15.6m | 1A | IW-E15 |
-| E16 | 47.9253°N | 117.3558°W | 0.814 | -6.7m | 1B | IW-E16 |
-| E18 | 42.6892°N | 120.5364°W | 0.657 | -15.3m | 1A | IW-E18 |
-| E19 | 42.4669°N | 117.9392°W | 0.616 | -3.2m | 1A | IW-E19 |
-| E20 | 44.5503°N | 117.4253°W | 0.508 | -97.9m | 1B | IW-E20 |
-| **E21** | **47.5086°N** | **121.1892°W** | **0.478** | **-250.1m** | **1B** | IW-E21 |
-
-### TPI Tier Classification
-
-| Tier | Targets | Criteria | Field Action |
-|:----:|:--------|:---------|:------------|
-| **1A** | E02★, E15, E18, E19, E27, E34, E40 | Valley floor + in channel + area >15km² | **Top priority** |
-| **1B** | E03, E04, E16, E20, E21, E23 | Valley floor + in channel | High priority |
-| **2** | E05, E25, E26 | Flat plain, large channel nearby | Monitor for exposure events |
-| **X** | E29, E31, E32, E35 | Positive TPI — ridge/slope artifact | **Deprioritized** |
-
-**Extreme basins:** E21 (TPI -250m) · E20 (-98m) · E04 (-106m) · E03 (-86m)
-
----
-
-## 🗂️ Repository Structure
-
-```
-project_ice_wave/
-├── notebooks/
-│   ├── 01_data_harvest.ipynb               # PBDB + iDigBio 5-state harvest
-│   ├── 02_feature_engineering.ipynb        # USGS 3DEP + SGMC features
-│   ├── 03_west_model.ipynb                 # West RF, AUC 0.890
-│   ├── 04_east_model_improvement.ipynb     # East RF v3, AUC 0.846 (+0.280)
-│   ├── 05_lidar_terrain_analysis.ipynb     # LiDAR TPI, 20/25 east targets
-│   └── 06_east_model_v4_tpi.ipynb          # East RF v4, +TPI feature
-├── data/
-│   ├── model/
-│   │   ├── icewave_v3_top50.csv            # 50 ranked targets
-│   │   ├── icewave_v3_top50_lidar.csv      # + LiDAR TPI columns
-│   │   ├── icewave_v4_top50.csv            # + v4 re-ranked scores
-│   │   ├── icewave_rf_west.joblib          # West RF model
-│   │   ├── icewave_rf_east_v3.joblib       # East RF v3
-│   │   └── icewave_rf_east_v4.joblib       # East RF v4 (+TPI)
-│   ├── pbdb/
-│   │   ├── icewave_east_expanded.csv       # 40 east training points
-│   │   └── icewave_east_tpi_cache.csv      # TPI values cache
-│   └── lidar/
-│       └── E##_dtm.tif                     # GeoTIFF DTMs (EPSG:4326, ~15m)
-├── outputs/
-│   ├── icewave_v3_targets.kmz              # Google Earth (cyan=west, yellow=east)
-│   ├── icewave_v3_targets.gpx              # GPS waypoints IW-W## / IW-E##
-│   ├── IceWave_Field_Report_v4_lidar.pdf   # Field report with LiDAR maps
-│   ├── lidar_E##.png                       # Hillshade/TPI/slope maps
-│   ├── tpi_distribution.png               # TPI presence vs background
-│   └── feature_importance_v4.png          # v4 feature importance chart
-└── README.md
+```bash
+pixi run -e site pbdb      # or: python tools/pbdb.py
+pixi run -e site build
+pixi run -e site check
+pixi run -e site serve     # then open http://localhost:8000
 ```
 
-> **Note:** USGS SGMC geology shapefiles not included (>1GB). Download from [USGS SGMC](https://www.usgs.gov/data/state-geologic-map-compilation-sgmc-conterminous-united-states) and place in `data/geology/SGMC/`.
+## The notebooks
+
+The models were built in Jupyter (`pixi run lab`). The 30 m elevation mosaic, slope rasters and the SGMC geology are git-ignored, so the notebooks need them re-downloaded.
+
+| Notebook | What |
+|---|---|
+| `01_pbdb_harvester`, `01b_idigbio_harvester`, `01c_merge_and_enrich` | PBDB and iDigBio records for eight large-mammal genera in WA, OR and NV |
+| `02_terrain_analysis` | 30 m elevation, slope, aspect and ruggedness at the records |
+| `03_ml_model`, `03b_ml_model_v2`, `03c_ml_model_v2_split` | v1 and v2 random forests; v2 split at the Cascades (-121.5°) |
+| `04_east_model_improvement` | v3 east: every Pleistocene vertebrate in five states, 40 records with terrain |
+| `05_lidar_terrain_analysis` | 3DEP close-ups at about 14 m and TPI for 20 east targets |
+| `06_east_model_v4_tpi`, `07_east_model_v4_proper_auc` | v4 east: TPI added; a new background grid; leave-one-out |
+
+The field reports in `outputs/` (PDF, KMZ, GPX) are kept as history. They carry the old claims, and the KMZ and GPX waypoints include the targets on water.
+
+## Data
+
+| Source | What |
+|---|---|
+| [PBDB](https://paleobiodb.org) | Pleistocene vertebrate occurrences in WA, OR, NV, ID and MT (checked weekly) |
+| [iDigBio](https://www.idigbio.org) | museum specimen records for the same genera |
+| USGS 3DEP | 30 m elevation for the models; about 14 m for the close-ups |
+| [USGS SGMC](https://www.usgs.gov/data/state-geologic-map-compilation-sgmc-conterminous-united-states) | lithology for the rock score (not included; over 1 GB) |
+| [OpenStreetMap](https://www.openstreetmap.org/copyright) | water and place names for the re-check |
+
+## What's next
+
+IceWave needs rebuilding, not tuning:
+
+- Measure every input the same way at fossil records and background points: one elevation source, and a real geologic-map lookup at both.
+- Mask out water before scoring, so a flattened river can never be a target.
+- Train on the animals it's meant to find, and drop records whose coordinates are only a county centroid.
+- Test by leaving out whole places, as `tools/check.py` does, and report that number.
+- Score the whole landscape, then see where places the model never saw, like Coyote Canyon, land.
+
+## If you go
+
+Vertebrate fossils on federal land can only be collected under a permit (Paleontological Resources Preservation Act). Much of the Columbia Basin, the Willamette Valley and Puget Sound is private land, so ask before you walk. If you find bone, leave it in place, photograph it with something for scale, note where it is, and tell the landowner or land agency, or a museum such as the Burke in Seattle. Coyote Canyon is an active, permitted dig on private land; see it on a [McBones tour](https://www.mcbones.org/).
 
 ---
 
-## 🗺️ Viewing the Data
-
-### Google Earth (easiest)
-Open `outputs/icewave_v3_targets.kmz` — **cyan pins = west ★**, **yellow pins = east ◆**. Click any pin for coordinates, score, and TPI classification.
-
-### kepler.gl (interactive browser map, no install)
-1. Go to [kepler.gl](https://kepler.gl/demo)
-2. Upload `data/model/icewave_v3_top50_lidar.csv`
-3. Color by `composite_norm` → size by `tpi_15m` (invert: more negative = larger)
-4. Switch basemap to satellite
-
-### QGIS (full GIS with LiDAR layers)
-The `data/lidar/E##_dtm.tif` files are **fully georeferenced GeoTIFFs (EPSG:4326)** — load directly as raster layers and they snap to the correct location.
-
-**Quick setup:**
-1. `Layer → Add Raster Layer` → select any `E##_dtm.tif`
-2. `Layer Properties → Symbology → Render type: Hillshade` for terrain texture
-3. Or `Render type: Singleband pseudocolor` → RdBu ramp, min=-50 max=+50 for TPI view
-4. `Layer → Add Vector Layer` → load `icewave_v3_targets.kmz` for target pins
-5. Add satellite basemap via **QuickMapServices** plugin → Google Satellite
-
-**Layer order (bottom to top):** Google Satellite → DTM rasters → KMZ targets → Labels
-
-### GPS Device
-Load `outputs/icewave_v3_targets.gpx` into Garmin BaseCamp or directly onto device.
-Waypoints: `IW-W01`–`IW-W25` and `IW-E02`–`IW-E42`
-
----
-
-## ⚠️ Legal & Safety
-
-> **PRPA PERMIT REQUIRED** for all vertebrate fossil collection on federal land. Unpermitted collection is a federal crime — fines up to **$20,000** and/or imprisonment.
-
-- Verify land ownership before entry: [BLM GeoCommunicator](https://geocommunicator.blm.gov)
-- **Do not disturb McBones Coyote Canyon** — active permitted excavation. Tours available at [mcbones.org](https://mcbones.org) · 509-438-9417
-- Remote terrain: carry 4L water/person/day, satellite communicator, first aid, paper maps. File a trip plan.
-- Columbia Basin targets (E02–E05) are **buried sites** — do not expect surface exposure. Monitor gravel pit operations, road construction, irrigation canal work in the 800–1,200ft elevation band.
-
-| State | BLM Contact |
-|:------|:-----------|
-| OR / WA | 503-808-6002 |
-| NV | 775-861-6400 |
-| ID | 208-373-4000 |
-| MT | 406-896-5000 |
-
----
-
-## 🦣 Target Species
-
-| Species | Common Name | Primary States |
-|:--------|:-----------|:--------------|
-| *Mammuthus columbi* | Columbian Mammoth | WA, OR, NV, ID |
-| *Mammuthus primigenius* | Woolly Mammoth | WA, OR |
-| *Mammut americanum* | American Mastodon | WA, OR |
-| *Equus sp.* | Pleistocene Horse | WA, OR, NV, MT |
-| *Camelops hesternus* | Yesterday's Camel | WA, OR, NV, ID |
-| *Paramylodon harlani* | Harlan's Ground Sloth | OR, NV |
-| *Bison sp.* | Pleistocene Bison | WA, OR, NV, ID |
-| *Arctodus simus* | Short-faced Bear | WA, OR, NV, MT |
-
----
-
-## 🔗 Related Projects & Data Sources
-
-- [Project PaleoWave](https://github.com/bdgroves/Project-PaleoWave) — Nevada/Great Basin predecessor · RF AUC 0.906
-- [McBones Coyote Canyon](https://mcbones.org) — Active E02 validation dig · Kennewick, WA
-- [PBDB](https://paleobiodb.org) — Paleobiology Database
-- [iDigBio](https://www.idigbio.org) — Integrated Digitized Biocollections
-- [USGS 3DEP](https://www.usgs.gov/3d-elevation-program) — Elevation data source
-- [USGS SGMC](https://www.usgs.gov/data/state-geologic-map-compilation-sgmc-conterminous-united-states) — Lithology data source
-
----
-
-<div align="center">
-
-*Project IceWave v4 · March 2026*
-*West AUC 0.890 ★ · East AUC 0.846 ◆ · E02 Validated ✓ · LiDAR TPI 13/20 Valley Floor*
-
-**[Field Report PDF](outputs/IceWave_Field_Report_v4_lidar.pdf) · [Google Earth KMZ](outputs/icewave_v3_targets.kmz) · [GPS Waypoints](outputs/icewave_v3_targets.gpx)**
-
-</div>
+<p align="center"><sub>Project IceWave · Brooks Groves · <a href="https://brooksgroves.com">brooksgroves.com</a> · sequel to <a href="https://github.com/bdgroves/project-paleowave">PaleoWave</a></sub></p>

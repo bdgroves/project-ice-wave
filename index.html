@@ -127,7 +127,7 @@ footer a{color:#fff}
 
   <section>
     <h2>The targets</h2>
-    <p class="lede">The model scored terrain cells across five states and kept the best few in each one-degree square: 17 west of the Cascades and 25 east. Here's each one with what's actually there. The final east model (v4) re-ranked the same 25; the column shows where each one ended up.</p>
+    <p class="lede">The model scored terrain cells across five states, kept the best cell in each one-degree square, and listed the top ones: 17 west of the Cascades and 25 east. Here's each one with what's actually there. The final east model (v4) re-ranked the same 25; the column shows where each one ended up.</p>
     <div class="tabs"><button id="tEast" aria-pressed="true">East · 25</button><button id="tWest" aria-pressed="false">West · 17</button></div>
     <div class="tbl"><table id="targets"><thead></thead><tbody></tbody></table></div>
     <p class="note">"Level patch" is the area around the target where the 3DEP elevation surface is flat to within a centimetre. Elevation models draw lakes, reservoirs and wide rivers as one flat level, so a patch of a square kilometre is water. Water names come from OpenStreetMap. The full lists are <a href="https://github.com/bdgroves/project-ice-wave/blob/main/data/model/icewave_v3_top50_lidar.csv">icewave_v3_top50_lidar.csv</a> and <a href="https://github.com/bdgroves/project-ice-wave/blob/main/data/model/icewave_v4_final_top50.csv">icewave_v4_final_top50.csv</a>.</p>
@@ -135,7 +135,7 @@ footer a{color:#fff}
 
   <section>
     <h2>Close-ups</h2>
-    <p class="lede">For twenty east targets I pulled USGS 3DEP elevation at about 14 m and drew a hillshade, the topographic position (blue for hollows, red for rises) and slope. The README called these LiDAR; they're 3DEP elevation fetched at 14 m, which in eastern Washington is built from lidar but isn't raw lidar. Look at the star: on many of them it sits on a perfectly smooth, featureless surface. That's water.</p>
+    <p class="lede">For twenty east targets I pulled USGS 3DEP elevation at about 14 m and drew a hillshade, the topographic position and slope. One more correction: the middle panel is labelled "blue = valley", but its colours run the other way, so red is low ground and blue is high. The README called these LiDAR; they're 3DEP elevation fetched at 14 m, which in eastern Washington is built from lidar but isn't raw lidar. Look at the star: on many of them it sits on a perfectly smooth, featureless surface. That's water.</p>
     <div class="gallery" id="gallery"></div>
   </section>
 
@@ -187,15 +187,16 @@ const get = async u => { const r = await fetch(u + '?t=' + Date.now(), {cache:'n
 const fmtDay = iso => { const [y,m,d] = iso.slice(0,10).split('-').map(Number); return new Date(y, m-1, d).toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'}); };
 const ll = (lat, lon) => `${lat.toFixed(3)}°N ${Math.abs(lon).toFixed(3)}°W`;
 const pct = x => Math.round(x * 100) + '%';
+const f2 = x => Number(x).toFixed(2);
 const WATER_KM2 = 0.05;
 
 // What the re-check found at a target, in words and a colour.
 function verdict(p){
   const w = p.osm && p.osm.water;
-  if (w || (p.level_km2 ?? 0) >= WATER_KM2)
-    return {c:'var(--water)', hex:'#2f86c9', k:'water', t: w ? (w === 'water' || w === 'river' || w === 'reservoir' || w === 'lake' ? `on a ${w}` : `on ${w}`) : `on a level patch of ${p.level_km2} km² (water)`};
+  if (w || (p.level_km2 ?? 0) >= WATER_KM2 || (p.zero_terrain && p.osm && p.osm.waterway))
+    return {c:'var(--water)', hex:'#2f86c9', k:'water', t: w ? (['water','river','reservoir','lake'].includes(w) ? `on a ${w}` : `on ${w}`) : (p.osm && p.osm.waterway ? `on a level patch of ${p.level_km2} km² by the ${p.osm.waterway}` : `on a level patch of ${p.level_km2} km², flattened the way elevation models draw water`)};
   if (p.zero_terrain) return {c:'var(--zero)', hex:'#c7472f', k:'zero', t:'terrain values all zero; no close-up to check'};
-  return {c:'var(--land)', hex:'#0f6b43', k:'land', t:'on land'};
+  return {c:'var(--land)', hex:'#0f6b43', k:'land', t: p.osm && p.osm.waterway ? `on land, within 100 m of the ${p.osm.waterway}` : 'on land'};
 }
 
 function zoom(src, cap){ const d = $('zoom'); d.querySelector('img').src = src; d.querySelector('p').textContent = cap; d.showModal(); }
@@ -210,10 +211,11 @@ async function main(){
   // status: the weekly PBDB check
   try {
     if (live && live.checked) {
-      const nearT = [...new Set(live.near_targets.map(n => n.target))];
+      const nearT = [...new Set(live.near_targets.filter(n => !n.in_training).map(n => n.target))];
+      const nearAll = [...new Set(live.near_targets.map(n => n.target))];
       $('status').innerHTML = `<b>PBDB lists ${live.records.toLocaleString()}</b> Pleistocene vertebrate records at ${live.localities} places in the five states today. ` +
         `<b>${live.unseen_localities}</b> of those places are more than ${live.new_km} km from anything IceWave learned from. ` +
-        (nearT.length ? `${nearT.length} target${nearT.length>1?'s have':' has'} a recorded find within ${live.near_km} km (${nearT.join(', ')}).` : `None is within ${live.near_km} km of a target.`) +
+        (nearT.length ? `<b>${nearT.length} target${nearT.length>1?'s have':' has'} a find it never saw</b> within ${live.near_km} km (${nearT.join(', ')}).` : `None of those is within ${live.near_km} km of a target${nearAll.length ? ` (${nearAll.length} targets sit within ${live.near_km} km of records it trained on)` : ''}.`) +
         (live.new_since_last_check && live.new_since_last_check.length ? ` <b>${live.new_since_last_check.length} new since last week.</b>` : '') +
         `<span class="when">Checked ${fmtDay(live.checked)} · every Monday</span>`;
     } else {
@@ -258,28 +260,28 @@ async function main(){
   // honesty cards
   try {
     const a = rt.east_as_built, nl = rt.east_without_lith, w = rt.west_as_built, wt = rt.west_terrain_only;
-    const water = z.osm_water ? z.osm_water.length : z.zero_targets_on_level_patch;
+    const water = T.filter(p => verdict(p).k === 'water').length;
     const cards = [
-      {hot:1, k:'E02 and the mammoth', big:`${e02.km_to_coyote_canyon} km`, was:'"the predicted pixel"',
-       p:`E02 isn't at the Coyote Canyon dig; it's ${e02.km_to_coyote_canyon} km away, ${e02.osm && e02.osm.water ? `on the ${esc(e02.osm.water)}` : `on a ${e02.level_km2} km² level patch of the elevation model (water)`}. The dig has been running since 2008, so it wasn't a blind test either; and the notebook marked E02 "validated" in code simply because it was first in the list. The final model ranks it ${e02.v4_rank_east} of ${e02.east_targets}.`},
+      {hot:1, k:'E02 and the mammoth', big:`${Math.round(e02.km_to_coyote_canyon)} km`, was:'"the predicted pixel"',
+       p:`E02 isn't at the Coyote Canyon dig; it's ${Math.round(e02.km_to_coyote_canyon)} km away, ${e02.osm && e02.osm.water ? `on the ${esc(e02.osm.water)}` : `on a ${e02.level_km2.toFixed(1)} km² patch the elevation model has flattened to one level, the way it draws ponds and rivers`}. The dig has been running since 2008, so it wasn't a blind test either; and the notebook marked E02 "validated" in code simply because it was first in the list. The final model ranks it ${e02.v4_rank_east} of ${e02.east_targets}.`},
       {hot:1, k:'Zeros looked like fossils', big:`${z.presence_all_zero} of ${z.presence}`, was:'"slope = 0 at 30 m resolution"',
-       p:`The elevation grid never reached Montana, so all ${z.presence_all_zero_states.Montana} Montana records${z.presence_all_zero_states.Idaho ? ` and ${z.presence_all_zero_states.Idaho} in Idaho` : ''} went in with elevation, slope, aspect and ruggedness all exactly 0. The model learned that zeros mean fossils. Out in the landscape, zero slope and zero ruggedness is what water looks like, so ${z.top6_all_zero} of the top ${z.top6_east.length} east targets are all zeros, and ${water} targets are on rivers, reservoirs or lakes.`},
+       p:`The elevation grid never reached Montana, so all ${z.presence_all_zero_states.Montana} Montana records${z.presence_all_zero_states.Idaho ? ` and ${z.presence_all_zero_states.Idaho} in Idaho` : ''} went in with elevation, slope, aspect and ruggedness all exactly 0. The model learned that zeros mean fossils. Out in the landscape, zero slope and zero ruggedness is what water looks like, so ${z.top6_all_zero} of the top ${z.top6_east.length} east targets are all zeros, and ${water} of the 25 sit on water: rivers, reservoirs, lakes and ponds.`},
       {hot:1, k:'A label, not geology', big:`${tr.east_records - li.east_v4.presence_at_background_value} of ${tr.east_records}`, was:'LOO recall 36/40 (90%)',
-       p:`Every random background point was given the same rock score (${li.east_v4.background_values[0]}) instead of being looked up on the geologic map; none of the ${tr.east_records} fossil records has that value. So "not ${li.east_v4.background_values[0]}" means "fossil", perfectly. That's the 90%. Take the rock score out and, leaving out whole places, the model finds ${nl.place_out_places_found} of ${nl.places} it hadn't seen (AUC ${nl.place_out_auc}, where 0.5 is a coin toss).`},
+       p:`Every random background point was given the same rock score (${li.east_v4.background_values[0]}) instead of being looked up on the geologic map; none of the ${tr.east_records} fossil records has that value. So "not ${li.east_v4.background_values[0]}" means "fossil", perfectly. That's the 90%. Take the rock score out and leave out whole places, and it finds ${nl.place_out_places_found} of ${nl.places} places it hadn't seen only by also flagging ${pct(nl.background_flagged)} of random ground: AUC ${f2(nl.place_out_auc)}, where 0.5 is a coin toss.`},
       {k:'Valley floors', big:`${tp.valley_floor_on_level_patch} of ${tp.valley_floor}`, was:'"13 of 20 valley floor"',
-       p:`By the notebook's own threshold ${tp.valley_floor} close-ups are "valley floor"; ${tp.valley_floor_on_level_patch} of those are water surfaces. A river is the bottom of its valley, so a deep negative TPI there says nothing about buried bone. On its own, TPI barely tells the fossil places from random ground: AUC ${tp.tpi_only_auc}.`},
-      {k:'The west model', big:`${wt.place_out_auc}`, was:'AUC 0.890 ± 0.105',
-       p:`The west model had the same rock-score shortcut (background ${li.west.background_values.join(', ')}; ${li.west.presence_not_default} of ${li.west.presence} fossil records differ). Tested by leaving out whole places, it scores AUC ${w.place_out_auc} with the rock score and ${wt.place_out_auc} on terrain alone, finding ${wt.place_out_places_found} of ${wt.places} places it hadn't seen.`},
+       p:`By the notebook's own threshold ${tp.valley_floor} close-ups are "valley floor"; ${tp.valley_floor_on_level_patch} of those are water surfaces. A river is the bottom of its valley, so a deep negative TPI there says nothing about buried bone. On its own, TPI ${tp.tpi_only_auc < 0.55 ? "doesn't tell the fossil places from random ground at all" : 'barely tells the fossil places from random ground'}: AUC ${f2(tp.tpi_only_auc)}.`},
+      {k:'The west model', big:`${f2(wt.place_out_auc)}`, was:'AUC 0.890 ± 0.105',
+       p:`The west model had the same rock-score shortcut (background ${li.west.background_values.join(', ')}; ${li.west.presence_not_default} of ${li.west.presence} fossil records differ). Tested by leaving out whole places, it scores AUC ${f2(w.place_out_auc)} with the rock score and ${f2(wt.place_out_auc)} on terrain alone, where it finds ${wt.place_out_places_found} of ${wt.places} places it hadn't seen but flags ${pct(wt.background_flagged)} of random ground. ${tr.west_by_osm_state && tr.west_by_osm_state['British Columbia'] ? `And ${tr.west_by_osm_state['British Columbia']} of its ${tr.west_records} records, filed under Washington, are in British Columbia.` : ''}`},
       {k:'What it learned from', big:`${tr.not_large_mammals} of ${tr.east_records}`, was:'"Pleistocene megafauna"',
        p:`The east model's ${tr.east_records} "megafauna" records come from ${tr.east_places} places, and ${tr.not_large_mammals} aren't big animals at all: ${tr.small.slice(0, -1).join(', ')} and ${tr.small.slice(-1)}. ${tr.by_state.Montana} of the ${tr.east_records} are in Montana, which has none of the targets; Washington, which has most of them, has ${tr.by_state.Washington}.`},
     ];
     $('cards').innerHTML = cards.map(c => `<div class="card${c.hot ? ' hot' : ''}"><h3>${c.k}</h3><div class="big">${c.big}</div><div class="was">${esc(c.was)}</div><p>${c.p}</p></div>`).join('');
-    $('holds').innerHTML = `<h3>What still holds</h3><p>The idea is sound: the Ice Age floods really did catch big animals and bury them in the Columbia Basin, and Coyote Canyon proves it. The data harvest (PBDB and iDigBio records across five states) is real and reusable. And the re-check is reproducible: the as-built east model still scores ${a.record_loo_found} of ${a.records} the notebook's way, which is how I know the shortcut, not the terrain, was doing the work. What IceWave doesn't have yet is a target worth driving to. <b>Treat the list below as a record of what went wrong, not a field guide.</b></p>`;
+    $('holds').innerHTML = `<h3>What still holds</h3><p>The idea is sound: the Ice Age floods really did catch big animals and bury them in the Columbia Basin, and Coyote Canyon proves it. The data harvest (PBDB and iDigBio records across five states) is real and reusable. And the re-check is reproducible: the as-built east model still scores ${a.record_loo_found} of ${a.records} the notebook's way (36 in the notebook; the count shifts by one between scikit-learn versions), which is how I know the shortcut, not the terrain, was doing the work. What IceWave doesn't have yet is a target worth driving to. <b>Treat the list below as a record of what went wrong, not a field guide.</b></p>`;
   } catch(e) { console.error(e); $('cards').textContent = 'Could not draw the checks: ' + e.message; }
 
   try {
     const cc = e02.coyote_canyon;
-    $('ccline').innerHTML = `E02, the target the old README said had "called its shot", is ${e02.km_to_coyote_canyon} km to the north-west${e02.osm && e02.osm.water ? `, on the ${esc(e02.osm.water)}` : ', on a river surface'}.`;
+    $('ccline').innerHTML = `E02, the target the old README said had "called its shot", is ${Math.round(e02.km_to_coyote_canyon)} km to the north-west${e02.osm && e02.osm.water ? `, on the ${esc(e02.osm.water)}` : ', on a patch the elevation model has flattened, the way it draws water'}.`;
   } catch(e) {}
 
   // targets table

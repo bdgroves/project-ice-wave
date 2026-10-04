@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: pip install -q pandas numpy scipy scikit-learn rasterio pillow
+      - run: pip install -q pandas numpy scipy "scikit-learn==1.9.1" rasterio pillow   # pinned: the re-check's counts shift between versions
       - name: What OpenStreetMap maps at each target (once; the answer is committed)
         run: python tools/osm.py ${{ inputs.refresh_osm && '--refresh' || '' }} || echo "::warning::Overpass didn't answer; the page goes without it"
       - name: Check PBDB for Pleistocene vertebrates (keeps last week's file if PBDB doesn't answer)
