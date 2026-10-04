@@ -1,4 +1,5 @@
 {
+ "checked": "2026-10-04T19:24Z",
  "mines": 859,
  "by_ground": {
   "glacial deposits": 326,
@@ -9,6 +10,8 @@
   "loess": 25,
   "lake or bog deposits": 10
  },
+ "new_permits": [],
+ "closed_permits": [],
  "tier1": 478,
  "finds": 71,
  "find_places": 14,
