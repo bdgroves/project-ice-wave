@@ -1,0 +1,47 @@
+name: IceWave page data
+
+on:
+  schedule:
+    - cron: '23 13 * * 1'          # Mondays, 06:23 Pacific
+  workflow_dispatch:
+    inputs:
+      refresh_osm:
+        description: redo the OpenStreetMap lookups
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ['tools/**', 'data/model/**', 'data/pbdb/**', 'data/lidar/**', 'outputs/lidar_*.png', '.github/workflows/icewave.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: icewave
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install -q pandas numpy scipy scikit-learn rasterio pillow
+      - name: What OpenStreetMap maps at each target (once; the answer is committed)
+        run: python tools/osm.py ${{ inputs.refresh_osm && '--refresh' || '' }} || echo "::warning::Overpass didn't answer; the page goes without it"
+      - name: Check PBDB for Pleistocene vertebrates (keeps last week's file if PBDB doesn't answer)
+        run: python tools/pbdb.py || echo "::warning::PBDB didn't answer; keeping the last check"
+      - name: Build the page's data
+        run: python tools/build.py
+      - name: Re-check the model's numbers
+        run: python tools/check.py
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site data/checks
+          git diff --staged --quiet && exit 0
+          git commit -q -m "page data: PBDB check $(date -u +%F)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          git fetch -q origin main && test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" || { echo "::error::push didn't land"; exit 1; }
